@@ -18,6 +18,7 @@ Lista de Exercícios No. 1
 			$I$ = Interpretação (apenas os Verdadeiros)\\
 			\begin{itemize}
 				\item[a)]
+					\hfill\\
 					Queremos: a)F b)V c)V\\
 					Portanto, definimos:\\
 					$D = \lbrace 0, 1, 2, 3 \rbrace$\\
@@ -35,7 +36,7 @@ Lista de Exercícios No. 1
 					Não temos interpretações que satisfaçam $((P(x,y) \wedge P(y,x))$, portanto
 					a implicação será sempre verdadeira, uma vez que o lado esquerdo dela é
 					sempre falso. ($F \rightarrow F$ é $V$ e $F \rightarrow V$ é $V$)\\
-					\newpage
+					
 					Para c)V\\
 					$\forall x \forall y (P(a,y) \rightarrow P(x, b))$\\
 					Fixando $a = 0$ temos que $P(a, y) = P(0, y)$\\
@@ -44,18 +45,35 @@ Lista de Exercícios No. 1
 					Basta, então escolhermos $b = 2$ (ou qualquer outro elemento do domínio)
 					
 					\item[b)]
-					Queremos: a)V b)F c)V\\
-					Portanto, definimos:\\
-					$D = \lbrace \ \rbrace$\\
-					$I = \lbrace \ \rbrace$\\ \\
-					Para a)V\\
-					$\forall x \forall y \forall z ((P(x,y) \wedge P(y,z)) \rightarrow P(x, z))$\\
-					
-					Para b)F\\
-					$\forall x \forall y ((P(x,y) \wedge P(y,x)) \rightarrow x = y)$\\
-					
-					Para c)V\\
-					$\forall x \forall y (P(a,y) \rightarrow P(x, b))$\\
+						\hfill\\
+						Queremos: a)V b)F c)V\\
+						Portanto, definimos:\\
+						$D = \lbrace 1, 2 \rbrace$\\
+						$I = \lbrace P(1, 1), P(1, 2), P(2, 1), P(2, 2)\rbrace$\\ \\
+						Para a)V\\
+						$\forall x \forall y \forall z ((P(x,y) \wedge P(y,z)) \rightarrow P(x, z))$\\
+						Trivial a verificação.\\
+						(Testar toda a tripla $x, y, z = (1, 1, 1), (1, 1, 2),
+						(1, 2, 1), (1, 2, 2), \ \dots$)\\
+						
+						Para b)F\\
+						$\forall x \forall y ((P(x,y) \wedge P(y,x)) \rightarrow x = y)$\\
+						Temos $x/1$ e $y/2$\\
+						\begin{center}
+							$(P(1,2) \wedge P(2,1)) \rightarrow 1 = 2$\\
+							$V \wedge V \rightarrow F$\\
+							$F$
+						\end{center}
+						Para c)V\\
+						$\forall x \forall y (P(a,y) \rightarrow P(x, b))$\\
+						Basta escolhermos $a = 2$ e $b = 1$ e ficamos com:\\
+						$\forall x \forall y (P(2,y) \rightarrow P(x, 1))$\\
+						Restando as opções:\\
+						$(P(2,1) \rightarrow P(1, 1))$  ($(V \rightarrow V)$ é $V$)\\
+						$(P(2,1) \rightarrow P(2, 1))$  ($(V \rightarrow V)$ é $V$)\\
+						$(P(2,2) \rightarrow P(1, 1))$  ($(V \rightarrow V)$ é $V$)\\
+						$(P(2,2) \rightarrow P(2, 2))$  ($(V \rightarrow V)$ é $V$)\\
+						Mostrando que c) é sempre Verdadeiro como queríamos.
 					
 					
 					
