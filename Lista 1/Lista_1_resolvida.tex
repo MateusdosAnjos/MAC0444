@@ -134,7 +134,27 @@ Lista de Exercícios No. 1
 					Mike não gosta de chuva nem de neve (KB: 7). \textbf{Como Mike não gosta
 					de neve ele não é esquiador (KB: 6)} e a partir disso podemos
 					concluir que \textbf{Mike é alpinista, já que é membro do clube alpino e
-					não é esquiador (KB: 4)}.					
+					não é esquiador (KB: 4)}.
+				\item[\textbf{C) }]
+					\hfill\newline	
+					Retirando (KB: 7)  $\forall x (GostaDe(Tony, x) \rightarrow \neg GostaDe(Mike, 
+					x))$ temos pelo menos uma interpretação em que Mike gosta de neve
+					e é esquiador, portanto a prova acima já não é mais válida.\\
+					Além disso \textbf{não é possível determinar se Mike ou John não gostam de
+					neve para podermos concluir, a partir de (KB: 6), que um deles não é
+					esquiador}, portanto temos interpretações em que eles são esquiadores,
+					logo não podemos afirmar que existe um membro do clube alpino que é alpinista mas 
+					não é esquiador.\\
+					Veja o contra-exemplo abaixo que mostra como satisfazer toda a base de 
+					conhecimento e não ter um membro do clube alpino que é alpinista e não
+					é esquiador:\\ \\
+					\begin{center}
+						Tony gosta de chuva e neve, não é alpinista e é esquiador\\
+						John não gosta de chuva e  gosta de neve, é alpinista e esquiador\\
+						Mike não gosta de chuva e gosta de neve, é alpinista e esquiador\\
+					\end{center}
+					
+					
 			\end{itemize}
 	\end{itemize}
 \end{document}
