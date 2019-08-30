@@ -101,15 +101,33 @@ Lista de Exercícios No. 1
 						Teremos: $\forall x \forall y (P(1,y) \rightarrow P(x, 2))$\\
 						Tendo: $(P(1,1) \rightarrow P(1, 2))$ como exemplo de implicação falsa. 
 			\end{itemize}
+		\newpage
 		\item[\textbf{2 -}]
 			\hfill\newline
 			Definição de predicados:\\ \\
-			MembroClubeAlpino(x) = x é membro do Clube Alpino\\
-			Esquiador(x) = x é esquiador\\
-			Alpinista(x) = x é alpinista\\
-			GostaDe(x, y) = x gosta de y\\
+			$MembroClubeAlpino(x)$ = x é membro do Clube Alpino\\
+			$Esquiador(x)$ = x é esquiador\\
+			$Alpinista(x)$ = x é alpinista\\
+			$GostaDe(x, y)$ = x gosta de y\\
 			\begin{itemize}
 				\item[\textbf{A) }]
+					\hfill\newline
+					\begin{center}
+						Base de Conhecimento (KB):\\ \hfill \\
+						\begin{tabular}{l|l}
+							1. & $MembroClubeAlpino(Tony)$\\
+							2. & $MembroClubeAlpino(Mike)$\\
+							3. & $MembroClubeAlpino(John)$\\
+							4. & $\forall x ((MembroClubeAlpino(x) \ \wedge \ \neg Esquiador(x)) 
+							\rightarrow Alpinista(x)) $ \\
+							5. & $\forall x (Alpinista(x) \rightarrow \neg GostaDe(x, chuva)) $\\
+							6. & $\forall x (\neg GostaDe(x, neve) \rightarrow \neg Esquiador(x))$\\
+							7. & $\forall x (GostaDe(Tony, x) \rightarrow \neg GostaDe(Mike, x))$\\
+							8. & $\forall x (\neg GostaDe(Tony, x) \rightarrow GostaDe(Mike, x))$\\
+							9. & $GostaDe(Tony, chuva)$\\
+							10. & $GostaDe(Tony, neve)$\\			
+						\end{tabular}
+					\end{center}
 			\end{itemize}
 	\end{itemize}
 \end{document}
