@@ -52,9 +52,9 @@ Lista de Exercícios No. 1
 						$I = \lbrace P(1, 1), P(1, 2), P(2, 1), P(2, 2)\rbrace$\\ \\
 						\textbf{Para a)V}\\
 						$\forall x \forall y \forall z ((P(x,y) \wedge P(y,z)) \rightarrow P(x, z))$\\
-						Trivial a verificação.\\
-						(Testar toda a tripla $x, y, z = (1, 1, 1), (1, 1, 2),
-						(1, 2, 1), (1, 2, 2), \ \dots$)\\
+						Testar:\\
+						$x, y, z = (1, 1, 1) , (1, 1, 2), (1, 2, 1), (1, 2, 2), (2, 1, 1),
+						(2, 1, 2), (2, 2, 1), (2, 2, 2)$\\
 						
 						\textbf{Para b)F}\\
 						$\forall x \forall y ((P(x,y) \wedge P(y,x)) \rightarrow x = y)$\\
@@ -69,10 +69,10 @@ Lista de Exercícios No. 1
 						Basta escolhermos $a = 2$ e $b = 1$ e ficamos com:\\
 						$\forall x \forall y (P(2,y) \rightarrow P(x, 1))$\\
 						Restando as opções:\\
-						$(P(2,1) \rightarrow P(1, 1))$  ($(V \rightarrow V)$ é $V$)\\
-						$(P(2,1) \rightarrow P(2, 1))$  ($(V \rightarrow V)$ é $V$)\\
-						$(P(2,2) \rightarrow P(1, 1))$  ($(V \rightarrow V)$ é $V$)\\
-						$(P(2,2) \rightarrow P(2, 2))$  ($(V \rightarrow V)$ é $V$)\\
+						$P(2,1) \rightarrow P(1, 1)$\\
+						$P(2,1) \rightarrow P(2, 1)$\\
+						$P(2,2) \rightarrow P(1, 1)$ \\
+						$P(2,2) \rightarrow P(2, 2)$\\
 						Mostrando que c) é sempre Verdadeiro como queríamos.
 						
 						
@@ -84,7 +84,8 @@ Lista de Exercícios No. 1
 						$I = \lbrace P(1, 1), P(2, 2) \rbrace$\\ \\
 						\textbf{Para a)V}\\
 						$\forall x \forall y \forall z ((P(x,y) \wedge P(y,z)) \rightarrow P(x, z))$\\
-						Testar: $x, y, z = (1, 1, 1) , (1, 1, 2), (1, 2, 1), (1, 2, 2), (2, 1, 1),
+						Testar:\\
+						$x, y, z = (1, 1, 1) , (1, 1, 2), (1, 2, 1), (1, 2, 2), (2, 1, 1),
 						(2, 1, 2), (2, 2, 1), (2, 2, 2)$\\
 						\\
 						\textbf{Para b)V}\\
