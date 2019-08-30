@@ -140,8 +140,8 @@ Lista de Exercícios No. 1
 					Retirando (KB: 7)  $\forall x (GostaDe(Tony, x) \rightarrow \neg GostaDe(Mike, 
 					x))$ temos pelo menos uma interpretação em que Mike gosta de neve
 					e é esquiador, portanto a prova acima já não é mais válida.\\
-					Além disso \textbf{não é possível determinar se Mike ou John não gostam de
-					neve para podermos concluir, a partir de (KB: 6), que um deles não é
+					Isso acontece, pois \textbf{não é possível determinar se Mike ou John não gostam 
+					de neve para podermos concluir, a partir de (KB: 6), que um deles não é
 					esquiador}, portanto temos interpretações em que eles são esquiadores,
 					logo não podemos afirmar que existe um membro do clube alpino que é alpinista mas 
 					não é esquiador.\\
@@ -153,8 +153,26 @@ Lista de Exercícios No. 1
 						John não gosta de chuva e  gosta de neve, é alpinista e esquiador\\
 						Mike não gosta de chuva e gosta de neve, é alpinista e esquiador\\
 					\end{center}
-					
-					
+					Os conhecimentos 1, 2, 3, 9, 10 são satisfeitos.\\
+					O conhecimento 4 é satisfeito, pois todos são esquiadores, assim a valoração
+					do lado esquerdo da implicação é sempre falsa, portanto a implicação será sempre
+					verdadeira independentemente se $x$ é alpinista ou não.\\
+					O conhecimento 5 é satisfeito, pois todos os alpinistas não gostam de chuva. (no
+					caso John e Mike)\\
+					O conhecimento 6 é satisfeito, pois todos gostam de neve, logo o lado
+					esquerdo da implicação será falso para qualquer $x$ tornando a implicação
+					sempre verdadeira.\\
+					O conhecimento 7 foi retirado.\\
+					O conhecimento 8 é satisfeito, pois não temos informações sobre o que
+					Tony não gosta, logo o lado esquerdo da implicação será sempre falso tornando a 
+					implicação sempre verdadeira.\\
+					Como todos são esquiadores e não temos mais informações sobre outros
+					membros do clube alpino, não é possível provar que existe um membro do clube 
+					alpino que é alpinista mas não esquiador. (a situação do contra-exemplo mostra
+					um caso em que não existe um membro do clube alpino que é alpinista mas não
+					é esquiador)
+			\item[\textbf{D) }]
+				\hfill\newline
 			\end{itemize}
 	\end{itemize}
 \end{document}
