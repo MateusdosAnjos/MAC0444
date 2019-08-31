@@ -144,13 +144,14 @@ Lista de Exercícios No. 1
 					x))$ temos pelo menos uma interpretação em que Mike gosta de neve
 					e é esquiador, portanto a prova acima já não é mais válida.\\
 					Isso acontece, pois \textbf{não é possível determinar se Mike ou John não gostam 
-					de neve para podermos concluir, a partir de (KB: 6), que um deles não é
-					esquiador}, portanto temos interpretações em que eles são esquiadores,
-					logo não podemos afirmar que existe um membro do clube alpino que é alpinista mas 
-					não é esquiador.\\
+					de neve para concluirmos, a partir de (KB: 6), que um deles não é
+					esquiador, além de não podermos afirmar que Tony não é esquiador}, portanto 
+					temos interpretações em que eles são esquiadores,
+					logo não podemos afirmar que existe um membro do clube alpino que é alpinista 
+					mas não é esquiador.\\
 					Veja o contra-exemplo abaixo que mostra como satisfazer toda a base de 
 					conhecimento e não ter um membro do clube alpino que é alpinista e não
-					é esquiador:\\ \\
+					é esquiador:
 					\begin{center}
 						Tony gosta de chuva e neve, não é alpinista e é esquiador\\
 						John não gosta de chuva e  gosta de neve, é alpinista e esquiador\\
@@ -170,17 +171,19 @@ Lista de Exercícios No. 1
 					Tony não gosta, logo o lado esquerdo da implicação será sempre falso tornando a 
 					implicação sempre verdadeira.\\
 					Como todos são esquiadores e não temos mais informações sobre outros
-					membros do clube alpino, não é possível provar que existe um membro do clube 
-					alpino que é alpinista mas não esquiador. (a situação do contra-exemplo mostra
+					membros do clube alpino, não é possível provar que (sempre) existe um membro do 
+					clube 
+					alpino que é alpinista mas não é esquiador. (A situação do contra-exemplo mostra
 					um caso em que não existe um membro do clube alpino que é alpinista mas não
-					é esquiador)
+					é esquiador).
+			\newpage
 			\item[\textbf{D) }]
 				\hfill\newline
 				Primeiro organizaremos nossas cláusulas na Forma Normal Conjuntiva
 				para podermos utilizar a resolução.
 				\begin{center}
 					Base de Conhecimento (KB):\\ \hfill \\
-					\begin{tabular}{l|l}
+					\begin{tabular}{ll}
 						1. & $[MembroClubeAlpino(Tony)]$\\
 						2. & $[MembroClubeAlpino(Mike)]$\\
 						3. & $[MembroClubeAlpino(John)]$\\
@@ -195,8 +198,10 @@ Lista de Exercícios No. 1
 				\end{center}
 				Queremos provar que:\\
 				$\exists x (MembroClubeAlpino(x) \ \wedge \ Alpinista(x) \wedge \  
-				\neg Esquiador(x))$\\ \\
-				Utilizando a extração de resposta como $Resposta(x)$, chegamos na cláusula:\\
+				\neg Esquiador(x))$\\
+				
+				Negando o que queremos provar e utilizando a extração de resposta como 
+				$Resposta(x)$, chegamos na cláusula:\\
 				$11. \ [\neg MembroClubeAlpino(x), \  \neg Alpinista(x),  \ Esquiador(x),
 				\ Resposta(x))$\\ \\
 			Podemos resolver da seguinte forma:\\ \\
