@@ -194,8 +194,26 @@ Lista de Exercícios No. 1
 				$\exists x (MembroClubeAlpino(x) \ \wedge \ Alpinista(x) \wedge \  
 				\neg Esquiador(x))$\\ \\
 				Utilizando a extração de resposta como $Resposta(x)$, chegamos na cláusula:\\
-				$[\neg MembroClubeAlpino(x), \  \neg Alpinista(x),  \ Esquiador(x),
-				\ Resposta(x))$\\
+				$11. \ [\neg MembroClubeAlpino(x), \  \neg Alpinista(x),  \ Esquiador(x),
+				\ Resposta(x))$\\ \\
+			Podemos resolver da seguinte forma:\\ \\
+			 Resolvendo 7. com 10. e x/neve geramos:\\
+			12. $[\neg GostaDe(Mike, neve)]$\\
+	
+			Resolvendo 6. com 12. e x/Mike geramos:\\
+			13. $[\neg Esquiador(Mike)]$\\
+			
+			Resolvendo 4. com 11. e x/Mike\\
+			14. $ [\neg MembroClubeAlpino(Mike),  \ Esquiador(Mike), \ Resposta(Mike)]$\\
+			
+			Resolvendo 2. com 14.\\
+			15. $ [\ Esquiador(Mike), \ Resposta(Mike)]$\\
+			
+			Resolvendo 13. com 14.\\
+			16. $ [Resposta(Mike)]$\\
+
+			Chegamos, portanto, em uma resposta: x = Mike como o
+			membro do Clube Alpino que é alpinista mas não esquiador.
 			\end{itemize}
 	\end{itemize}
 \end{document}
