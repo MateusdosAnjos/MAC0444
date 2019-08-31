@@ -173,6 +173,23 @@ Lista de Exercícios No. 1
 					é esquiador)
 			\item[\textbf{D) }]
 				\hfill\newline
+				Primeiro organizaremos nossas cláusulas na Forma Normal Conjuntiva
+				para podermos utilizar a resolução.
+				\begin{center}
+					Base de Conhecimento (KB):\\ \hfill \\
+					\begin{tabular}{l|l}
+						1. & $[MembroClubeAlpino(Tony)]$\\
+						2. & $[MembroClubeAlpino(Mike)]$\\
+						3. & $[MembroClubeAlpino(John)]$\\
+						4. & $[\neg MembroClubeAlpino(x), \ Esquiador(x), \ Alpinista(x)] $ \\
+						5. & $[\neg Alpinista(x), \ \neg GostaDe(x, chuva)] $\\
+						6. & $[GostaDe(x, neve), \  \neg Esquiador(x)]$\\
+						7. & $[\neg GostaDe(Tony, x), \  \neg GostaDe(Mike, x)]$\\
+						8. & $[GostaDe(Tony, x), \  GostaDe(Mike, x)]$\\
+						9. & $[GostaDe(Tony, chuva)]$\\
+						10. & $[GostaDe(Tony, neve)]$\\			
+					\end{tabular}
+				\end{center}
 			\end{itemize}
 	\end{itemize}
 \end{document}
