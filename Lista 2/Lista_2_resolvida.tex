@@ -62,7 +62,31 @@ Lista de Exercícios No. 2
 			\end{center}
 			Sendo assim provamos que: $KB \ \cup \  \{ \neg aprovado(\textnormal{João}, 
 			mac444) \}$ é insatisfazível, portanto $aprovado(\textnormal{João}, mac444)$  
-			é consequência lógica de nossa base de conhecimento.\\
-			
+			é consequência lógica de nossa base de conhecimento.\\ \\
+			A \textbf{resolução SLD} será semelhante para Maria, portanto temos:\\
+			Base de conhecimento (KB):\\
+			\begin{center}
+				\begin{tabular}{c l}
+				1. & $[\neg fezEx(x), \ vaiBem(x)]$\\
+				2. & $[\neg vaiBem(x), \ mediaAlta(x)]$\\
+				3. & $[\neg mediaAlta(x), \ aprovado(x, mac444)] $\\
+				4. & $[fezEx(\textnormal{João})]$\\
+				5. & $[vaiBem(\textnormal{Maria})]$\\
+				6. & $[\neg aprovado(\textnormal{Maria}, mac444)]$\\
+				\end{tabular}
+			\end{center}
+			Utilizando a \textbf{resolução SLD} temos:\\
+			\begin{center}
+				\begin{tabular}{c c}
+					$\neg aprovado(\textnormal{Maria}, mac444)$ & (resolve com 3. e x/Maria)\\
+					$\downarrow$ & \\
+					$\neg mediaAlta(\textnormal{Maria})$ & (resolve com 2.)\\
+					$\downarrow$ & \\
+					$\neg vaiBem(\textnormal{Maria})$ & (resolve com 5.)\\
+					$\downarrow$ & \\
+					$[ \ ]$ & \\
+				\end{tabular}
+			\end{center}
+		\item[\textbf{2 -}]
 	\end{itemize}
 \end{document}
