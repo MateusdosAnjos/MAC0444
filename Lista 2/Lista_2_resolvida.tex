@@ -27,5 +27,16 @@ Lista de Exercícios No. 2
 			$$\forall x \ (mediaAlta(x) \rightarrow aprovado(x, mac444))$$
 			$$fezEx(\textnormal{joão})$$
 			$$vaiBem(\textnormal{maria})$$
+			Base de conhecimento:\\
+			$$[\neg fezEx(x), \ vaiBem(x)]$$
+			$$[\neg vaiBem(x), \ mediaAlta(x)]$$
+			$$[\neg mediaAlta(x), \ aprovado(x, mac444)] $$
+			$$[fezEx(\textnormal{joão})]$$
+			$$[vaiBem(\textnormal{maria})]$$
+			$$[\neg aprovado(joao, mac444)]$$
+			Veja que inserimos $[\neg aprovado(joao, mac444)]$ na base de conhecimento, pois
+			é a negação do nosso objetivo. Sendo assim, se chegarmos na cláusula vazia com
+			a partir desta base de conhecimento estará provado que $aprovado(joao, mac444)$
+			é consequência lógica das sentenças do enunciado.
 	\end{itemize}
 \end{document}
