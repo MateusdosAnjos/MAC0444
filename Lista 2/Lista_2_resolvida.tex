@@ -29,7 +29,7 @@ Lista de Exercícios No. 2
 			$$\forall x \ (mediaAlta(x) \rightarrow aprovado(x, mac444))$$
 			$$fezEx(\textnormal{joão})$$
 			$$vaiBem(\textnormal{maria})$$
-			Base de conhecimento:\\
+			Base de conhecimento (KB):\\
 			\begin{center}
 				\begin{tabular}{c l}
 				1. & $[\neg fezEx(x), \ vaiBem(x)]$\\
@@ -37,26 +37,31 @@ Lista de Exercícios No. 2
 				3. & $[\neg mediaAlta(x), \ aprovado(x, mac444)] $\\
 				4. & $[fezEx(\textnormal{joão})]$\\
 				5. & $[vaiBem(\textnormal{maria})]$\\
-				6. & $[\neg aprovado(joao, mac444)]$\\
+				6. & $[\neg aprovado(\textnormal{joão}, mac444)]$\\
 				\end{tabular}
 			\end{center}
-			Veja que inserimos $[\neg aprovado(joao, mac444)]$ na base de conhecimento, pois
-			é a negação do nosso objetivo. Sendo assim, se chegarmos na cláusula vazia com
-			a partir desta base de conhecimento estará provado que $aprovado(joao, mac444)$
-			é consequência lógica das sentenças do enunciado.\\
+			Veja que inserimos $[\neg aprovado(\textnormal{joão}, mac444)]$ na base de 
+			conhecimento, pois	é a negação do nosso objetivo. Sendo assim, se chegarmos na 
+			cláusula vazia com a partir desta base de conhecimento estará provado que 
+			$aprovado(\textnormal{joão},	 mac444)$ é consequência lógica das sentenças do
+			 enunciado.\\
 			\newline
 			Utilizando a \textbf{resolução SLD} temos:\\
 			\begin{center}
-				$\neg aprovado(joao, mac444)$\\
-				$\downarrow$ x/joão\\
-				$\neg mediaAlta(\textnormal{joão})$\\
-				$\downarrow$\\
-				$\neg vaiBem(\textnormal{joão})$\\
-				$\downarrow$\\
-				$\neg fezEx(\textnormal{joão})$\\
-				$\downarrow$\\
-				$[ \ ]$
-				
+				\begin{tabular}{c c}
+					$\neg aprovado(\textnormal{joão}, mac444)$ & (resolve com 3. e x/joão)\\
+					$\downarrow$ & \\
+					$\neg mediaAlta(\textnormal{joão})$ & (resolve com 2.)\\
+					$\downarrow$ & \\
+					$\neg vaiBem(\textnormal{joão})$ & (resolve com 1.)\\
+					$\downarrow$ & \\
+					$\neg fezEx(\textnormal{joão})$ & (resolve com 4.)\\
+					$\downarrow$ & \\
+					$[ \ ]$ & \\
+				\end{tabular}
 			\end{center}
+			Sendo assim provamos que: $KB \ \cup \  \{ \neg aprovado(\textnormal{joão}, 
+			mac444) \}$ é insatisfazível, portanto $aprovado(\textnormal{joão}, mac444)$  
+			é consequência lógica de nossa base de conhecimento.\\
 	\end{itemize}
 \end{document}
