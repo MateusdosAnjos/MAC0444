@@ -3,6 +3,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
 \usepackage{float}
+\usepackage{tikz-qtree}
+\usepackage{latexsym}
 
 \title{MAC0444 - Sistemas Baseados em Conhecimento \\
 Lista de Exercícios No. 2
@@ -37,6 +39,20 @@ Lista de Exercícios No. 2
 			Veja que inserimos $[\neg aprovado(joao, mac444)]$ na base de conhecimento, pois
 			é a negação do nosso objetivo. Sendo assim, se chegarmos na cláusula vazia com
 			a partir desta base de conhecimento estará provado que $aprovado(joao, mac444)$
-			é consequência lógica das sentenças do enunciado.
+			é consequência lógica das sentenças do enunciado.\\
+			\newline
+			Utilizando a \textbf{resolução SLD} temos:\\
+			\begin{center}
+				$\neg aprovado(joao, mac444)$\\
+				$\downarrow$ x/joão\\
+				$\neg mediaAlta(\textnormal{joão})$\\
+				$\downarrow$\\
+				$\neg vaiBem(\textnormal{joão})$\\
+				$\downarrow$\\
+				$\neg fezEx(\textnormal{joão})$\\
+				$\downarrow$\\
+				$[ \ ]$
+				
+			\end{center}
 	\end{itemize}
 \end{document}
