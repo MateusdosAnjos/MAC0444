@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  22 SEP 2019 13:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  22 SEP 2019 13:33
 entering extended mode
 **./Lista_2_resolvida.tex
 (Lista_2_resolvida.tex
@@ -832,19 +832,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (3.52585pt too wide) in paragraph at lines 38--45
+Overfull \hbox (3.52585pt too wide) in paragraph at lines 43--49
 \OT1/cmr/m/n/12 Veja que in-se-ri-mos $[\OMS/cmsy/m/n/12 :\OML/cmm/m/it/12 apro
 vado\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 joao; mac\OT1/cmr/m/n/12 444)]$ na base d
 e co-nhe-ci-mento,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--45
+Underfull \hbox (badness 10000) in paragraph at lines 43--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--45
+Underfull \hbox (badness 10000) in paragraph at lines 43--49
 
  []
 
@@ -852,17 +852,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--45
 Here is how much of TeX's memory you used:
  12646 strings out of 493323
  250051 string characters out of 3139059
- 290747 words of memory out of 3000000
+ 291747 words of memory out of 3000000
  15921 multiletter control sequences out of 15000+200000
  8531 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,50p,447b,201s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,10n,50p,447b,245s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Lista_2_resolvida.pdf (2 pages, 65167 bytes).
+Output written on Lista_2_resolvida.pdf (2 pages, 65808 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
