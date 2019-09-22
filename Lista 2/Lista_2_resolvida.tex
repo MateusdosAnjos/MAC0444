@@ -14,6 +14,18 @@ Lista de Exercícios No. 2
 	\maketitle
 	\begin{itemize}
 		\item[\textbf{1 -}]
-			Item 1
+			\hfill\newline
+			Predicados:\\
+			$fezEx(x)$ = x fez os exercícios\\
+			$vaiBem(x)$ = x vai bem na prova\\
+			$mediaAlta(x)$ = x fica com media alta\\
+			$aprovado(x, y)$ = x é aprovado em y \\
+			\newline
+			Formalizando as sentenças do enunciado chegamos em:\\
+			$$\forall x \ (fezEx(x) \rightarrow vaiBem(x))$$
+			$$\forall x \ (vaiBem(x) \rightarrow mediaAlta(x))$$
+			$$\forall x \ (mediaAlta(x) \rightarrow aprovado(x, mac444))$$
+			$$fezEx(\textnormal{joão})$$
+			$$vaiBem(\textnormal{maria})$$
 	\end{itemize}
 \end{document}
