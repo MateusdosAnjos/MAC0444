@@ -3,8 +3,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
 \usepackage{float}
-\usepackage{tikz-qtree}
 \usepackage{graphicx}
+\usepackage{amssymb}
 
 \title{MAC0444 - Sistemas Baseados em Conhecimento \\
 Lista de Exercícios No. 2
@@ -122,10 +122,18 @@ Lista de Exercícios No. 2
 						\end{tabular}
 					\end{center}
 					A partir destas implicações o passo a passo pode ser mostrado a partir da figura
-					abaixo, sendo que cada passo gera 1 nível da árvore.
-					\begin{figure}[h]
+					abaixo, sendo que cada passo gera pelo menos uma sub-árvore.\\
+					\begin{figure}[H]
 						 	\includegraphics[scale=0.64]{backward_2a.png}
 					\end{figure}
+					\hfill\newline
+					Todas as folhas da árvore estão na base de conhecimento em uma cláusula 
+					unitária, portanto são verdadeiras. Sendo assim podemos marcá-las com um 
+					\checkmark.\\
+					A partir disso podemos concluir que $A_1(a)$ e $A_2(a)$ estão
+					provados e depois que $P(a)$ está provado, portanto mostramos que o
+					encadeamento para trás (backward chaining) produz resposta SIM com 
+					objetivo P(a).
 				\item[\textbf{b) }]
 			\end{itemize}	
 	\end{itemize}
