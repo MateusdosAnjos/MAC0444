@@ -25,16 +25,16 @@ Lista de Exercícios No. 2
 			\newline
 			Formalizando as sentenças do enunciado chegamos em:\\
 			$$\forall x \ (fezEx(x) \rightarrow vaiBem(x))$$
-			$$\forall x \ (vaiBem(x) \rightarrow mediaAlta(x))$$
-			$$\forall x \ (mediaAlta(x) \rightarrow aprovado(x, mac444))$$
+			$$\forall y \ (vaiBem(y) \rightarrow mediaAlta(y))$$
+			$$\forall z \ (mediaAlta(z) \rightarrow aprovado(z, mac444))$$
 			$$fezEx(\textnormal{João})$$
 			$$vaiBem(\textnormal{Maria})$$
 			Base de conhecimento (KB):\\
 			\begin{center}
 				\begin{tabular}{c l}
 				1. & $[\neg fezEx(x), \ vaiBem(x)]$\\
-				2. & $[\neg vaiBem(x), \ mediaAlta(x)]$\\
-				3. & $[\neg mediaAlta(x), \ aprovado(x, mac444)] $\\
+				2. & $[\neg vaiBem(y), \ mediaAlta(y)]$\\
+				3. & $[\neg mediaAlta(z), \ aprovado(z, mac444)] $\\
 				4. & $[fezEx(\textnormal{João})]$\\
 				5. & $[vaiBem(\textnormal{Maria})]$\\
 				6. & $[\neg aprovado(\textnormal{João}, mac444)]$\\
@@ -43,17 +43,17 @@ Lista de Exercícios No. 2
 			Veja que inserimos $[\neg aprovado(\textnormal{João}, mac444)]$ na base de 
 			conhecimento, pois	é a negação do nosso objetivo. Sendo assim, se chegarmos na 
 			cláusula vazia com a partir desta base de conhecimento estará provado que 
-			$aprovado(\textnormal{João},	 mac444)$ é consequência lógica das sentenças do
+			$aprovado(\textnormal{João}, mac444)$ é consequência lógica das sentenças do
 			 enunciado.\\
 			\newline
 			Utilizando a \textbf{resolução SLD} temos:\\
 			\begin{center}
 				\begin{tabular}{c c}
-					$\neg aprovado(\textnormal{João}, mac444)$ & (resolve com 3. e x/João)\\
+					$\neg aprovado(\textnormal{João}, mac444)$ & (resolve com 3. e z/João)\\
 					$\downarrow$ & \\
-					$\neg mediaAlta(\textnormal{João})$ & (resolve com 2.)\\
+					$\neg mediaAlta(\textnormal{João})$ & (resolve com 2. e y/João)\\
 					$\downarrow$ & \\
-					$\neg vaiBem(\textnormal{João})$ & (resolve com 1.)\\
+					$\neg vaiBem(\textnormal{João})$ & (resolve com 1. e x/João)\\
 					$\downarrow$ & \\
 					$\neg fezEx(\textnormal{João})$ & (resolve com 4.)\\
 					$\downarrow$ & \\
@@ -68,8 +68,8 @@ Lista de Exercícios No. 2
 			\begin{center}
 				\begin{tabular}{c l}
 				1. & $[\neg fezEx(x), \ vaiBem(x)]$\\
-				2. & $[\neg vaiBem(x), \ mediaAlta(x)]$\\
-				3. & $[\neg mediaAlta(x), \ aprovado(x, mac444)] $\\
+				2. & $[\neg vaiBem(y), \ mediaAlta(y)]$\\
+				3. & $[\neg mediaAlta(z), \ aprovado(z, mac444)] $\\
 				4. & $[fezEx(\textnormal{João})]$\\
 				5. & $[vaiBem(\textnormal{Maria})]$\\
 				6. & $[\neg aprovado(\textnormal{Maria}, mac444)]$\\
@@ -78,9 +78,9 @@ Lista de Exercícios No. 2
 			Utilizando a \textbf{resolução SLD} temos:\\
 			\begin{center}
 				\begin{tabular}{c c}
-					$\neg aprovado(\textnormal{Maria}, mac444)$ & (resolve com 3. e x/Maria)\\
+					$\neg aprovado(\textnormal{Maria}, mac444)$ & (resolve com 3. e z/Maria)\\
 					$\downarrow$ & \\
-					$\neg mediaAlta(\textnormal{Maria})$ & (resolve com 2.)\\
+					$\neg mediaAlta(\textnormal{Maria})$ & (resolve com 2. e y/Maria)\\
 					$\downarrow$ & \\
 					$\neg vaiBem(\textnormal{Maria})$ & (resolve com 5.)\\
 					$\downarrow$ & \\
