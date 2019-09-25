@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  25 SEP 2019 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  25 SEP 2019 15:18
 entering extended mode
 **./Lista_2_resolvida.tex
 (Lista_2_resolvida.tex
@@ -562,7 +562,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--128
 
  []
 
-[3] [4 <./backward_2a.png>] (Lista_2_resolvida.aux) ) 
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 138--143
+
+ []
+
+[4 <./backward_2a.png>] [5] (Lista_2_resolvida.aux) ) 
 Here is how much of TeX's memory you used:
  2634 strings out of 493323
  33814 string characters out of 3139059
@@ -578,9 +583,9 @@ ublic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Lista_2_resolvida.pdf (4 pages, 98782 bytes).
+Output written on Lista_2_resolvida.pdf (5 pages, 100182 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -42,7 +42,7 @@ Lista de Exercícios No. 2
 			\end{center}
 			Veja que inserimos $[\neg aprovado(\textnormal{João}, mac444)]$ na base de 
 			conhecimento, pois	é a negação do nosso objetivo. Sendo assim, se chegarmos na 
-			cláusula vazia com a partir desta base de conhecimento estará provado que 
+			cláusula vazia a partir desta base de conhecimento estará provado que 
 			$aprovado(\textnormal{João}, mac444)$ é consequência lógica das sentenças do
 			 enunciado.\\
 			\newline
@@ -89,13 +89,13 @@ Lista de Exercícios No. 2
 			\end{center}
 		\item[\textbf{2 -}]
 			\hfill\newline
-			Temos a Base de Conhecimento (KB) reescrita com variáveis renomeadas para evitar confusões
-			na resolução do exercício:
+			Temos a Base de Conhecimento (KB) reescrita com variáveis renomeadas para evitar 
+			confusões	na resolução do exercício:
 			\begin{center}
 				\begin{tabular}{c l}
 				1. & $[\neg A_1(x), \neg A_2(x), P(x)]$\\
 				2. & $[\neg B_1(y), \neg B_2(y), A_1(y)]$\\
-				3. & $[\neg B_3(z), \neg B4(z), A_2(z)]$\\
+				3. & $[\neg B_3(z), \neg B_4(z), A_2(z)]$\\
 				4. & $[B_1(a)]$\\
 				5. & $[B_2(a)]$\\
 				6. & $[B_3(a)]$\\
@@ -135,6 +135,33 @@ Lista de Exercícios No. 2
 					encadeamento para trás (backward chaining) produz resposta SIM com 
 					objetivo P(a).
 				\item[\textbf{b) }]
+					\hfill\newline
+					Utilizando a \textbf{resolução SLD} com a base de conhecimento definida
+					no início da questão, iniciamos com $\neg P(a)$, que é a negação do nosso
+					objetivo, e buscaremos a cláusula vazia.\\
+					Obtemos o seguinte:\\
+					\begin{center}
+						\begin{tabular}{c c}
+							$[\neg P(a)]$ & (resolve com 1. e x/a)\\
+							$\downarrow$ & \\
+							$[\neg A_1(a), \neg A_2(a)]$ & (resolve com 2. e y/a)\\
+							$\downarrow$ & \\
+							$[\neg B_1(y), \neg B_2(y), \neg A_2(a)]$ & (resolve com 3. e z/a)\\
+							$\downarrow$ & \\
+							$[\neg B_1(a), \neg B_2(a), \neg B_3(a), \neg B_4(a)]$ & (resolve com 4.)\\
+							$\downarrow$ & \\
+							$[\neg B_2(a), \neg B_3(a), \neg B_4(a)]$ & (resolve com 5.)\\
+							$\downarrow$ & \\
+							$[\neg B_3(a), \neg B_4(a)]$ & (resolve com 6.)\\
+							$\downarrow$ & \\
+							$[\neg B_4(a)]$ & (resolve com 7.)\\
+							$\downarrow$ & \\
+							$[ \ ]$ & \\
+						\end{tabular}
+					\end{center}
+					\hfill\newline
+					Como chegamos na cláusula vazia a partir de $\neg P(a)$, então está provado 
+					que $P(a)$ é consequência desta base de conhecimento.
 			\end{itemize}	
 	\end{itemize}
 \end{document}
