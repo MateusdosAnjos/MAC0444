@@ -102,5 +102,28 @@ Lista de Exercícios No. 2
 				7. & $[B_4(a)]$\\
 				\end{tabular}
 			\end{center}
+			\begin{itemize}	
+				\item[\textbf{a) }]					
+					\hfill\newline
+					Para mostrar o passo a passo do procedimento de encadeamento para
+					trás (backward chaining) devemos começar identificando as implicações
+					da Base de Conhecimento.\\
+					Seguindo a ordem acima temos:\\ 
+					(note que utilizamos $\leftarrow$ nas implicações)\\
+					\begin{center}
+						\begin{tabular}{c l}
+							1. & $\forall x (P(x) \leftarrow A_1(x) \land A_2(x))$\\
+							2. & $\forall y (A_1(y) \leftarrow B_1(y) \land B_2(y))$\\
+							3. & $\forall z (A_2(z) \leftarrow B_3(z) \land B_4(z))$\\
+							4. & $B_1(a)$\\
+							5. & $B_2(a)$\\
+							6. & $B_3(a)$\\
+							7. & $B_4(a)$\\
+						\end{tabular}
+					\end{center}
+					A partir destas implicações o passo a passo pode ser mostrado a partir da figura
+					abaixo, sendo que cada passo gera 1 nível da árvore.
+				\item[\textbf{b) }]
+			\end{itemize}	
 	\end{itemize}
 \end{document}
