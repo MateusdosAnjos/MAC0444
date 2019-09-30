@@ -271,6 +271,12 @@ Lista de Exercícios No. 2
 					Utilizando o comando findall, temos a lista de pessoas dada por:\\ \\
 					$pessoas(Lista) :- \ findall(Pess, pessoa(Pess), Lista).$\\
 				\item[\textbf{h) }]
+					\hfill\newline
+					Utilizaremos o operador $\backslash +$ para fazer uma busca em todas
+					as pessoas definidas com idade/2, pegando X e procurando se existe
+					algum Y $>$ X, caso existir iremos comparar a nova maior idade X com todos
+					os elementos que tem idade definida.\\ \\
+					$mais\_velho(Pess) :- \ idade(Pess, X), \ \backslash + (idade(\_, Y), Y > X).$\\
 				\item[\textbf{i) }]
 				\item[\textbf{j) }]
 			\end{itemize}
