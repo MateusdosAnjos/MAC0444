@@ -177,10 +177,57 @@ Lista de Exercícios No. 2
 					Considerando que a lista é enumerada a partir da posição 1, o programa recebe
 					uma lista e elimina os elementos das posições ímpares, devolvendo apenas
 					os elementos das posições pares.\\
-					Veja o exemplo de consulta que os elementos da lista coincidem com o número de 
-					sua posição:\\
+					Veja o exemplo de consulta que os elementos da lista coincidem com o número 
+					de sua posição:\\
 					$?- result([1, 2, 3, 4, 5, 6], X ).$\\
-					$X = [2, 4, 6]$
+					$X = [2, 4, 6]$\\
+					Para fazer isso o programa possui um fato, $result(\_, [ \ ])$, que cobre os
+					casos em que o primeiro argumento é uma lista vazia ou uma lista com apenas
+					1 elemento, pois nestes casos não é possível extrair 2 elementos da lista
+					como a primeira regra exige (o corte impede a utilização do fato quando
+					a lista tem 2 ou mais elementos).\\
+					Definida a base do programa a partir deste fato, chamadas recursivas serão
+					feitas tentando equiparar, inicialmente, a lista passada como argumento e a 
+					primeira regra, veja a execução do exemplo:\\ \\
+					\begin{tabular}{ll}
+						Chamada inicial & $result([1, 2, 3, 4, 5, 6], X)$\\
+						Casa com & $result([\_, E | L], [E | M])$\\
+						Com valoração & $\_ = 1$, $E = 2$, $L = [3, 4, 5, 6]$, $X = [2|M_1]$\\
+						Faz chamada recursiva & $result(L, M_1)$\\ \\
+						
+						Chamada & $result([3, 4, 5, 6], M_1)$\\
+						Casa com & $result([\_, E | L], [E | M])$\\
+						Com valoração & $\_ = 3$, $E = 4$, $L = [5, 6]$, $M_1 = [4|M_2]$\\
+						Faz chamada recursiva & $result(L, M_2)$\\ \\
+						
+						Chamada & $result([5, 6], M_2)$\\
+						Casa com & $result([\_, E | L], [E | M])$\\
+						Com valoração & $\_ = 5$, $E = 6$, $L = [ \ ]$, $M_2 = [6|M_3]$\\
+						Faz chamada recursiva & $result(L, M_3)$\\ \\
+						
+						Chamada & $result([ \ ], M_3)$\\
+						Casa com o fato & $result(\_, [ \ ])$\\
+						Com valoração & $\_ = [ \ ]$, $M_3 = [ \ ]$\\
+					\end{tabular}
+					\hfill\newline
+					Após essa execução devemos obter o valor de $X$, para isso
+					temos que reconstruí-lo a partir de $M_3$, $M_2$ e $M_1$, veja:\\
+					\begin{tabular}{lll}
+						$M_3$ = & $[ \ ]      $ & = [ \ ]\\
+						$M_2$ = & $[6|M_3]$ & = [6]\\
+						$M_1$ = & $[4|M_2]$ & = [4, 6]\\
+						$X$     = & $[2|M_1]$ & = [2, 4, 6]\\
+					\end{tabular}
+					\hfill\newline\newline
+					Esta execução única só é possível, pois o corte (!) na primeira linha do
+					programa faz com que não seja possível criar ramificações para a resposta
+					casando as chamadas recursivas intermediárias com o fato, uma vez que já 
+					foi utilizado a primeira regra de casamento 
+					(que possui a instrução de corte).\\
+					Sendo assim, o corte impede a alternativa de resposta em que o programa 
+					casa 	a chamada $result([3, 4, 5, 6], M_1)$ com o fato $result(\_, [ \ ])$ 
+					($\_ = [3, 4, 5, 6]$ e $M_1 = [ \ ]$) e obtém a resposta $X = [2]$, por 
+					exemplo.
 					
 			\end{itemize}
 	\end{itemize}
