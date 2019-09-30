@@ -262,8 +262,14 @@ Lista de Exercícios No. 2
 				\item[\textbf{e) }]
 				\item[\textbf{f) }]
 					\hfill\newline
-					$maior\_de\_idade(Pess) :- \ idade(Pess, X), \ X >= 18.$
+					$maior\_de\_idade(Pess) :- \ idade(Pess, X), \ X >= 18.$\\
 				\item[\textbf{g) }]
+					\hfill\newline
+					Assumindo que uma pessoa ou é homem ou é mulher, definimos pessoa:\\ \\
+					$pessoa(Pess) :- \ homem(Pess).$\\
+					$pessoa(Pess) :- \ mulher(Pess).$\\ \\
+					Utilizando o comando findall, temos a lista de pessoas dada por:\\ \\
+					$pessoas(Lista) :- \ findall(Pess, pessoa(Pess), Lista).$\\
 				\item[\textbf{h) }]
 				\item[\textbf{i) }]
 				\item[\textbf{j) }]
