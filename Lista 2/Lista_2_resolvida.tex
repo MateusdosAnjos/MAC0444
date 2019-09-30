@@ -169,7 +169,7 @@ Lista de Exercícios No. 2
 				\item[\textbf{a) }]
 					\hfill\newline
 					Após ter carregado o programa a resposta do Prolog para a consulta:\\
-					$?- result([a , b , c , d , e , f , g], X ).$\\
+					$?- result([a , b , c , d , e , f , g], \ X ).$\\
 					será:\\
 					$X = [b, d, f]$
 				\item[\textbf{b) }]
@@ -179,9 +179,9 @@ Lista de Exercícios No. 2
 					os elementos das posições pares.\\
 					Veja o exemplo de consulta que os elementos da lista coincidem com o número 
 					de sua posição:\\
-					$?- result([1, 2, 3, 4, 5, 6], X ).$\\
+					$?- result([1, 2, 3, 4, 5, 6], \ X ).$\\
 					$X = [2, 4, 6]$\\
-					Para fazer isso o programa possui um fato, $result(\_, [ \ ])$, que cobre os
+					Para fazer isso o programa possui um fato, $result(\_ \ , \ [ \ ])$, que cobre os
 					casos em que o primeiro argumento é uma lista vazia ou uma lista com apenas
 					1 elemento, pois nestes casos não é possível extrair 2 elementos da lista
 					como a primeira regra exige (o corte impede a utilização do fato quando
@@ -190,23 +190,23 @@ Lista de Exercícios No. 2
 					feitas tentando equiparar, inicialmente, a lista passada como argumento e a 
 					primeira regra, veja a execução do exemplo:\\ \\
 					\begin{tabular}{ll}
-						Chamada inicial & $result([1, 2, 3, 4, 5, 6], X)$\\
-						Casa com & $result([\_, E | L], [E | M])$\\
+						Chamada inicial & $result([1, 2, 3, 4, 5, 6], \ X)$\\
+						Casa com & $result([\_ \ ,  \ E | L], \ [E | M])$\\
 						Com valoração & $\_ = 1$, $E = 2$, $L = [3, 4, 5, 6]$, $X = [2|M_1]$\\
-						Faz chamada recursiva & $result(L, M_1)$\\ \\
+						Faz chamada recursiva & $result(L, \ M_1)$\\ \\
 						
-						Chamada & $result([3, 4, 5, 6], M_1)$\\
-						Casa com & $result([\_, E | L], [E | M])$\\
+						Chamada & $result([3, 4, 5, 6], \ M_1)$\\
+						Casa com & $result([\_ \ ,  \ E | L], \ [E | M])$\\
 						Com valoração & $\_ = 3$, $E = 4$, $L = [5, 6]$, $M_1 = [4|M_2]$\\
-						Faz chamada recursiva & $result(L, M_2)$\\ \\
+						Faz chamada recursiva & $result(L, \ M_2)$\\ \\
 						
 						Chamada & $result([5, 6], M_2)$\\
-						Casa com & $result([\_, E | L], [E | M])$\\
+						Casa com & $result([\_ \ ,  \ E | L], \ [E | M])$\\
 						Com valoração & $\_ = 5$, $E = 6$, $L = [ \ ]$, $M_2 = [6|M_3]$\\
 						Faz chamada recursiva & $result(L, M_3)$\\ \\
 						
-						Chamada & $result([ \ ], M_3)$\\
-						Casa com o fato & $result(\_, [ \ ])$\\
+						Chamada & $result([ \ ], \ M_3)$\\
+						Casa com o fato & $result(\_ \ , \ [ \ ])$\\
 						Com valoração & $\_ = [ \ ]$, $M_3 = [ \ ]$\\
 					\end{tabular}
 					\hfill\newline
@@ -238,45 +238,45 @@ Lista de Exercícios No. 2
 			\begin{itemize}
 				\item[\textbf{a) }]
 					\hfill\newline
-					$avof(Mul, Pess) :- \ mae(Mul, Y), \ mae(Y, Pess).$\\
-					$avof(Mul, Pess) :- \ mae(Mul, Y), \ pai(Y, Pess).$\\
+					$avof(Mul, \ Pess) :- \ mae(Mul, \ Y), \ mae(Y, \ Pess).$\\
+					$avof(Mul, \ Pess) :- \ mae(Mul, \ Y), \ pai(Y, \ Pess).$\\
 				\item[\textbf{b) }]
 					\hfill\newline
-					$avom(Hom, Pess) :- \ pai(Hom, Y), \ mae(Y, Pess).$\\
-					$avom(Hom, Pess) :- \ pai(Hom, Y), \ pai(Y, Pess).$\\
+					$avom(Hom, \ Pess) :- \ pai(Hom,\  Y), \ mae(Y, \ Pess).$\\
+					$avom(Hom, \ Pess) :- \ pai(Hom, \ Y), \ pai(Y, \ Pess).$\\
 				\item[\textbf{c) }]
 					\hfill\newline
-					$bisavom(Hom, Pess) :- \ pai(Hom, Y), \ avom(Y, Pess).$\\
-					$bisavom(Hom, Pess) :- \ pai(Hom, Y), \ avof(Y, Pess).$\\
+					$bisavom(Hom, \ Pess) :- \ pai(Hom, \ Y), \ avom(Y, \ Pess).$\\
+					$bisavom(Hom, \ Pess) :- \ pai(Hom, \ Y), \ avof(Y, \ Pess).$\\
 				\item[\textbf{d) }]
 					\hfill\newline
 					Primeiro definimos que se X é irmão de Y então Y é irmão de X:\\	 \\				
-					$irmao\_de(X, Y) :- \ irmaos(X, Y).$\\
-					$irmao\_de(X, Y) :- \ irmaos(Y, X).$\\ \\
+					$irmao\_de(X, \ Y) :- \ irmaos(X, \ Y).$\\
+					$irmao\_de(X, \ Y) :- \ irmaos(Y, \ X).$\\ \\
 					Agora podemos definir primo de primeiro grau se P1 e P2 não forem irmãos e
 					tiverem avô ou avó em comum (P1 e P2 não podem ser iguais):\\ \\
-					$primo\_1(P1, P2) :- \ avom(X, P1), \ avom(X, P2), \ not(irmao\_de(P1, P2)), \\
+					$primo\_1(P1, \ P2) :- \ avom(X, \ P1), \ avom(X, \ P2), \ not(irmao\_de(P1, \ P2)), \\
 					not(P1 = P2).$\\
-					$primo\_1(P1, P2) :- \ avof(X, P1), \ avof(X, P2), \ not(irmao\_de(P1, P2)), \\
+					$primo\_1(P1, \ P2) :- \ avof(X, \ P1), \ avof(X, \ P2), \ not(irmao\_de(P1, \ P2)), \\
 					not(P1 = P2).$\\
 				\item[\textbf{e) }]
 				\item[\textbf{f) }]
 					\hfill\newline
-					$maior\_de\_idade(Pess) :- \ idade(Pess, X), \ X >= 18.$\\
+					$maior\_de\_idade(Pess) :- \ idade(Pess, \ X), \ X >= 18.$\\
 				\item[\textbf{g) }]
 					\hfill\newline
 					Assumindo que uma pessoa ou é homem ou é mulher, definimos pessoa:\\ \\
 					$pessoa(Pess) :- \ homem(Pess).$\\
 					$pessoa(Pess) :- \ mulher(Pess).$\\ \\
 					Utilizando o comando findall, temos a lista de pessoas dada por:\\ \\
-					$pessoas(Lista) :- \ findall(Pess, pessoa(Pess), Lista).$\\
+					$pessoas(Lista) :- \ findall(Pess, \ pessoa(Pess), \ Lista).$\\
 				\item[\textbf{h) }]
 					\hfill\newline
 					Utilizaremos o operador $\backslash +$ para fazer uma busca em todas
 					as pessoas definidas com idade/2, pegando X e procurando se existe
 					algum Y $>$ X, caso existir iremos comparar a nova maior idade X com todos
 					os elementos que tem idade definida.\\ \\
-					$mais\_velho(Pess) :- \ idade(Pess, X), \ \backslash + (idade(\_, Y), Y > X).$\\
+					$mais\_velho(Pess) :- \ idade(Pess, \ X), \ \backslash + (idade(\_ \ , Y), Y > X).$\\
 				\item[\textbf{i) }]
 				\item[\textbf{j) }]
 			\end{itemize}
