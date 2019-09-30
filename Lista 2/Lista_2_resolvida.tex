@@ -278,6 +278,18 @@ Lista de Exercícios No. 2
 					os elementos que tem idade definida.\\ \\
 					$mais\_velho(Pess) :- \ idade(Pess, \ X), \ \backslash + (idade(\_ \ , Y), Y > X).$\\
 				\item[\textbf{i) }]
+					\hfill\newline
+					Para criar a lista de pessoas de um determinado sexo com as respectivas idades devemos
+					verificar se o Sexo passado é m (homem) ou f (mulher), depois disso utilizamos o comando
+					findall com template "[Pess, X]" \ para armazenar a pessoa "Pess" \ e sua idade "X", 
+					utilizado como goal de consulta se "Pess" \ tem idade "X" \ definida na base de 
+					conhecimento e se \ "Pess" \ é homem ou mulher dependendo se "Sexo" \ é "m" \ ou
+					\ "f".\\
+					Desta forma:\\ \\
+					$lista\_pessoas(Lista, \ Sexo) :- \ Sexo = m, \\ 
+					findall([Pess, \ X], (idade(Pess, \ X), homem(Pess)), Lista).$\\ \\
+					$lista\_pessoas(Lista, \ Sexo) :- \ Sexo = f, \\
+					findall([Pess, \ X], (idade(Pess, \ X), mulher(Pess)), Lista).$\\
 				\item[\textbf{j) }]
 			\end{itemize}
 	\end{itemize}
