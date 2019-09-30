@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  30 SEP 2019 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  30 SEP 2019 14:11
 entering extended mode
 **./Lista_2_resolvida.tex
 (Lista_2_resolvida.tex
@@ -573,27 +573,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--231
+Underfull \hbox (badness 10000) in paragraph at lines 176--235
 
  []
 
 
-Overfull \hbox (12.14975pt too wide) in paragraph at lines 176--231
+Overfull \hbox (12.14975pt too wide) in paragraph at lines 176--235
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--231
+Underfull \hbox (badness 10000) in paragraph at lines 176--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--231
+Underfull \hbox (badness 10000) in paragraph at lines 176--235
 
  []
 
 
-Overfull \hbox (21.296pt too wide) in paragraph at lines 176--231
+Overfull \hbox (21.296pt too wide) in paragraph at lines 176--235
 \OT1/cmr/m/n/12 pro-grama casa a cha-mada $\OML/cmm/m/it/12 result\OT1/cmr/m/n/
 12 ([3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\
 OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 6]\OML/cmm/m/it/12 ; M[]\OT1/cmr/m/n/12 )$ co
@@ -603,10 +603,10 @@ m o fato $\OML/cmm/m/it/12 result\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; \OT1/cmr
 
 [5] [6] [7] (Lista_2_resolvida.aux) ) 
 Here is how much of TeX's memory you used:
- 2636 strings out of 493323
- 33840 string characters out of 3139059
+ 2637 strings out of 493323
+ 33848 string characters out of 3139059
  107211 words of memory out of 3000000
- 6132 multiletter control sequences out of 15000+200000
+ 6133 multiletter control sequences out of 15000+200000
  11490 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,26p,251b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -617,7 +617,7 @@ m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Lista_2_resolvida.pdf (7 pages, 107339 bytes).
+Output written on Lista_2_resolvida.pdf (7 pages, 107633 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
