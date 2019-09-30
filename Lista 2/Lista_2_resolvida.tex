@@ -245,6 +245,9 @@ Lista de Exercícios No. 2
 					$avom(Hom, Pess) :- \ pai(Hom, Y), \ mae(Y, Pess).$\\
 					$avom(Hom, Pess) :- \ pai(Hom, Y), \ pai(Y, Pess).$\\
 				\item[\textbf{c) }]
+					\hfill\newline
+					$bisavom(Hom, Pess) :- \ pai(Hom, Y), \ avom(Y, Pess).$\\
+					$bisavom(Hom, Pess) :- \ pai(Hom, Y), \ avof(Y, Pess).$\\
 				\item[\textbf{d) }]
 				\item[\textbf{e) }]
 				\item[\textbf{f) }]
