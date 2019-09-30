@@ -251,12 +251,14 @@ Lista de Exercícios No. 2
 				\item[\textbf{d) }]
 					\hfill\newline
 					Primeiro definimos que se X é irmão de Y então Y é irmão de X:\\	 \\				
-					$irmao\_de(X, Y) :- irmao(X, Y).$\\
-					$irmao\_de(X, Y) :- irmao(Y, X).$\\ \\
+					$irmao\_de(X, Y) :- \ irmaos(X, Y).$\\
+					$irmao\_de(X, Y) :- \ irmaos(Y, X).$\\ \\
 					Agora podemos definir primo de primeiro grau se P1 e P2 não forem irmãos e
-					tiverem avô ou avó em comum:\\ \\
-					$primo\_1(P1, P2) :- avom(X, P1), \ avom(X, P2), \ not(irmao\_de(P1, P2)).$\\
-					$primo\_1(P1, P2) :- avof(X, P1), \ avof(X, P2), \ not(irmao\_de(P1, P2)).$\\
+					tiverem avô ou avó em comum (P1 e P2 não podem ser iguais):\\ \\
+					$primo\_1(P1, P2) :- \ avom(X, P1), \ avom(X, P2), \ not(irmao\_de(P1, P2)), \\
+					not(P1 = P2).$\\
+					$primo\_1(P1, P2) :- \ avof(X, P1), \ avof(X, P2), \ not(irmao\_de(P1, P2)), \\
+					not(P1 = P2).$\\
 				\item[\textbf{e) }]
 				\item[\textbf{f) }]
 				\item[\textbf{g) }]
