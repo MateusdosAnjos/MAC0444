@@ -29,6 +29,7 @@ Lista de Exercícios No. 2
 			$$\forall z \ (mediaAlta(z) \rightarrow aprovado(z, mac444))$$
 			$$fezEx(\textnormal{João})$$
 			$$vaiBem(\textnormal{Maria})$$
+			\newpage
 			Base de conhecimento (KB):\\
 			\begin{center}
 				\begin{tabular}{c l}
@@ -62,7 +63,8 @@ Lista de Exercícios No. 2
 			\end{center}
 			Sendo assim provamos que: $KB \ \cup \  \{ \neg aprovado(\textnormal{João}, 
 			mac444) \}$ é insatisfazível, portanto $aprovado(\textnormal{João}, mac444)$  
-			é consequência lógica de nossa base de conhecimento.\\ \\
+			é consequência lógica de nossa base de conhecimento.\\
+			\newpage
 			A \textbf{resolução SLD} será semelhante para Maria, portanto temos:\\
 			Base de conhecimento (KB):\\
 			\begin{center}
@@ -102,6 +104,7 @@ Lista de Exercícios No. 2
 				7. & $[B_4(a)]$\\
 				\end{tabular}
 			\end{center}
+			\newpage
 			\begin{itemize}	
 				\item[\textbf{a) }]					
 					\hfill\newline
@@ -209,7 +212,7 @@ Lista de Exercícios No. 2
 						Casa com o fato & $result(\_ \ , \ [ \ ])$\\
 						Com valoração & $\_ = [ \ ]$, $M_3 = [ \ ]$\\
 					\end{tabular}
-					\hfill\newline
+					\newpage
 					Após essa execução devemos obter o valor de $X$, para isso
 					temos que reconstruí-lo a partir de $M_3$, $M_2$ e $M_1$, veja:\\
 					\begin{tabular}{lll}
@@ -248,6 +251,7 @@ Lista de Exercícios No. 2
 					\hfill\newline
 					$bisavom(Hom, \ Pess) :- \ pai(Hom, \ Y), \ avom(Y, \ Pess).$\\
 					$bisavom(Hom, \ Pess) :- \ pai(Hom, \ Y), \ avof(Y, \ Pess).$\\
+				\newpage
 				\item[\textbf{d) }]
 					\hfill\newline
 					Primeiro definimos que se X é irmão de Y então Y é irmão de X:\\	 \\				
@@ -258,8 +262,22 @@ Lista de Exercícios No. 2
 					$primo\_1(P1, \ P2) :- \ avom(X, \ P1), \ avom(X, \ P2), \ not(irmao\_de(P1, \ P2)), \\
 					not(P1 = P2).$\\
 					$primo\_1(P1, \ P2) :- \ avof(X, \ P1), \ avof(X, \ P2), \ not(irmao\_de(P1, \ P2)), \\
-					not(P1 = P2).$\\
+					not(P1 = P2).$
 				\item[\textbf{e) }]
+					\hfill\newline
+					Para definirmos primos, primeiros temos que definir a reflexividade:\\ \\
+					$primo(X, \ Y) :- \ primo\_de(X, \ Y).$\\
+					$primo(X, \ Y) :- \ primo\_de(Y, \ X).$\\ \\
+					Agora criamos a recursão com primo\_de.\\
+					A base será P1 é primo de primeiro grau de P2:\\	 \\		
+					$primo\_de(P1, \	 P2) :- \ primo\_1(P1, \	P2).$\\ \\
+					Se não ou o ancestral de P2 é primo de P1 ou o ancestral de P1 é
+					primo de P2:\\ \\
+					$primo\_de(P1, \ P2) :- \ ancestral(Y, \ P2), \ primo\_de(Y, \ P1).$\\
+					$primo\_de(P1, \ P2) :- \ ancestral(Y, \ P1), \ primo\_de(Y, \ P2).$\\ \\
+					Agora definimos ancestral como pai ou mãe (usando recursão também):\\ \\
+					$ancestral(X, \ Y) :- \ pai(X, \ Y); \ pai(X, \ Z), \ ancestral(Z, \ Y).$\\
+					$ancestral(X, \ Y) :- \ mae(X, \ Y); \ mae(X, \ Z), \ ancestral(Z, \ Y).$
 				\item[\textbf{f) }]
 					\hfill\newline
 					$maior\_de\_idade(Pess) :- \ idade(Pess, \ X), \ X >= 18.$\\

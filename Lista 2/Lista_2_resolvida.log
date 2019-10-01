@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  30 SEP 2019 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  1 OCT 2019 20:36
 entering extended mode
 **./Lista_2_resolvida.tex
 (Lista_2_resolvida.tex
@@ -503,97 +503,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--27
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-
- []
-
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (4.1855pt too wide) in paragraph at lines 43--50
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Overfull \hbox (4.1855pt too wide) in paragraph at lines 44--51
 \OT1/cmr/m/n/12 Veja que in-se-ri-mos $[\OMS/cmsy/m/n/12 :\OML/cmm/m/it/12 apro
 vado\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; mac\OT1/cmr/m/n/12 444)]$ na base de 
 co-nhe-ci-mento,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--50
+Underfull \hbox (badness 10000) in paragraph at lines 44--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--50
+Underfull \hbox (badness 10000) in paragraph at lines 44--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 107--113
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
-<backward_2a.png, id=13, 777.90625pt x 297.11pt>
-File: backward_2a.png Graphic file (type png)
- <use backward_2a.png>
-Package pdftex.def Info: backward_2a.png used on input line 127.
-(pdftex.def)             Requested size: 497.85829pt x 190.14975pt.
 
-Overfull \hbox (107.85829pt too wide) in paragraph at lines 127--128
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 138--143
+Underfull \hbox (badness 10000) in paragraph at lines 110--116
+
+ []
+
+<backward_2a.png, id=17, 777.90625pt x 297.11pt>
+File: backward_2a.png Graphic file (type png)
+ <use backward_2a.png>
+Package pdftex.def Info: backward_2a.png used on input line 130.
+(pdftex.def)             Requested size: 497.85829pt x 190.14975pt.
+
+Overfull \hbox (107.85829pt too wide) in paragraph at lines 130--131
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--131
 
  []
 
 [4 <./backward_2a.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 141--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--235
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
 
-Overfull \hbox (12.14975pt too wide) in paragraph at lines 176--235
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--235
+Underfull \hbox (badness 10000) in paragraph at lines 179--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--235
+Overfull \hbox (12.14975pt too wide) in paragraph at lines 179--215
+[] 
+ []
+
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 216--238
 
  []
 
 
-Overfull \hbox (21.296pt too wide) in paragraph at lines 176--235
+Overfull \hbox (21.296pt too wide) in paragraph at lines 216--238
 \OT1/cmr/m/n/12 pro-grama casa a cha-mada $\OML/cmm/m/it/12 result\OT1/cmr/m/n/
 12 ([3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\
 OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 6]\OML/cmm/m/it/12 ; M[]\OT1/cmr/m/n/12 )$ co
@@ -601,43 +596,43 @@ m o fato $\OML/cmm/m/it/12 result\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 ; \OT1/cmr
 /m/n/12 [ ])$
  []
 
-[5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--243
+Underfull \hbox (badness 10000) in paragraph at lines 243--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--247
+Underfull \hbox (badness 10000) in paragraph at lines 247--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--251
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 256--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--262
+Underfull \hbox (badness 10000) in paragraph at lines 256--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--262
+Underfull \hbox (badness 10000) in paragraph at lines 256--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--262
-
- []
-
-
-Overfull \hbox (58.25284pt too wide) in paragraph at lines 252--262
+Overfull \hbox (58.25284pt too wide) in paragraph at lines 256--266
 \OML/cmm/m/it/12 primo[]\OT1/cmr/m/n/12 1(\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\O
 ML/cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 avo
 m\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  P\OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 ;  a
@@ -648,7 +643,7 @@ vom\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  P\OT1/cmr/m/n/12 2)\OML/cmm/m/it/12 ;
  []
 
 
-Overfull \hbox (51.84323pt too wide) in paragraph at lines 252--262
+Overfull \hbox (51.84323pt too wide) in paragraph at lines 256--266
 \OML/cmm/m/it/12 primo[]\OT1/cmr/m/n/12 1(\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\O
 ML/cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 avo
 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  P\OT1/cmr/m/n/12 1)\OML/cmm/m/it/12 ;  a
@@ -659,67 +654,97 @@ vof\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  P\OT1/cmr/m/n/12 2)\OML/cmm/m/it/12 ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--262
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 264--266
+Underfull \hbox (badness 10000) in paragraph at lines 267--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--273
+Underfull \hbox (badness 10000) in paragraph at lines 267--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--273
+Underfull \hbox (badness 10000) in paragraph at lines 267--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--273
+Underfull \hbox (badness 10000) in paragraph at lines 267--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--273
+Underfull \hbox (badness 10000) in paragraph at lines 267--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--280
+Underfull \hbox (badness 10000) in paragraph at lines 267--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--280
+Underfull \hbox (badness 10000) in paragraph at lines 267--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--293
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--293
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--293
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 294--308
+Underfull \hbox (badness 10000) in paragraph at lines 285--291
 
  []
 
 
-Overfull \hbox (14.91486pt too wide) in paragraph at lines 294--308
+Underfull \hbox (badness 10000) in paragraph at lines 285--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--311
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
+
+ []
+
+
+Overfull \hbox (14.91486pt too wide) in paragraph at lines 312--326
 \OML/cmm/m/it/12 sem[]parentesco\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/
 m/n/12 ) : \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 homem\OT1/cmr/m/n/12 (\OML/cmm/m
 /it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  mulher\OT1/cmr/m/n/12 (\OML/cmm/m/
@@ -729,7 +754,7 @@ it/12 Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
  []
 
 
-Overfull \hbox (53.77388pt too wide) in paragraph at lines 294--308
+Overfull \hbox (53.77388pt too wide) in paragraph at lines 312--326
 \OML/cmm/m/it/12 not\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 mae\OT1/cmr/m/n/12 (\OML/
 cmm/m/it/12 Y; X\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/
 cmm/m/it/12 irmao[]de\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/m/n/12 ))\O
@@ -740,44 +765,44 @@ cmm/m/it/12 ; []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--308
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--308
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--308
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--308
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
-[9] (Lista_2_resolvida.aux) ) 
+[10] (Lista_2_resolvida.aux) ) 
 Here is how much of TeX's memory you used:
  2655 strings out of 493323
  34121 string characters out of 3139059
- 107211 words of memory out of 3000000
+ 105211 words of memory out of 3000000
  6151 multiletter control sequences out of 15000+200000
  11490 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,26p,251b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Lista_2_resolvida.pdf (9 pages, 117266 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Lista_2_resolvida.pdf (10 pages, 118871 bytes).
 PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
