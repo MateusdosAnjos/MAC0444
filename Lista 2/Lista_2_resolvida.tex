@@ -296,7 +296,7 @@ Lista de Exercícios No. 2
 				a regra:\\ \\
 				$sem\_parentesco(X, Y) :- \ homem(X), \ mulher(Y), \ not(pai(X, Y)), \\
 				not(mae(Y, X)), \ not(irmao\_de(X, Y)), \ not(avof(Y, X)), \ not(avom(X, Y)), \\ 
-				not(bisavom(X, Y)).$\\ \\
+				not(bisavom(X, Y)), \ not(primo(X, Y)).$\\ \\
 				Agora criaremos uma regra para evitar que pessoas casadas sejam adequadas:\\ \\
 				$sem\_traicao(X, Y) :- \ not(casados(X, \  \_)), \ not(casados(\_ \ , Y)).$\\ \\
 				Por fim podemos criar a regra "adequado" \ (note que \ "Z" \ é a idade do homem e
