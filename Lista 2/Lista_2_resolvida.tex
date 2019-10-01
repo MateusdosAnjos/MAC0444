@@ -291,6 +291,20 @@ Lista de Exercícios No. 2
 					$lista\_pessoas(Lista, \ Sexo) :- \ Sexo = f, \\
 					findall([Pess, \ X], (idade(Pess, \ X), mulher(Pess)), Lista).$\\
 				\item[\textbf{j) }]
+				\hfill\newline
+				Primeiro verificaremos se não há algum parentesco entre \ "X" \ e \ "Y" \ definindo 
+				a regra:\\ \\
+				$sem\_parentesco(X, Y) :- \ homem(X), \ mulher(Y), \ not(pai(X, Y)), \\
+				not(mae(Y, X)), \ not(irmao\_de(X, Y)), \ not(avof(Y, X)), \ not(avom(X, Y)), \\ 
+				not(bisavom(X, Y)).$\\ \\
+				Agora criaremos uma regra para evitar que pessoas casadas sejam adequadas:\\ \\
+				$sem\_traicao(X, Y) :- \ not(casados(X, \  \_)), \ not(casados(\_ \ , Y)).$\\ \\
+				Por fim podemos criar a regra "adequado" \ (note que \ "Z" \ é a idade do homem e
+				\ "W" \ a idade da mulher):\\ \\
+				$adequados(Hom, Mul) :- \ homem(Hom),  \ mulher(Mul), \\
+				sem\_parentesco(Hom, Mul), \\
+				sem\_traicao(Hom, Mul), \ idade(Hom, Z), \ idade(Mul, W), \\
+				not(Z < W-2), \ not(Z > W+10).$
 			\end{itemize}
 	\end{itemize}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  30 SEP 2019 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  30 SEP 2019 21:54
 entering extended mode
 **./Lista_2_resolvida.tex
 (Lista_2_resolvida.tex
@@ -713,23 +713,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 281--293
 
  []
 
-[8] [9] (Lista_2_resolvida.aux) ) 
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 294--308
+
+ []
+
+
+Overfull \hbox (14.91486pt too wide) in paragraph at lines 294--308
+\OML/cmm/m/it/12 sem[]parentesco\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/
+m/n/12 ) : \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 homem\OT1/cmr/m/n/12 (\OML/cmm/m
+/it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  mulher\OT1/cmr/m/n/12 (\OML/cmm/m/
+it/12 Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
+2 pai\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ;
+ [] 
+ []
+
+
+Overfull \hbox (53.77388pt too wide) in paragraph at lines 294--308
+\OML/cmm/m/it/12 not\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 mae\OT1/cmr/m/n/12 (\OML/
+cmm/m/it/12 Y; X\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/
+cmm/m/it/12 irmao[]de\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/m/n/12 ))\O
+ML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 avof\OT1/cmr/m/n/12 (\OM
+L/cmm/m/it/12 Y; X\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OM
+L/cmm/m/it/12 avom\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/m/n/12 ))\OML/
+cmm/m/it/12 ; [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--308
+
+ []
+
+[9] (Lista_2_resolvida.aux) ) 
 Here is how much of TeX's memory you used:
- 2651 strings out of 493323
- 34057 string characters out of 3139059
+ 2655 strings out of 493323
+ 34121 string characters out of 3139059
  107211 words of memory out of 3000000
- 6147 multiletter control sequences out of 15000+200000
+ 6151 multiletter control sequences out of 15000+200000
  11490 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,26p,251b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Lista_2_resolvida.pdf (9 pages, 115101 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Lista_2_resolvida.pdf (9 pages, 117246 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
