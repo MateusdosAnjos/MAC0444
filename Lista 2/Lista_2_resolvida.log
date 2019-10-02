@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.11)  2 OCT 2019 07:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.7.11)  2 OCT 2019 07:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -312,97 +312,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--265
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--280
+Underfull \hbox (badness 10000) in paragraph at lines 266--276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--280
+Overfull \hbox (65.89708pt too wide) in paragraph at lines 266--276
+\OML/cmm/m/it/12 primo\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\OML/
+cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 irma
+os\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  d
+escendente\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 
+;  X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  descendente\OT1/cmr/m/n/12 (\OML/cmm/m
+/it/12 P\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 
+:$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--280
+Underfull \hbox (badness 10000) in paragraph at lines 280--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--280
+Underfull \hbox (badness 10000) in paragraph at lines 280--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--280
+Underfull \hbox (badness 10000) in paragraph at lines 280--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--280
+Underfull \hbox (badness 10000) in paragraph at lines 280--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--280
+Underfull \hbox (badness 10000) in paragraph at lines 287--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--283
+Underfull \hbox (badness 10000) in paragraph at lines 287--293
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 284--290
+Underfull \hbox (badness 10000) in paragraph at lines 294--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--290
+Underfull \hbox (badness 10000) in paragraph at lines 294--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--290
+Underfull \hbox (badness 10000) in paragraph at lines 294--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--290
+Underfull \hbox (badness 10000) in paragraph at lines 307--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--325
-
- []
-
-
-Overfull \hbox (14.91486pt too wide) in paragraph at lines 311--325
+Overfull \hbox (14.91486pt too wide) in paragraph at lines 307--321
 \OML/cmm/m/it/12 sem[]parentesco\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/
 m/n/12 ) : \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 homem\OT1/cmr/m/n/12 (\OML/cmm
 /m/it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  mulher\OT1/cmr/m/n/12 (\OML/cmm/
@@ -412,7 +393,7 @@ m/it/12 Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/cmm/m/it
  []
 
 
-Overfull \hbox (53.77388pt too wide) in paragraph at lines 311--325
+Overfull \hbox (53.77388pt too wide) in paragraph at lines 307--321
 \OML/cmm/m/it/12 not\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 mae\OT1/cmr/m/n/12 (\OML/
 cmm/m/it/12 Y; X\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/
 cmm/m/it/12 irmao[]de\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/m/n/12 ))\O
@@ -423,22 +404,22 @@ cmm/m/it/12 ; []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--325
+Underfull \hbox (badness 10000) in paragraph at lines 307--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--325
+Underfull \hbox (badness 10000) in paragraph at lines 307--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--325
+Underfull \hbox (badness 10000) in paragraph at lines 307--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--325
+Underfull \hbox (badness 10000) in paragraph at lines 307--321
 
  []
 
@@ -458,7 +439,7 @@ nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Lista_2_resolvida.pdf (10 pages, 111174 bytes).
+Output written on Lista_2_resolvida.pdf (10 pages, 110597 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream

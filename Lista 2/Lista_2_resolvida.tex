@@ -264,19 +264,15 @@ Lista de Exercícios No. 2
 					$primo\_1(P1, \ P2) :- \ mae(X, \ P1), \ irmaos(X, \ Y), \ mae(Y, \ P2).$\\
 				\item[\textbf{e) }]
 					\hfill\newline
-					Para definirmos primos, primeiros temos que definir a reflexividade:\\ \\
-					$primo(X, \ Y) :- \ primo\_de(X, \ Y).$\\
-					$primo(X, \ Y) :- \ primo\_de(Y, \ X).$\\ \\
-					Agora criamos a recursão com primo\_de.\\
-					A base será P1 é primo de primeiro grau de P2:\\	 \\		
-					$primo\_de(P1, \	 P2) :- \ primo\_1(P1, \	P2).$\\ \\
-					Se não ou o ancestral de P2 é primo de P1 ou o ancestral de P1 é
-					primo de P2:\\ \\
-					$primo\_de(P1, \ P2) :- \ ancestral(Y, \ P2), \ primo\_de(Y, \ P1).$\\
-					$primo\_de(P1, \ P2) :- \ ancestral(Y, \ P1), \ primo\_de(Y, \ P2).$\\ \\
-					Agora definimos ancestral como pai ou mãe (usando recursão também):\\ \\
-					$ancestral(X, \ Y) :- \ pai(X, \ Y); \ pai(X, \ Z), \ ancestral(Z, \ Y).$\\
-					$ancestral(X, \ Y) :- \ mae(X, \ Y); \ mae(X, \ Z), \ ancestral(Z, \ Y).$
+					Se X é primo de n-grau de Y e Z é filho de Y, então X é
+					primo de (n+1)-grau de Z.\\
+					Devemos saber, portanto, quem são os descendentes dos primos de primeiro grau.
+					Por isso devemos definir filho/2 e descendente/2.\\ \\
+					$primo(P1, \ P2) :- \ irmaos(X, \ Y), \ descendente(P1, \ X), \ descendente(P2, Y).$\\
+					$filho(X, \ Y) :- \ pai(Y, \ X).$\\
+					$filho(X, \ Y) :- \ mae(Y, \ X).$\\
+					$descendente(X, \ Y) :- \ filho(X, \ Y).$\\
+					$descendente(X, \ Y) :- \ filho(X, \ Z), \ descendente(Z, \ Y).$
 				\item[\textbf{f) }]
 					\hfill\newline
 					$maior\_de\_idade(Pess) :- \ idade(Pess, \ X), \ X >= 18.$\\
