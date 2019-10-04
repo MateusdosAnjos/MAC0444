@@ -268,7 +268,10 @@ Lista de Exercícios No. 2
 					primo de (n+1)-grau de Z.\\
 					Devemos saber, portanto, quem são os descendentes dos primos de primeiro grau.
 					Por isso devemos definir filho/2 e descendente/2.\\ \\
-					$primo(P1, \ P2) :- \ irmaos(X, \ Y), \ descendente(P1, \ X), \ descendente(P2, Y).$\\
+					$primo(P1, \ P2) :- \ primo\_de(P1, \ P2).$\\
+					$primo(P1, \ P2) :- \ primo\_de(P2, \ P1).$\\
+					$primo\_de(P1, \ P2) :- \ irmaos(X, \ Y), \ descendente(P1, \ X),
+					\ descendente(P2, Y).$\\
 					$filho(X, \ Y) :- \ pai(Y, \ X).$\\
 					$filho(X, \ Y) :- \ mae(Y, \ X).$\\
 					$descendente(X, \ Y) :- \ filho(X, \ Y).$\\
@@ -276,6 +279,7 @@ Lista de Exercícios No. 2
 				\item[\textbf{f) }]
 					\hfill\newline
 					$maior\_de\_idade(Pess) :- \ idade(Pess, \ X), \ X >= 18.$\\
+				\newpage
 				\item[\textbf{g) }]
 					\hfill\newline
 					Assumindo que uma pessoa ou é homem ou é mulher, definimos pessoa:\\ \\
@@ -303,6 +307,7 @@ Lista de Exercícios No. 2
 					findall([Pess, \ X], (idade(Pess, \ X), homem(Pess)), Lista).$\\ \\
 					$lista\_pessoas(Lista, \ Sexo) :- \ Sexo = f, \\
 					findall([Pess, \ X], (idade(Pess, \ X), mulher(Pess)), Lista).$\\
+				\newpage
 				\item[\textbf{j) }]
 				\hfill\newline
 				Primeiro verificaremos se não há algum parentesco entre \ "X" \ e \ "Y" \ definindo 

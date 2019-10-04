@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  2 OCT 2019 14:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  4 OCT 2019 15:19
 entering extended mode
 **./Lista_2_resolvida.tex
 (Lista_2_resolvida.tex
@@ -627,78 +627,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--265
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--276
+Underfull \hbox (badness 10000) in paragraph at lines 266--279
 
  []
 
 
-Overfull \hbox (65.89708pt too wide) in paragraph at lines 266--276
-\OML/cmm/m/it/12 primo\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\OML/
-cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 irmaos
-\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  des
-cendente\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; 
- X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  descendente\OT1/cmr/m/n/12 (\OML/cmm/m/i
-t/12 P\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :$
- 
+Overfull \hbox (81.67831pt too wide) in paragraph at lines 266--279
+\OML/cmm/m/it/12 primo[]de\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\
+OML/cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 ir
+maos\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; 
+ descendente\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\OML/cmm/m/it/1
+2 ;  X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  descendente\OT1/cmr/m/n/12 (\OML/cmm
+/m/it/12 P\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/1
+2 :$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--293
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--293
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 294--306
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--306
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--306
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--321
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 
  []
 
 
-Overfull \hbox (14.91486pt too wide) in paragraph at lines 307--321
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--310
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
+
+ []
+
+
+Overfull \hbox (14.91486pt too wide) in paragraph at lines 312--326
 \OML/cmm/m/it/12 sem[]parentesco\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/
 m/n/12 ) : \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 homem\OT1/cmr/m/n/12 (\OML/cmm/m
 /it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  mulher\OT1/cmr/m/n/12 (\OML/cmm/m/
@@ -708,7 +708,7 @@ it/12 Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
  []
 
 
-Overfull \hbox (53.77388pt too wide) in paragraph at lines 307--321
+Overfull \hbox (53.77388pt too wide) in paragraph at lines 312--326
 \OML/cmm/m/it/12 not\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 mae\OT1/cmr/m/n/12 (\OML/
 cmm/m/it/12 Y; X\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/
 cmm/m/it/12 irmao[]de\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/m/n/12 ))\O
@@ -719,26 +719,26 @@ cmm/m/it/12 ; []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--321
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--321
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--321
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--321
+Underfull \hbox (badness 10000) in paragraph at lines 312--326
 
  []
 
-[9] [10] (Lista_2_resolvida.aux) ) 
+[10] (Lista_2_resolvida.aux) ) 
 Here is how much of TeX's memory you used:
  2656 strings out of 493323
  34129 string characters out of 3139059
@@ -747,14 +747,14 @@ Here is how much of TeX's memory you used:
  11490 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,26p,251b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Lista_2_resolvida.pdf (10 pages, 118227 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Lista_2_resolvida.pdf (10 pages, 118275 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
