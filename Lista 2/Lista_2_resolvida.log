@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  4 OCT 2019 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  4 OCT 2019 15:25
 entering extended mode
 **./Lista_2_resolvida.tex
 (Lista_2_resolvida.tex
@@ -617,88 +617,138 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--254
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 256--265
+Underfull \hbox (badness 10000) in paragraph at lines 256--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--265
+Underfull \hbox (badness 10000) in paragraph at lines 256--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--279
+Overfull \hbox (51.85414pt too wide) in paragraph at lines 264--268
+[]$\OML/cmm/m/it/12 primo[]primeiro[]grau\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT
+1/cmr/m/n/12 1\OML/cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12   \OML
+/cmm/m/it/12 pai\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  P\OT1/cmr/m/n/12 1)\OML/c
+mm/m/it/12 ;  irmaos\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  Y\OT1/cmr/m/n/12 )\OM
+L/cmm/m/it/12 ;  pai\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Y;  P\OT1/cmr/m/n/12 2)\O
+ML/cmm/m/it/12 :$ 
+ []
+
+
+Overfull \hbox (57.67201pt too wide) in paragraph at lines 264--268
+\OML/cmm/m/it/12 primo[]primeiro[]grau\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/c
+mr/m/n/12 1\OML/cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12   \OML/cm
+m/m/it/12 pai\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  P\OT1/cmr/m/n/12 1)\OML/cmm/
+m/it/12 ;  irmaos\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  Y\OT1/cmr/m/n/12 )\OML/c
+mm/m/it/12 ;  mae\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Y;  P\OT1/cmr/m/n/12 2)\OML/
+cmm/m/it/12 :$ 
+ []
+
+
+Overfull \hbox (57.67201pt too wide) in paragraph at lines 264--268
+\OML/cmm/m/it/12 primo[]primeiro[]grau\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/c
+mr/m/n/12 1\OML/cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12   \OML/cm
+m/m/it/12 mae\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  P\OT1/cmr/m/n/12 1)\OML/cmm/
+m/it/12 ;  irmaos\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  Y\OT1/cmr/m/n/12 )\OML/c
+mm/m/it/12 ;  pai\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Y;  P\OT1/cmr/m/n/12 2)\OML/
+cmm/m/it/12 :$ 
+ []
+
+
+Overfull \hbox (63.48988pt too wide) in paragraph at lines 264--268
+\OML/cmm/m/it/12 primo[]primeiro[]grau\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/c
+mr/m/n/12 1\OML/cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12   \OML/cm
+m/m/it/12 mae\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  P\OT1/cmr/m/n/12 1)\OML/cmm/
+m/it/12 ;  irmaos\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  Y\OT1/cmr/m/n/12 )\OML/c
+mm/m/it/12 ;  mae\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Y;  P\OT1/cmr/m/n/12 2)\OML/
+cmm/m/it/12 :$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--268
 
  []
 
 
-Overfull \hbox (81.67831pt too wide) in paragraph at lines 266--279
-\OML/cmm/m/it/12 primo[]de\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\
-OML/cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 ir
-maos\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; 
- descendente\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\OML/cmm/m/it/1
-2 ;  X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  descendente\OT1/cmr/m/n/12 (\OML/cmm
-/m/it/12 P\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/1
-2 :$ 
+Underfull \hbox (badness 10000) in paragraph at lines 269--276
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--282
+Underfull \hbox (badness 10000) in paragraph at lines 269--276
+
+ []
+
+
+Overfull \hbox (81.67831pt too wide) in paragraph at lines 277--283
+[]$\OML/cmm/m/it/12 primo[]de\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/cmr/m/n/12
+ 1\OML/cmm/m/it/12 ;  P\OT1/cmr/m/n/12 2) : \OMS/cmsy/m/n/12   \OML/cmm/m/it/12
+ irmaos\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X;  Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12
+ ;  descendente\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 P\OT1/cmr/m/n/12 1\OML/cmm/m/i
+t/12 ;  X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  descendente\OT1/cmr/m/n/12 (\OML/
+cmm/m/it/12 P\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; Y\OT1/cmr/m/n/12 )\OML/cmm/m/i
+t/12 :$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 284--290
+Underfull \hbox (badness 10000) in paragraph at lines 288--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--290
+Underfull \hbox (badness 10000) in paragraph at lines 288--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--290
+Underfull \hbox (badness 10000) in paragraph at lines 288--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--290
+Underfull \hbox (badness 10000) in paragraph at lines 288--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--297
+Underfull \hbox (badness 10000) in paragraph at lines 295--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--297
+Underfull \hbox (badness 10000) in paragraph at lines 295--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--310
+Underfull \hbox (badness 10000) in paragraph at lines 302--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--310
+Underfull \hbox (badness 10000) in paragraph at lines 302--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--310
+Underfull \hbox (badness 10000) in paragraph at lines 302--314
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 312--326
+Underfull \hbox (badness 10000) in paragraph at lines 316--330
 
  []
 
 
-Overfull \hbox (14.91486pt too wide) in paragraph at lines 312--326
+Overfull \hbox (14.91486pt too wide) in paragraph at lines 316--330
 \OML/cmm/m/it/12 sem[]parentesco\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/
 m/n/12 ) : \OMS/cmsy/m/n/12   \OML/cmm/m/it/12 homem\OT1/cmr/m/n/12 (\OML/cmm/m
 /it/12 X\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  mulher\OT1/cmr/m/n/12 (\OML/cmm/m/
@@ -708,7 +758,7 @@ it/12 Y\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
  []
 
 
-Overfull \hbox (53.77388pt too wide) in paragraph at lines 312--326
+Overfull \hbox (53.77388pt too wide) in paragraph at lines 316--330
 \OML/cmm/m/it/12 not\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 mae\OT1/cmr/m/n/12 (\OML/
 cmm/m/it/12 Y; X\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 ;  not\OT1/cmr/m/n/12 (\OML/
 cmm/m/it/12 irmao[]de\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 X; Y\OT1/cmr/m/n/12 ))\O
@@ -719,22 +769,22 @@ cmm/m/it/12 ; []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--326
+Underfull \hbox (badness 10000) in paragraph at lines 316--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--326
+Underfull \hbox (badness 10000) in paragraph at lines 316--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--326
+Underfull \hbox (badness 10000) in paragraph at lines 316--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--326
+Underfull \hbox (badness 10000) in paragraph at lines 316--330
 
  []
 
@@ -754,7 +804,7 @@ cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Lista_2_resolvida.pdf (10 pages, 118275 bytes).
+Output written on Lista_2_resolvida.pdf (10 pages, 118420 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -258,10 +258,13 @@ Lista de Exercícios No. 2
 					Por isso devemos definir quem é pai ou mãe de P1, chamado de X
 					e quem é irmão ou irmã de X, chamado de Y, depois verificamos se Y é
 					pai ou mãe de P2.\\ \\
-					$primo\_1(P1, \ P2) :- \ pai(X, \ P1), \ irmaos(X, \ Y), \ pai(Y, \ P2).$\\
-					$primo\_1(P1, \ P2) :- \ pai(X, \ P1), \ irmaos(X, \ Y), \ mae(Y, \ P2).$\\
-					$primo\_1(P1, \ P2) :- \ mae(X, \ P1), \ irmaos(X, \ Y), \ pai(Y, \ P2).$\\
-					$primo\_1(P1, \ P2) :- \ mae(X, \ P1), \ irmaos(X, \ Y), \ mae(Y, \ P2).$\\
+					$primo\_1(P1, \ P2) :- \ primo\_primeiro\_grau(P1, \ P2).$\\
+					$primo\_1(P1, \ P2) :- \ primo\_primeiro\_grau(P2, \ P1).$\\
+					
+					$primo\_primeiro\_grau(P1, \ P2) :- \ pai(X, \ P1), \ irmaos(X, \ Y), \ pai(Y, \ P2).$\\
+					$primo\_primeiro\_grau(P1, \ P2) :- \ pai(X, \ P1), \ irmaos(X, \ Y), \ mae(Y, \ P2).$\\
+					$primo\_primeiro\_grau(P1, \ P2) :- \ mae(X, \ P1), \ irmaos(X, \ Y), \ pai(Y, \ P2).$\\
+					$primo\_primeiro\_grau(P1, \ P2) :- \ mae(X, \ P1), \ irmaos(X, \ Y), \ mae(Y, \ P2).$\\
 				\item[\textbf{e) }]
 					\hfill\newline
 					Se X é primo de n-grau de Y e Z é filho de Y, então X é
@@ -270,6 +273,7 @@ Lista de Exercícios No. 2
 					Por isso devemos definir filho/2 e descendente/2.\\ \\
 					$primo(P1, \ P2) :- \ primo\_de(P1, \ P2).$\\
 					$primo(P1, \ P2) :- \ primo\_de(P2, \ P1).$\\
+					
 					$primo\_de(P1, \ P2) :- \ irmaos(X, \ Y), \ descendente(P1, \ X),
 					\ descendente(P2, Y).$\\
 					$filho(X, \ Y) :- \ pai(Y, \ X).$\\
