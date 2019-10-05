@@ -314,8 +314,8 @@ Lista de Exercícios No. 2
 				\newpage
 				\item[\textbf{j) }]
 				\hfill\newline
-				Primeiro verificaremos se não há algum parentesco entre \ "X" \ e \ "Y" \ definindo 
-				a regra:\\ \\
+				Primeiro verificaremos se não há algum parentesco (dentre os que foram definidos no exercício)
+				entre \ "X" \ e \ "Y" \ definindo a regra:\\ \\
 				$sem\_parentesco(X, Y) :- \ homem(X), \ mulher(Y), \ not(pai(X, Y)), \\
 				not(mae(Y, X)), \ not(irmao\_de(X, Y)), \ not(avof(Y, X)), \ not(avom(X, Y)), \\ 
 				not(bisavom(X, Y)), \ not(primo(X, Y)).$\\ \\
@@ -323,10 +323,14 @@ Lista de Exercícios No. 2
 				$sem\_traicao(X, Y) :- \ not(casados(X, \  \_)), \ not(casados(\_ \ , Y)).$\\ \\
 				Por fim podemos criar a regra "adequado" \ (note que \ "Z" \ é a idade do homem e
 				\ "W" \ a idade da mulher):\\ \\
-				$adequados(Hom, Mul) :- \ homem(Hom),  \ mulher(Mul), \\
-				sem\_parentesco(Hom, Mul), \\
-				sem\_traicao(Hom, Mul), \ idade(Hom, Z), \ idade(Mul, W), \\
-				not(Z < W-2), \ not(Z > W+10).$
+				$adequados(X, Y) :- \ homem(X),  \ mulher(Y), \\
+				sem\_parentesco(X, \ Y), \ sem\_traicao(X, \ Y), \\
+				idade(X, \ Z), \ idade(Y, \ W), \\
+				not(Z < W-2), \ not(Z > W+10).$\\ \\
+				$adequados(X, Y) :- \ homem(Y),  \ mulher(X), \\
+				sem\_parentesco(Y, \ X), \ sem\_traicao(Y, \ X), \\
+				idade(Y, \ Z), \ idade(X, \ W), \\
+				not(Z < W-2), \ not(Z > W+10).$\\
 			\end{itemize}
 	\end{itemize}
 \end{document}
