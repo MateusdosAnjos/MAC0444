@@ -81,8 +81,19 @@ Lista de Exercícios No. 3
 			Pela T-Box $\mathcal{T}$ sabemos que toda valoração que satisfaz $Mulher$ também satisfaz
 			$Pessoa$ ($Mulher \sqsubseteq Pessoa$), além disso sabemos também que toda valoração
 			que satisfaz $Mulher$ também satisfaz $\neg Homem$ ($Mulher \sqsubseteq \neg Homem$),
-			portanto toda valoração de $Mulher$ satisfaz $Pessoa$ e $\neg Homem$, ou seja, 
-			$Mulher \sqsubseteq Pessoa \sqcap \neg Homem$.
+			portanto toda valoração de $Mulher$ satisfaz tanto $Pessoa$ quanto $\neg Homem$, ou seja:\\ 
+			$Mulher \sqsubseteq Pessoa \sqcap \neg Homem$.\\
+			
+			Além disso sabemos que toda valoração de $Homem$ satisfaz tanto $Pessoa$ 
+			($Homem \sqsubseteq Pessoa$) quanto $\neg Mulher$ ($Homem \sqsubseteq \neg Mulher$),
+			portanto, a partir de $\mathcal{T}$, $\neg Homem$ deve satisfazer $\neg Pessoa$ ou
+			$Mulher$, sendo assim $Pessoa \sqcap \neg Homem$ só pode ser satisfeito se $Mulher$
+			for satisfeito, ou seja:\\
+			$Pessoa \sqcap \neg Homem \sqsubseteq Mulher$.\\
+			
+			Mostramos que: $Mulher \sqsubseteq Pessoa \sqcap \neg Homem$\\
+			Também mostramos que: $Pessoa \sqcap \neg Homem \sqsubseteq Mulher$\\
+			Então: $Pessoa \sqcap \neg Homem \equiv Mulher$.
 		\item[\textbf{3 -}]
 		\item[\textbf{4 -}]
 	\end{itemize}
