@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  7 OCT 2019 17:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  7 OCT 2019 18:11
 entering extended mode
 **./Lista_3_resolvida.tex
 (Lista_3_resolvida.tex
@@ -577,31 +577,41 @@ OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; z\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ! \OML/
 cmm/m/it/10 Medico\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )))))$ 
  []
 
+<tableaux_questao_4.png, id=12, 672.5125pt x 1084.05pt>
+File: tableaux_questao_4.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--109
+<use tableaux_questao_4.png>
+Package pdftex.def Info: tableaux_questao_4.png used on input line 109.
+(pdftex.def)             Requested size: 403.5106pt x 650.43503pt.
 
+Overfull \hbox (42.8853pt too wide) in paragraph at lines 105--113
+[]
  []
 
-[3] (Lista_3_resolvida.aux) ) 
+[3]
+Overfull \vbox (101.93503pt too high) has occurred while \output is active []
+
+
+[4 <./tableaux_questao_4.png>] [5] (Lista_3_resolvida.aux) ) 
 Here is how much of TeX's memory you used:
- 2651 strings out of 493323
- 34070 string characters out of 3139059
- 99211 words of memory out of 3000000
- 6143 multiletter control sequences out of 15000+200000
+ 2658 strings out of 493323
+ 34211 string characters out of 3139059
+ 100211 words of memory out of 3000000
+ 6148 multiletter control sequences out of 15000+200000
  12390 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,26p,251b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmbsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Lista_3_resolvida.pdf (3 pages, 98457 bytes).
+<C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Lista_3_resolvida.pdf (5 pages, 167004 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
