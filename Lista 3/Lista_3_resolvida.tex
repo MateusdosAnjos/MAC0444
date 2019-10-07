@@ -106,24 +106,5 @@ Lista de Exercícios No. 3
 			Queremos mostrar que $Vegano \sqsubseteq Vegetatiano$, para isso mostraremos,
 			utilizando tableaux, que $Vegano \sqcap \neg Vegetariano$ é inconsistente.\\
 			Resolvendo o tableaux temos:\\
-			\begin{footnotesize}
-				\begin{center}
-					\begin{tabular}{ccr}
-						1. 	& $Vegano \sqcap \neg Vegetariano$ & \\
-							& $\downarrow$ &\\
-						2. 	& $(Homem \sqcap \forall come.Planta) \sqcap \neg( (Homem \sqcup Mulher) \sqcap \forall come(Planta \sqcup Laticinio))$ &\\
-							& $\downarrow$ &\\
-						3. 	& $(Homem \sqcap \forall come.Planta) \sqcap (\neg Homem \sqcap \neg Mulher) \sqcup \exists \neg come(Planta \sqcup Laticinio))$ &\\
-							& $\downarrow$ &\\
-						4. 	& $(Homem \sqcap \forall come.Planta)$ &\\
-							& $\downarrow$ &\\
-						5. 	& $(\neg Homem \sqcap \neg Mulher) \sqcup \exists \neg come(Planta \sqcup Laticinio))$ &\\
-								& $\downarrow$ &\\
-						6.1. 	& $(\neg Homem \sqcap \neg Mulher)$ &\\
-								& $\downarrow$ &\\
-						6.2. 	& $\exists \neg come(Planta \sqcup Laticinio))$ &\\
-					\end{tabular}
-				\end{center}
-			\end{footnotesize}
 	\end{itemize}
 \end{document}
