@@ -72,9 +72,14 @@ Lista de Exercícios No. 3
 		\item[\textbf{4 -}]
 			\hfill\newline
 			Queremos mostrar que $Vegano \sqsubseteq Vegetatiano$, para isso mostraremos,
-			utilizando tableaux, que $Vegano \sqcap \neg Vegetariano$ é inconsistente.\\
-			Resolvendo o tableaux temos:\\
+			utilizando tableaux, que $(Vegano \sqcap \neg Vegetariano)(x)$ é inconsistente, ou
+			seja, que não existe nenhum $x$ tal que $Vegano(x)$ seja verdadeiro e $Vegetariano(x)$
+			seja falso.
+			\newpage
+			Resolvendo o tableaux temos:
+			\hfill\newline	\hfill\newline			
 			\includegraphics[width=\linewidth]{tableaux_questao_4.png}
+			\hfill\newline			
 			Fechamos todos os ramos do tableaux com uma contradição, por isso
 			$Vegano \sqcap \neg Vegetariano$ é insatisfatível, logo $Vegano \sqsubseteq Vegetatiano$ 
 			está mostrado.
