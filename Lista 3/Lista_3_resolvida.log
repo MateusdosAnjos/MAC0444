@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  9 OCT 2019 14:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  9 OCT 2019 15:00
 entering extended mode
 **./Lista_3_resolvida.tex
 (Lista_3_resolvida.tex
@@ -507,66 +507,28 @@ edico(a)
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 44.
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--52
+Underfull \hbox (badness 10000) in paragraph at lines 49--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--56
-
- []
-
-
-Overfull \hbox (6.03197pt too wide) in paragraph at lines 56--65
-\OT1/cmr/m/n/12 Desta forma, ao ex-cluir-mos Pe-dro, n~ao po-de-mos afir-mar qu
-e alguem
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--65
-
- []
-
-
-Overfull \hbox (7.17639pt too wide) in paragraph at lines 65--75
-\OT1/cmr/m/n/12 Desta forma, ao ex-cluir-mos Olvia, n~ao po-de-mos afir-mar q
-ue alguem
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 78--84
-
- []
-
-
-Overfull \hbox (5.85152pt too wide) in paragraph at lines 85--91
+Overfull \hbox (5.85152pt too wide) in paragraph at lines 56--62
 []\OT1/cmr/m/n/12 Alem disso sa-be-mos que toda va-lorac~ao de $\OML/cmm/m/it
 /12 Homem$ \OT1/cmr/m/n/12 sa-tis-faz tanto $\OML/cmm/m/it/12 Pessoa$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--91
+Underfull \hbox (badness 10000) in paragraph at lines 56--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 
-Overfull \hbox (12.91335pt too wide) in paragraph at lines 100--102
+Overfull \hbox (12.91335pt too wide) in paragraph at lines 71--73
 \OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 9\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 (\OML/cmm/
 m/it/10 temFilho\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 ) \OMS/cm
 sy/m/n/10 ^ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Homem\OT1/cmr/m/n/10 (\OML/cmm/m/
@@ -577,41 +539,41 @@ OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; z\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ! \OML/
 cmm/m/it/10 Medico\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )))))$ 
  []
 
-<tableaux_questao_4.png, id=12, 672.5125pt x 1084.05pt>
+<tableaux_questao_4.png, id=8, 672.5125pt x 1084.05pt>
 File: tableaux_questao_4.png Graphic file (type png)
 
 <use tableaux_questao_4.png>
-Package pdftex.def Info: tableaux_questao_4.png used on input line 107.
+Package pdftex.def Info: tableaux_questao_4.png used on input line 78.
 (pdftex.def)             Requested size: 403.5106pt x 650.43503pt.
 
-Overfull \hbox (42.8853pt too wide) in paragraph at lines 103--111
+Overfull \hbox (42.8853pt too wide) in paragraph at lines 74--82
 []
  []
 
-[3]
+[2]
 Overfull \vbox (101.93503pt too high) has occurred while \output is active []
 
 
-[4 <./tableaux_questao_4.png>] [5] (Lista_3_resolvida.aux) ) 
+[3 <./tableaux_questao_4.png>] [4] (Lista_3_resolvida.aux) ) 
 Here is how much of TeX's memory you used:
- 2658 strings out of 493323
- 34211 string characters out of 3139059
+ 2638 strings out of 493323
+ 33892 string characters out of 3139059
  100211 words of memory out of 3000000
- 6148 multiletter control sequences out of 15000+200000
- 12390 words of font info for 49 fonts, out of 3000000 for 9000
+ 6132 multiletter control sequences out of 15000+200000
+ 12135 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,26p,251b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Lista_3_resolvida.pdf (5 pages, 170111 bytes).
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+>
+Output written on Lista_3_resolvida.pdf (4 pages, 160025 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
