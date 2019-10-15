@@ -49,13 +49,13 @@ Lista de Exercícios No. 3
 			\hfill\newline
 			Vamos construir um contra-exemplo simples para mostrar que o
 			axioma $Pessoa \sqcap \neg Homem \equiv Mulher$ não é
-			consequência lógica de $\mathcal{T}$.\\
-			
-			$\Delta^\mathcal{I} = \lbrace \alpha, \beta, \gamma \rbrace$\\
-			$Pessoa^\mathcal{I} = \lbrace \alpha, \beta, \gamma \rbrace$\\
-			$Homem^\mathcal{I} = \lbrace \alpha \rbrace$\\
-			$Mulher^\mathcal{I} = \lbrace \beta \rbrace$\\
-			
+			consequência lógica de $\mathcal{T}$.
+			\begin{center}
+				$\Delta^\mathcal{I} = \lbrace \alpha, \beta, \gamma \rbrace$\\
+				$Pessoa^\mathcal{I} = \lbrace \alpha, \beta, \gamma \rbrace$\\
+				$Homem^\mathcal{I} = \lbrace \alpha \rbrace$\\
+				$Mulher^\mathcal{I} = \lbrace \beta \rbrace$
+			\end{center}
 			Perceba que não contradizemos nada que está definido na $T$-Box $\mathcal{T}$,
 			porém\\
 			$\gamma: Pessoa \sqcap \neg Homem$ é verdadeiro.\\
@@ -65,23 +65,28 @@ Lista de Exercícios No. 3
 		\item[\textbf{3 -}]
 			\hfill\newline
 			Traduzindo o axioma para uma sentença da Lógica de Primeira Ordem temos:\\
-			
 			\begin{footnotesize}
 			$\forall x( PaiDeMedicos(x) \rightarrow \\ (\exists y(temFilho(x, y) \wedge (Homem(y) \vee Mulher(y))) \wedge (\forall z (temFilho(x, z) \rightarrow Medico(z)))))$
 			\end{footnotesize}			
 		\item[\textbf{4 -}]
 			\hfill\newline
-			Queremos mostrar que $Vegano \sqsubseteq Vegetatiano$, para isso mostraremos,
-			utilizando tableaux, que $(Vegano \sqcap \neg Vegetariano)(x)$ é inconsistente, ou
-			seja, que não existe nenhum $x$ tal que $Vegano(x)$ seja verdadeiro e $Vegetariano(x)$
-			seja falso.
+			Queremos mostrar que a base de conhecimento composta pelos conceitos (e equivalências) do
+			enunciado tem como consequência:\\ $Vegano \sqsubseteq Vegetatiano$. \\
+			Para isso mostraremos,
+			utilizando tableaux, que a base de conhecimento acrescida da sentença $(Vegano \sqcap \neg 
+			Vegetariano)(x)$ é inconsistente, ou
+			seja, que em qualquer interpretação que satisfaça a base de conhecimento não existe nenhum $x$
+			tal que $Vegano(x)$ seja verdadeiro e $Vegetariano(x)$ seja falso.\\
 			\newpage
 			Resolvendo o tableaux temos:
 			\hfill\newline	\hfill\newline			
 			\includegraphics[width=\linewidth]{tableaux_questao_4.png}
-			\hfill\newline			
+			\newpage	
 			Fechamos todos os ramos do tableaux com uma contradição, por isso
-			$Vegano \sqcap \neg Vegetariano$ é insatisfatível, logo $Vegano \sqsubseteq Vegetatiano$ 
-			está mostrado.
+			mostramos que não há interpretação que satisfaça a base de
+			conhecimento do enunciado e que mapeie o conceito
+			$Vegano \sqcap \neg Vegetariano$ para um conjunto não vazio,
+			logo provamos que $Vegano \sqsubseteq Vegetatiano$ é
+			consequência desta base de conhecimento.
 	\end{itemize}
 \end{document}
