@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/root/ontologies/2019/10/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/root/ontologies/2019/10/untitled-ontology-2"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -13,39 +14,44 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://xmlns.com/foaf/0.1/</Import>
     <Declaration>
-        <Class IRI="#Ator"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Atriz"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Diretor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estrela"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Filme"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#atua"/>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#dirige"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#elenco"/>
+        <ObjectProperty IRI="#dirigido_por"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <ObjectProperty IRI="#estrela_em"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estrelado_por"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nome_da_estrela"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nome_do_diretor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nome_do_filme"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#Ator"/>
-        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Atriz"/>
-        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Diretor"/>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estrela"/>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
     </SubClassOf>
     <SubClassOf>
@@ -53,36 +59,85 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </SubClassOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#atua"/>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#dirige"/>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#elenco"/>
+        <ObjectProperty IRI="#dirigido_por"/>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
     </SubObjectPropertyOf>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#atua"/>
-        <ObjectUnionOf>
-            <Class IRI="#Ator"/>
-            <Class IRI="#Atriz"/>
-        </ObjectUnionOf>
-    </ObjectPropertyDomain>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#estrela_em"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#estrelado_por"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#dirige"/>
+        <ObjectProperty IRI="#dirigido_por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#estrela_em"/>
+        <ObjectProperty IRI="#estrelado_por"/>
+    </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#dirige"/>
         <Class IRI="#Diretor"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#atua"/>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dirigido_por"/>
         <Class IRI="#Filme"/>
-    </ObjectPropertyRange>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estrela_em"/>
+        <Class IRI="#Estrela"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estrelado_por"/>
+        <Class IRI="#Filme"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#dirige"/>
         <Class IRI="#Filme"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dirigido_por"/>
+        <Class IRI="#Diretor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estrela_em"/>
+        <Class IRI="#Filme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estrelado_por"/>
+        <Class IRI="#Estrela"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nome_do_filme"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <Class IRI="#Estrela"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <Class IRI="#Diretor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nome_do_filme"/>
+        <Class IRI="#Filme"/>
+    </DataPropertyDomain>
 </Ontology>
 
 
