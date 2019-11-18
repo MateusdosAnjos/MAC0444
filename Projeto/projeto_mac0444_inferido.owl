@@ -1,0 +1,679 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mateus/ontologies/2019/10/projeto_mac0444_inferido#"
+     xml:base="http://www.semanticweb.org/mateus/ontologies/2019/10/projeto_mac0444_inferido"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:projeto_mac0444="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mateus/ontologies/2019/10/projeto_mac0444_inferido"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirige -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirige">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirigido_por"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirigido_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirigido_por">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#estrela_em -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#estrela_em">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#estrelado_por"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#estrelado_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#estrelado_por">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/depiction">
+        <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depicts -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/depicts"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/homepage -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/homepage">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/primaryTopic"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/img -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/img">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/depiction"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/depicts"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/isPrimaryTopicOf -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/isPrimaryTopicOf">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/topic"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/primaryTopic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/made -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/made">
+        <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/maker -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/maker"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/openid -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/openid">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/primaryTopic"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/page -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/page">
+        <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/primaryTopic -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/primaryTopic">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/topic"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/tipjar -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/tipjar">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/topic"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/topic -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/topic"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/weblog -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/weblog">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/topic"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_da_estrela -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_da_estrela">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/firstName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_diretor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_diretor">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/firstName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_familia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_familia">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/familyName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#titulo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#titulo"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/age -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/age">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/aimChatID -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/aimChatID">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/nick"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/birthday -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/birthday">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/familyName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/familyName"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/firstName"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/gender -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/gender">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/icqChatID -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/icqChatID">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/nick"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/msnChatID -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/msnChatID">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/nick"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/nick -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/nick"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/skypeID -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/skypeID">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/nick"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/yahooChatID -->
+
+    <owl:DatatypeProperty rdf:about="http://xmlns.com/foaf/0.1/yahooChatID">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/nick"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/Agent -->
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/Agent">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/CreativeWork -->
+
+    <owl:Class rdf:about="http://schema.org/CreativeWork">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/ImageObject -->
+
+    <owl:Class rdf:about="http://schema.org/ImageObject">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://schema.org/Person -->
+
+    <owl:Class rdf:about="http://schema.org/Person">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Person"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Person"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2000/10/swap/pim/contact#Person -->
+
+    <owl:Class rdf:about="http://www.w3.org/2000/10/swap/pim/contact#Person">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing -->
+
+    <owl:Class rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Document -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Document">
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Group -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Group">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Image -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Image">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/OnlineAccount -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/OnlineAccount"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/OnlineChatAccount -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/OnlineChatAccount">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/OnlineAccount"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/OnlineEcommerceAccount -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/OnlineEcommerceAccount">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/OnlineAccount"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/OnlineGamingAccount -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/OnlineGamingAccount">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/OnlineAccount"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/PersonalProfileDocument -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/PersonalProfileDocument">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Project -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Project"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <projeto_mac0444:dirige rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_volta_dos_que_nao_foram"/>
+        <projeto_mac0444:dirige rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo"/>
+        <projeto_mac0444:dirige rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_penguim_que_sonhava_em_voar"/>
+        <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_volta_dos_que_nao_foram"/>
+        <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo"/>
+        <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_penguim_que_sonhava_em_voar"/>
+        <projeto_mac0444:nome_do_diretor>Joao Migual</projeto_mac0444:nome_do_diretor>
+        <projeto_mac0444:nome_familia>Migual</projeto_mac0444:nome_familia>
+        <foaf:familyName>Migual</foaf:familyName>
+        <foaf:firstName>Joao Migual</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Mateus_Anjos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Mateus_Anjos">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <projeto_mac0444:estrela_em rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo"/>
+        <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo"/>
+        <projeto_mac0444:nome_da_estrela>Mateus Anjos</projeto_mac0444:nome_da_estrela>
+        <projeto_mac0444:nome_familia>Anjos</projeto_mac0444:nome_familia>
+        <foaf:familyName>Anjos</foaf:familyName>
+        <foaf:firstName>Mateus Anjos</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Vicente_Anjos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Vicente_Anjos">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <projeto_mac0444:nome_da_estrela>Vicente Anjos</projeto_mac0444:nome_da_estrela>
+        <projeto_mac0444:nome_familia>Anjos</projeto_mac0444:nome_familia>
+        <foaf:familyName>Anjos</foaf:familyName>
+        <foaf:firstName>Vicente Anjos</foaf:firstName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_volta_dos_que_nao_foram -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_volta_dos_que_nao_foram">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <projeto_mac0444:dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
+        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
+        <projeto_mac0444:titulo>a volta dos que nao foram</projeto_mac0444:titulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#formigas_assassinas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#formigas_assassinas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <projeto_mac0444:titulo>formigas assassinas</projeto_mac0444:titulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <projeto_mac0444:dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
+        <projeto_mac0444:estrelado_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Mateus_Anjos"/>
+        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
+        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Mateus_Anjos"/>
+        <projeto_mac0444:titulo>o melhor filme do mundo</projeto_mac0444:titulo>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_penguim_que_sonhava_em_voar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_penguim_que_sonhava_em_voar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+        <projeto_mac0444:dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
+        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
+        <projeto_mac0444:titulo>o penguim que sonhava em voar</projeto_mac0444:titulo>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
