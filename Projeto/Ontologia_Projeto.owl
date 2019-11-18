@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444">
-    <Prefix name="" IRI="http://www.semanticweb.org/root/ontologies/2019/10/untitled-ontology-2"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -61,6 +61,15 @@
     <Declaration>
         <DataProperty IRI="#titulo"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joao_Migual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mateus_Anjos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Diretor"/>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
@@ -73,6 +82,51 @@
         <Class IRI="#Filme"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Diretor"/>
+        <Class IRI="#Estrela"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Diretor"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Estrela"/>
+        <NamedIndividual IRI="#Mateus_Anjos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filme"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dirige"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrela_em"/>
+        <NamedIndividual IRI="#Mateus_Anjos"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+        <Literal>Joao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <NamedIndividual IRI="#Mateus_Anjos"/>
+        <Literal>Mateus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#Mateus_Anjos"/>
+        <Literal>Anjos</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#dirige"/>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
