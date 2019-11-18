@@ -65,7 +65,16 @@
         <NamedIndividual IRI="#Vicente_Anjos"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#a_volta_dos_que_nao_foram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#formigas_assassinas"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#o_penguim_que_sonhava_em_voar"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Diretor"/>
@@ -101,7 +110,19 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Filme"/>
+        <NamedIndividual IRI="#a_volta_dos_que_nao_foram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filme"/>
+        <NamedIndividual IRI="#formigas_assassinas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filme"/>
         <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filme"/>
+        <NamedIndividual IRI="#o_penguim_que_sonhava_em_voar"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#dirige"/>
@@ -113,10 +134,20 @@
         <NamedIndividual IRI="#Mateus_Anjos"/>
         <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dirigido_por"/>
+        <NamedIndividual IRI="#a_volta_dos_que_nao_foram"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dirigido_por"/>
+        <NamedIndividual IRI="#o_penguim_que_sonhava_em_voar"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nome_do_diretor"/>
         <NamedIndividual IRI="#Joao_Migual"/>
-        <Literal>Joao</Literal>
+        <Literal>Joao Migual</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nome_familia"/>
@@ -126,7 +157,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nome_da_estrela"/>
         <NamedIndividual IRI="#Mateus_Anjos"/>
-        <Literal>Mateus</Literal>
+        <Literal>Mateus Anjos</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nome_familia"/>
@@ -136,7 +167,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#nome_da_estrela"/>
         <NamedIndividual IRI="#Vicente_Anjos"/>
-        <Literal>Vicente</Literal>
+        <Literal>Vicente Anjos</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nome_familia"/>
@@ -145,8 +176,23 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#a_volta_dos_que_nao_foram"/>
+        <Literal>a volta dos que nao foram</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#formigas_assassinas"/>
+        <Literal>formigas assassinas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
         <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
         <Literal>o melhor filme do mundo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#o_penguim_que_sonhava_em_voar"/>
+        <Literal>o penguim que sonhava em voar</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#dirige"/>
