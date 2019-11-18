@@ -38,6 +38,12 @@
         <ObjectProperty IRI="#estrelado_por"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#ano_lancamento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duracao"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#nome_da_estrela"/>
     </Declaration>
     <Declaration>
@@ -45,6 +51,15 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#nome_do_filme"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nome_familia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sobrenome"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#titulo"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Diretor"/>
@@ -126,6 +141,22 @@
         <DataProperty IRI="#nome_do_filme"/>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
     </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nome_familia"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/familyName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#sobrenome"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ano_lancamento"/>
+        <Class IRI="#Filme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duracao"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#nome_da_estrela"/>
         <Class IRI="#Estrela"/>
@@ -138,6 +169,50 @@
         <DataProperty IRI="#nome_do_filme"/>
         <Class IRI="#Filme"/>
     </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nome_familia"/>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sobrenome"/>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#titulo"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ano_lancamento"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duracao"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nome_do_filme"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nome_familia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#sobrenome"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#titulo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
 </Ontology>
 
 
