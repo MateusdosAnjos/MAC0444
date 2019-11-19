@@ -4,8 +4,8 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
-SELECT ?filme
+SELECT ?filme ?diretor
 WHERE {
-	?diretor :nome_do_diretor "Joao Migual".
+	?diretor :nome_do_diretor "Joao".
 	?diretor :dirige ?filme.
 }

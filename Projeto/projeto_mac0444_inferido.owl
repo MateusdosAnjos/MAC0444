@@ -77,6 +77,33 @@
     
 
 
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interpreta -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interpreta">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interpretado_por"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interpretado_por -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interpretado_por">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/maker"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://xmlns.com/foaf/0.1/made"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/depiction -->
 
     <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/depiction">
@@ -222,6 +249,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ano_lancamento -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ano_lancamento"/>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#duracao -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#duracao"/>
+    
+
+
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_da_estrela -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_da_estrela">
@@ -233,6 +272,14 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_diretor -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_diretor">
+        <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/firstName"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_personagem -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_personagem">
         <rdfs:subPropertyOf rdf:resource="http://xmlns.com/foaf/0.1/firstName"/>
     </owl:DatatypeProperty>
     
@@ -391,13 +438,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor">
         <rdfs:subClassOf rdf:resource="http://schema.org/Person"/>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <owl:disjointWith rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
         <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
@@ -428,6 +496,12 @@
         <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
     
 
 
@@ -574,76 +648,94 @@
         <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <projeto_mac0444:dirige rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_volta_dos_que_nao_foram"/>
         <projeto_mac0444:dirige rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo"/>
-        <projeto_mac0444:dirige rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_penguim_que_sonhava_em_voar"/>
-        <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_volta_dos_que_nao_foram"/>
         <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo"/>
-        <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_penguim_que_sonhava_em_voar"/>
-        <projeto_mac0444:nome_do_diretor>Joao Migual</projeto_mac0444:nome_do_diretor>
+        <projeto_mac0444:nome_do_diretor>Joao</projeto_mac0444:nome_do_diretor>
         <projeto_mac0444:nome_familia>Migual</projeto_mac0444:nome_familia>
         <foaf:familyName>Migual</foaf:familyName>
-        <foaf:firstName>Joao Migual</foaf:firstName>
+        <foaf:firstName>Joao</foaf:firstName>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Mateus_Anjos -->
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Rebecca_Albelinsky -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Mateus_Anjos">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Rebecca_Albelinsky">
         <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
         <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela"/>
         <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <projeto_mac0444:estrela_em rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo"/>
+        <projeto_mac0444:interpreta rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_bonitona"/>
+        <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_bonitona"/>
         <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo"/>
-        <projeto_mac0444:nome_da_estrela>Mateus Anjos</projeto_mac0444:nome_da_estrela>
-        <projeto_mac0444:nome_familia>Anjos</projeto_mac0444:nome_familia>
-        <foaf:familyName>Anjos</foaf:familyName>
-        <foaf:firstName>Mateus Anjos</foaf:firstName>
+        <projeto_mac0444:nome_da_estrela>Rebecca</projeto_mac0444:nome_da_estrela>
+        <projeto_mac0444:nome_familia>Albelinsky</projeto_mac0444:nome_familia>
+        <foaf:familyName>Albelinsky</foaf:familyName>
+        <foaf:firstName>Rebecca</foaf:firstName>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Vicente_Anjos -->
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Roberto_Phisck -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Vicente_Anjos">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Roberto_Phisck">
         <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
         <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela"/>
         <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <projeto_mac0444:nome_da_estrela>Vicente Anjos</projeto_mac0444:nome_da_estrela>
-        <projeto_mac0444:nome_familia>Anjos</projeto_mac0444:nome_familia>
-        <foaf:familyName>Anjos</foaf:familyName>
-        <foaf:firstName>Vicente Anjos</foaf:firstName>
+        <projeto_mac0444:estrela_em rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo"/>
+        <projeto_mac0444:interpreta rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_bonitao"/>
+        <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_bonitao"/>
+        <foaf:made rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo"/>
+        <projeto_mac0444:nome_da_estrela>Roberto</projeto_mac0444:nome_da_estrela>
+        <projeto_mac0444:nome_familia>Phisck</projeto_mac0444:nome_familia>
+        <foaf:familyName>Phisck</foaf:familyName>
+        <foaf:firstName>Roberto</foaf:firstName>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_volta_dos_que_nao_foram -->
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_bonitona -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_volta_dos_que_nao_foram">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
-        <projeto_mac0444:dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
-        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
-        <projeto_mac0444:titulo>a volta dos que nao foram</projeto_mac0444:titulo>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_bonitona">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <projeto_mac0444:interpretado_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Rebecca_Albelinsky"/>
+        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Rebecca_Albelinsky"/>
+        <projeto_mac0444:nome_do_personagem>a bonitona</projeto_mac0444:nome_do_personagem>
+        <foaf:firstName>a bonitona</foaf:firstName>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#formigas_assassinas -->
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_bonitao -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#formigas_assassinas">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
-        <projeto_mac0444:titulo>formigas assassinas</projeto_mac0444:titulo>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_bonitao">
+        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
+        <rdf:type rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <projeto_mac0444:interpretado_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Roberto_Phisck"/>
+        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Roberto_Phisck"/>
+        <projeto_mac0444:nome_do_personagem>o bonitao</projeto_mac0444:nome_do_personagem>
+        <foaf:firstName>o bonitao</foaf:firstName>
     </owl:NamedIndividual>
     
 
@@ -654,22 +746,14 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
         <projeto_mac0444:dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
-        <projeto_mac0444:estrelado_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Mateus_Anjos"/>
+        <projeto_mac0444:estrelado_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Rebecca_Albelinsky"/>
+        <projeto_mac0444:estrelado_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Roberto_Phisck"/>
         <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
-        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Mateus_Anjos"/>
+        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Rebecca_Albelinsky"/>
+        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Roberto_Phisck"/>
+        <projeto_mac0444:ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</projeto_mac0444:ano_lancamento>
+        <projeto_mac0444:duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128</projeto_mac0444:duracao>
         <projeto_mac0444:titulo>o melhor filme do mundo</projeto_mac0444:titulo>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_penguim_que_sonhava_em_voar -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_penguim_que_sonhava_em_voar">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Project"/>
-        <projeto_mac0444:dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
-        <foaf:maker rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual"/>
-        <projeto_mac0444:titulo>o penguim que sonhava em voar</projeto_mac0444:titulo>
     </owl:NamedIndividual>
 </rdf:RDF>
 

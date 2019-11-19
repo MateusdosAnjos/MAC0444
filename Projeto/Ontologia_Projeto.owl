@@ -73,6 +73,24 @@
     <Declaration>
         <DataProperty IRI="#titulo"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joao_Migual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a_bonitona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#o_bonitao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Ator"/>
         <Class IRI="#Estrela"/>
@@ -97,6 +115,120 @@
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Diretor"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atriz"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ator"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personagem"/>
+        <NamedIndividual IRI="#a_bonitona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personagem"/>
+        <NamedIndividual IRI="#o_bonitao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filme"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dirige"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrela_em"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrela_em"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <NamedIndividual IRI="#a_bonitona"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <NamedIndividual IRI="#o_bonitao"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrelado_por"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrelado_por"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+        <Literal>Joao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+        <Literal>Migual</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+        <Literal>Rebecca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+        <Literal>Albelinsky</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+        <Literal>Roberto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+        <Literal>Phisck</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_personagem"/>
+        <NamedIndividual IRI="#a_bonitona"/>
+        <Literal>a bonitona</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_personagem"/>
+        <NamedIndividual IRI="#o_bonitao"/>
+        <Literal>o bonitao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ano_lancamento"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracao"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">128</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+        <Literal>o melhor filme do mundo</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#dirige"/>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
