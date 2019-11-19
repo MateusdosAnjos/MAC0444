@@ -14,6 +14,12 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://xmlns.com/foaf/0.1/</Import>
     <Declaration>
+        <Class IRI="#Ator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atriz"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Diretor"/>
     </Declaration>
     <Declaration>
@@ -21,6 +27,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Filme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personagem"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
@@ -36,6 +45,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#estrelado_por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interpreta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interpretado_por"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ano_lancamento"/>
@@ -50,32 +65,22 @@
         <DataProperty IRI="#nome_do_diretor"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#nome_do_personagem"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#nome_familia"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#titulo"/>
     </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Joao_Migual"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Mateus_Anjos"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Vicente_Anjos"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#a_volta_dos_que_nao_foram"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#formigas_assassinas"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#o_penguim_que_sonhava_em_voar"/>
-    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Ator"/>
+        <Class IRI="#Estrela"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atriz"/>
+        <Class IRI="#Estrela"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Diretor"/>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
@@ -89,111 +94,9 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="#Diretor"/>
-        <Class IRI="#Estrela"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
-    <ClassAssertion>
-        <Class IRI="#Diretor"/>
-        <NamedIndividual IRI="#Joao_Migual"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Estrela"/>
-        <NamedIndividual IRI="#Mateus_Anjos"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Estrela"/>
-        <NamedIndividual IRI="#Vicente_Anjos"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Filme"/>
-        <NamedIndividual IRI="#a_volta_dos_que_nao_foram"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Filme"/>
-        <NamedIndividual IRI="#formigas_assassinas"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Filme"/>
-        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Filme"/>
-        <NamedIndividual IRI="#o_penguim_que_sonhava_em_voar"/>
-    </ClassAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#dirige"/>
-        <NamedIndividual IRI="#Joao_Migual"/>
-        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#estrela_em"/>
-        <NamedIndividual IRI="#Mateus_Anjos"/>
-        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#dirigido_por"/>
-        <NamedIndividual IRI="#a_volta_dos_que_nao_foram"/>
-        <NamedIndividual IRI="#Joao_Migual"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#dirigido_por"/>
-        <NamedIndividual IRI="#o_penguim_que_sonhava_em_voar"/>
-        <NamedIndividual IRI="#Joao_Migual"/>
-    </ObjectPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#nome_do_diretor"/>
-        <NamedIndividual IRI="#Joao_Migual"/>
-        <Literal>Joao Migual</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#nome_familia"/>
-        <NamedIndividual IRI="#Joao_Migual"/>
-        <Literal>Migual</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#nome_da_estrela"/>
-        <NamedIndividual IRI="#Mateus_Anjos"/>
-        <Literal>Mateus Anjos</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#nome_familia"/>
-        <NamedIndividual IRI="#Mateus_Anjos"/>
-        <Literal>Anjos</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#nome_da_estrela"/>
-        <NamedIndividual IRI="#Vicente_Anjos"/>
-        <Literal>Vicente Anjos</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#nome_familia"/>
-        <NamedIndividual IRI="#Vicente_Anjos"/>
-        <Literal>Anjos</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#titulo"/>
-        <NamedIndividual IRI="#a_volta_dos_que_nao_foram"/>
-        <Literal>a volta dos que nao foram</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#titulo"/>
-        <NamedIndividual IRI="#formigas_assassinas"/>
-        <Literal>formigas assassinas</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#titulo"/>
-        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
-        <Literal>o melhor filme do mundo</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#titulo"/>
-        <NamedIndividual IRI="#o_penguim_que_sonhava_em_voar"/>
-        <Literal>o penguim que sonhava em voar</Literal>
-    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#dirige"/>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
@@ -208,6 +111,14 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#estrelado_por"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#interpreta"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#interpretado_por"/>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
@@ -217,6 +128,10 @@
     <InverseObjectProperties>
         <ObjectProperty IRI="#estrela_em"/>
         <ObjectProperty IRI="#estrelado_por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#interpreta"/>
+        <ObjectProperty IRI="#interpretado_por"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#dirige"/>
@@ -234,6 +149,10 @@
         <ObjectProperty IRI="#estrelado_por"/>
         <Class IRI="#Filme"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#interpreta"/>
+        <Class IRI="#Estrela"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#dirige"/>
         <Class IRI="#Filme"/>
@@ -249,6 +168,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#estrelado_por"/>
         <Class IRI="#Estrela"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interpreta"/>
+        <Class IRI="#Personagem"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#nome_da_estrela"/>
@@ -256,6 +179,10 @@
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#nome_do_diretor"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nome_do_personagem"/>
         <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -279,6 +206,10 @@
         <Class IRI="#Diretor"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#nome_do_personagem"/>
+        <Class IRI="#Personagem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#nome_familia"/>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
     </DataPropertyDomain>
@@ -300,6 +231,10 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#nome_do_diretor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nome_do_personagem"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
