@@ -1,0 +1,201 @@
+@prefix : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444> .
+
+<http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444> rdf:type owl:Ontology ;
+                                                                      owl:imports <http://xmlns.com/foaf/0.1/> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirige
+:dirige rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
+        owl:inverseOf :dirigido_por ;
+        rdfs:domain :Diretor ;
+        rdfs:range :Filme .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirigido_por
+:dirigido_por rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/maker> ;
+              rdfs:domain :Filme ;
+              rdfs:range :Diretor .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#estrela_em
+:estrela_em rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
+            owl:inverseOf :estrelado_por ;
+            rdfs:domain :Estrela ;
+            rdfs:range :Filme .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#estrelado_por
+:estrelado_por rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/maker> ;
+               rdfs:domain :Filme ;
+               rdfs:range :Estrela .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interpreta
+:interpreta rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
+            owl:inverseOf :interpretado_por ;
+            rdfs:domain :Estrela ;
+            rdfs:range :Personagem .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interpretado_por
+:interpretado_por rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/maker> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ano_lancamento
+:ano_lancamento rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Filme ;
+                rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#duracao
+:duracao rdf:type owl:DatatypeProperty ;
+         rdfs:domain <http://xmlns.com/foaf/0.1/Project> ;
+         rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_da_estrela
+:nome_da_estrela rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
+                 rdfs:domain :Estrela ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_diretor
+:nome_do_diretor rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
+                 rdfs:domain :Diretor ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_personagem
+:nome_do_personagem rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
+                    rdfs:domain :Personagem ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_familia
+:nome_familia rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/familyName> ;
+              rdfs:domain <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#titulo
+:titulo rdf:type owl:DatatypeProperty ;
+        rdfs:domain <http://xmlns.com/foaf/0.1/Project> ;
+        rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator
+:Ator rdf:type owl:Class ;
+      rdfs:subClassOf :Estrela .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz
+:Atriz rdf:type owl:Class ;
+       rdfs:subClassOf :Estrela .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor
+:Diretor rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela
+:Estrela rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme
+:Filme rdf:type owl:Class ;
+       rdfs:subClassOf <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem
+:Personagem rdf:type owl:Class .
+
+
+###  http://www.w3.org/2000/10/swap/pim/contact#Person
+<http://www.w3.org/2000/10/swap/pim/contact#Person> rdf:type owl:Class ;
+                                                    owl:disjointWith <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://xmlns.com/foaf/0.1/Project
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual
+:Joao_Migual rdf:type owl:NamedIndividual ,
+                      :Diretor ;
+             :dirige :o_melhor_filme_do_mundo ;
+             :nome_do_diretor "Joao" ;
+             :nome_familia "Migual" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Rebecca_Albelinsky
+:Rebecca_Albelinsky rdf:type owl:NamedIndividual ,
+                             :Atriz ;
+                    :estrela_em :o_melhor_filme_do_mundo ;
+                    :nome_da_estrela "Rebecca" ;
+                    :nome_familia "Albelinsky" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Roberto_Phisck
+:Roberto_Phisck rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :estrela_em :o_melhor_filme_do_mundo ;
+                :nome_da_estrela "Roberto" ;
+                :nome_familia "Phisck" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_bonitona
+:a_bonitona rdf:type owl:NamedIndividual ,
+                     :Personagem ;
+            :interpretado_por :Rebecca_Albelinsky ;
+            :nome_do_personagem "a bonitona" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_bonitao
+:o_bonitao rdf:type owl:NamedIndividual ,
+                    :Personagem ;
+           :interpretado_por :Roberto_Phisck ;
+           :nome_do_personagem "o bonitao" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo
+:o_melhor_filme_do_mundo rdf:type owl:NamedIndividual ,
+                                  :Filme ;
+                         :estrelado_por :Rebecca_Albelinsky ,
+                                        :Roberto_Phisck ;
+                         :ano_lancamento 2018 ;
+                         :duracao 128 ;
+                         :titulo "o melhor filme do mundo" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
