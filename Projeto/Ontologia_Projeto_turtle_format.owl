@@ -13,6 +13,13 @@
 #    Object Properties
 #################################################################
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#contem_personagem
+:contem_personagem rdf:type owl:ObjectProperty ;
+                   owl:inverseOf :personagem_em ;
+                   rdfs:domain :Filme ;
+                   rdfs:range :Personagem .
+
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirige
 :dirige rdf:type owl:ObjectProperty ;
         rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
@@ -53,7 +60,15 @@
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interpretado_por
 :interpretado_por rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/maker> .
+                  rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/maker> ;
+                  rdfs:domain :Personagem ;
+                  rdfs:range :Estrela .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#personagem_em
+:personagem_em rdf:type owl:ObjectProperty ;
+               rdfs:domain :Personagem ;
+               rdfs:range :Filme .
 
 
 #################################################################
@@ -178,6 +193,7 @@
 :a_bonitona rdf:type owl:NamedIndividual ,
                      :Personagem ;
             :interpretado_por :Rebecca_Albelinsky ;
+            :personagem_em :o_melhor_filme_do_mundo ;
             :nome_do_personagem "a bonitona" .
 
 
@@ -185,6 +201,7 @@
 :o_bonitao rdf:type owl:NamedIndividual ,
                     :Personagem ;
            :interpretado_por :Roberto_Phisck ;
+           :personagem_em :o_melhor_filme_do_mundo ;
            :nome_do_personagem "o bonitao" .
 
 
