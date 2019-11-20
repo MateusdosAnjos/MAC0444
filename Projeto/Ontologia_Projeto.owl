@@ -118,6 +118,17 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </SubClassOf>
     <DisjointClasses>
+        <Class IRI="#Ator"/>
+        <Class IRI="#Atriz"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Personagem"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+            <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>

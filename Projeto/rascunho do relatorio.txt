@@ -1,0 +1,52 @@
+Rascunho do relatório
+
+Entidade: 
+    Filme
+Object Properties:
+    contem_personagem - Inferido a partir da inversa 'personagem_em'
+    dirigido_por - Preenchido via parser. (ver predicado diretor(F, D))
+    estrelado_por - Inferido a partit da inversa 'estrela_em'
+Data Properties:
+    ano_lancamento - Preenchido via parser. (ver predicado filme(F, A))
+    duracao - Preenchido via parser. (ver predicado tit_dur(F, T, D))
+    titulo -Preenchido via parser. (ver predicado tit_dur(F, T, D))
+
+Entidade: 
+    Diretor
+Object Properties:
+    dirige - Inferido a partir da inversa 'dirigido_por'
+Data Properties:
+    nome_do_diretor - Preenchido via parser. (ver predicado nome(X, FN, LN))
+    nome_familia - Preenchido via parser. (ver predicado nome(X, FN, LN))
+
+Entidade:
+    Estrela
+Apenas funciona como genérico para Ator e Atriz
+
+Entidade: 
+    Ator
+Object Properties:
+    estrela_em - Preenchido via parser. (ver predicado ator(F, A, P))
+    interpreta - Preenchido via parser. (ver predicado ator(F, A, P))
+Data Properties:
+    nome_da_estrela - Preenchido via parser. (ver predicado nome(X, FN, LN))
+    nome_familia - Preenchido via parser. (ver predicado nome(X, FN, LN))
+
+Entidade: 
+    Atriz
+Object Properties:
+    estrela_em - Preenchido via parser. (ver predicado atriz(F, A, P))
+    interpreta - Preenchido via parser. (ver predicado atriz(F, A, P))
+Data Properties:
+    nome_da_estrela - Preenchido via parser. (ver predicado nome(X, FN, LN))
+    nome_familia - Preenchido via parser. (ver predicado nome(X, FN, LN))
+
+Entidade: 
+    Personagem
+Object Properties:
+    personagem_em - Preenchido via parser. (ver predicado ator(F, A, P) e 
+    atriz(F, A, P))
+Data Properties:
+    nome_do_personagem - Preenchido via parser. (ver predicado ator(F, A, P) e 
+    atriz(F, A, P))
+
