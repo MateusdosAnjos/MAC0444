@@ -46,6 +46,7 @@ Entidade:
 Object Properties:
     personagem_em - Preenchido via parser. (ver predicado ator(F, A, P) e 
     atriz(F, A, P))
+    interpretado_por - Inferido a partir de 'interpreta'
 Data Properties:
     nome_do_personagem - Preenchido via parser. (ver predicado ator(F, A, P) e 
     atriz(F, A, P))
