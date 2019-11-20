@@ -285,6 +285,10 @@
         <ObjectProperty IRI="#interpreta"/>
         <Class IRI="#Estrela"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <Class IRI="#Personagem"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#dirige"/>
         <Class IRI="#Filme"/>
@@ -304,6 +308,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#interpreta"/>
         <Class IRI="#Personagem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <Class IRI="#Estrela"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#nome_da_estrela"/>
