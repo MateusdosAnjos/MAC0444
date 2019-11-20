@@ -35,6 +35,9 @@
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#contem_personagem"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#dirige"/>
     </Declaration>
     <Declaration>
@@ -51,6 +54,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#interpretado_por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#personagem_em"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ano_lancamento"/>
@@ -160,9 +166,19 @@
         <NamedIndividual IRI="#Rebecca_Albelinsky"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personagem_em"/>
+        <NamedIndividual IRI="#a_bonitona"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#interpretado_por"/>
         <NamedIndividual IRI="#o_bonitao"/>
         <NamedIndividual IRI="#Roberto_Phisck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personagem_em"/>
+        <NamedIndividual IRI="#o_bonitao"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#estrelado_por"/>
@@ -254,6 +270,10 @@
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#contem_personagem"/>
+        <ObjectProperty IRI="#personagem_em"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#dirige"/>
         <ObjectProperty IRI="#dirigido_por"/>
     </InverseObjectProperties>
@@ -265,6 +285,10 @@
         <ObjectProperty IRI="#interpreta"/>
         <ObjectProperty IRI="#interpretado_por"/>
     </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contem_personagem"/>
+        <Class IRI="#Filme"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#dirige"/>
         <Class IRI="#Diretor"/>
@@ -289,6 +313,14 @@
         <ObjectProperty IRI="#interpretado_por"/>
         <Class IRI="#Personagem"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#personagem_em"/>
+        <Class IRI="#Personagem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contem_personagem"/>
+        <Class IRI="#Personagem"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#dirige"/>
         <Class IRI="#Filme"/>
@@ -312,6 +344,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#interpretado_por"/>
         <Class IRI="#Estrela"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#personagem_em"/>
+        <Class IRI="#Filme"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#nome_da_estrela"/>
