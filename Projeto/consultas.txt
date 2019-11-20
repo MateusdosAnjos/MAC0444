@@ -27,3 +27,18 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 		?ator :interpreta ?Personagem.
 	}
 	ORDER BY ?PrimeiroNome ?UltimoNome
+
+
+(3)
+
+	SELECT ?Filmes ?Diretor ?Ano ?atorUm ?atorDois
+	WHERE {
+		?atorUm :nome_da_estrela "Artor".
+		?atorDois :nome_da_estrela "Artriz".
+		?atorUm :estrela_em ?filme.
+		?atorDois :estrela_em ?filme.
+		?filme :titulo ?Filmes.
+		?filme :dirigido_por ?Diretor.
+		?filme :ano_lancamento ?Ano
+	}
+	ORDER BY (?Ano)
