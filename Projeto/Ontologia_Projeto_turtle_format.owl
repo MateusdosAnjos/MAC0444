@@ -127,7 +127,8 @@
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator
 :Ator rdf:type owl:Class ;
-      rdfs:subClassOf :Estrela .
+      rdfs:subClassOf :Estrela ;
+      owl:disjointWith :Atriz .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz
@@ -151,7 +152,12 @@
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem
-:Personagem rdf:type owl:Class .
+:Personagem rdf:type owl:Class ;
+            owl:disjointWith [ rdf:type owl:Class ;
+                               owl:unionOf ( <http://www.w3.org/2000/10/swap/pim/contact#Person>
+                                             <http://xmlns.com/foaf/0.1/Project>
+                                           )
+                             ] .
 
 
 ###  http://www.w3.org/2000/10/swap/pim/contact#Person
@@ -165,54 +171,101 @@
 #    Individuals
 #################################################################
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Joao_Migual
-:Joao_Migual rdf:type owl:NamedIndividual ,
-                      :Diretor ;
-             :dirige :o_melhor_filme_do_mundo ;
-             :nome_do_diretor "Joao" ;
-             :nome_familia "Migual" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ator_dois
+:ator_dois rdf:type owl:NamedIndividual ,
+                    :Ator ;
+           :estrela_em :filme_dois ;
+           :interpreta :pers_dois ;
+           :nome_da_estrela "Artor" ;
+           :nome_familia "Dois" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Rebecca_Albelinsky
-:Rebecca_Albelinsky rdf:type owl:NamedIndividual ,
-                             :Atriz ;
-                    :estrela_em :o_melhor_filme_do_mundo ;
-                    :nome_da_estrela "Rebecca" ;
-                    :nome_familia "Albelinsky" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ator_um
+:ator_um rdf:type owl:NamedIndividual ,
+                  :Ator ;
+         :estrela_em :filme_tres ,
+                     :filme_um ;
+         :interpreta :pers_um ;
+         :nome_da_estrela "Artor" ;
+         :nome_familia "Um" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Roberto_Phisck
-:Roberto_Phisck rdf:type owl:NamedIndividual ,
-                         :Ator ;
-                :estrela_em :o_melhor_filme_do_mundo ;
-                :nome_da_estrela "Roberto" ;
-                :nome_familia "Phisck" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atriz_dois
+:atriz_dois rdf:type owl:NamedIndividual ,
+                     :Atriz ;
+            :estrela_em :filme_dois ;
+            :interpreta :pers_dois ;
+            :nome_da_estrela "Artriz" ;
+            :nome_familia "Dois" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_bonitona
-:a_bonitona rdf:type owl:NamedIndividual ,
-                     :Personagem ;
-            :interpretado_por :Rebecca_Albelinsky ;
-            :personagem_em :o_melhor_filme_do_mundo ;
-            :nome_do_personagem "a bonitona" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atriz_um
+:atriz_um rdf:type owl:NamedIndividual ,
+                   :Atriz ;
+          :estrela_em :filme_um ;
+          :interpreta :pers_um ;
+          :nome_da_estrela "Artriz" ;
+          :nome_familia "Um" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_bonitao
-:o_bonitao rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_dois
+:diretor_dois rdf:type owl:NamedIndividual ,
+                       :Diretor ;
+              :nome_do_diretor "Doisberto" ;
+              :nome_familia "Dois" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_um
+:diretor_um rdf:type owl:NamedIndividual ,
+                     :Diretor ;
+            :nome_do_diretor "Umberto" ;
+            :nome_familia "Um" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#filme_dois
+:filme_dois rdf:type owl:NamedIndividual ,
+                     :Filme ;
+            :dirigido_por :diretor_dois ;
+            :ano_lancamento 1992 ;
+            :duracao 122 ;
+            :titulo "o filme dois" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#filme_tres
+:filme_tres rdf:type owl:NamedIndividual ,
+                     :Filme ;
+            :dirigido_por :diretor_um ;
+            :ano_lancamento 1993 ;
+            :duracao 123 ;
+            :titulo "o filme tres" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#filme_um
+:filme_um rdf:type owl:NamedIndividual ,
+                   :Filme ;
+          :dirigido_por :diretor_um ;
+          :ano_lancamento 1991 ;
+          :duracao 121 ;
+          :titulo "o filme um" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#pers_dois
+:pers_dois rdf:type owl:NamedIndividual ,
                     :Personagem ;
-           :interpretado_por :Roberto_Phisck ;
-           :personagem_em :o_melhor_filme_do_mundo ;
-           :nome_do_personagem "o bonitao" .
+           :personagem_em :filme_dois .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_melhor_filme_do_mundo
-:o_melhor_filme_do_mundo rdf:type owl:NamedIndividual ,
-                                  :Filme ;
-                         :estrelado_por :Rebecca_Albelinsky ,
-                                        :Roberto_Phisck ;
-                         :ano_lancamento 2018 ;
-                         :duracao 128 ;
-                         :titulo "o melhor filme do mundo" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#pers_tres
+:pers_tres rdf:type owl:NamedIndividual ,
+                    :Personagem ;
+           :personagem_em :filme_tres .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#pers_um
+:pers_um rdf:type owl:NamedIndividual ,
+                  :Personagem ;
+         :personagem_em :filme_tres ,
+                        :filme_um .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
