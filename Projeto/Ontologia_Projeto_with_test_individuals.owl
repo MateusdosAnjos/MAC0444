@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444">
+    <Prefix name="" IRI="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://xmlns.com/foaf/0.1/</Import>
+    <Declaration>
+        <Class IRI="#Ator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atriz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diretor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estrela"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Filme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personagem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contem_personagem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dirige"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dirigido_por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estrela_em"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estrelado_por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interpreta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interpretado_por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#personagem_em"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ano_lancamento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duracao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nome_da_estrela"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nome_do_diretor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nome_do_personagem"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nome_familia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#titulo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heitor_Nelson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joao_Migual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lydia_Buena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pedro_Pedra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a_bonitona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bruxa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#filme_dois"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#filme_um"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#o_bonitao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Ator"/>
+        <Class IRI="#Estrela"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atriz"/>
+        <Class IRI="#Estrela"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diretor"/>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estrela"/>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Filme"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Diretor"/>
+        <NamedIndividual IRI="#Heitor_Nelson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diretor"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atriz"/>
+        <NamedIndividual IRI="#Lydia_Buena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ator"/>
+        <NamedIndividual IRI="#Pedro_Pedra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atriz"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ator"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personagem"/>
+        <NamedIndividual IRI="#a_bonitona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personagem"/>
+        <NamedIndividual IRI="#bruxa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filme"/>
+        <NamedIndividual IRI="#filme_dois"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filme"/>
+        <NamedIndividual IRI="#filme_um"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personagem"/>
+        <NamedIndividual IRI="#o_bonitao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filme"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dirige"/>
+        <NamedIndividual IRI="#Heitor_Nelson"/>
+        <NamedIndividual IRI="#filme_dois"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dirige"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+        <NamedIndividual IRI="#filme_um"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dirige"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrela_em"/>
+        <NamedIndividual IRI="#Lydia_Buena"/>
+        <NamedIndividual IRI="#filme_dois"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrela_em"/>
+        <NamedIndividual IRI="#Pedro_Pedra"/>
+        <NamedIndividual IRI="#filme_um"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrela_em"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrela_em"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <NamedIndividual IRI="#a_bonitona"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personagem_em"/>
+        <NamedIndividual IRI="#a_bonitona"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <NamedIndividual IRI="#bruxa"/>
+        <NamedIndividual IRI="#Lydia_Buena"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personagem_em"/>
+        <NamedIndividual IRI="#bruxa"/>
+        <NamedIndividual IRI="#filme_dois"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <NamedIndividual IRI="#o_bonitao"/>
+        <NamedIndividual IRI="#Pedro_Pedra"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <NamedIndividual IRI="#o_bonitao"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personagem_em"/>
+        <NamedIndividual IRI="#o_bonitao"/>
+        <NamedIndividual IRI="#filme_um"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personagem_em"/>
+        <NamedIndividual IRI="#o_bonitao"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrelado_por"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estrelado_por"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <NamedIndividual IRI="#Heitor_Nelson"/>
+        <Literal>Heitor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#Heitor_Nelson"/>
+        <Literal>Nelson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+        <Literal>Joao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#Joao_Migual"/>
+        <Literal>Migual</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <NamedIndividual IRI="#Lydia_Buena"/>
+        <Literal>Lydia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#Lydia_Buena"/>
+        <Literal>Buena</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <NamedIndividual IRI="#Pedro_Pedra"/>
+        <Literal>Pedro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#Pedro_Pedra"/>
+        <Literal>Pedra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+        <Literal>Rebecca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#Rebecca_Albelinsky"/>
+        <Literal>Albelinsky</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+        <Literal>Roberto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#Roberto_Phisck"/>
+        <Literal>Phisck</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_personagem"/>
+        <NamedIndividual IRI="#a_bonitona"/>
+        <Literal>a bonitona</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_personagem"/>
+        <NamedIndividual IRI="#bruxa"/>
+        <Literal>bruxa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_personagem"/>
+        <NamedIndividual IRI="#o_bonitao"/>
+        <Literal>o bonitao</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ano_lancamento"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracao"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">128</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#o_melhor_filme_do_mundo"/>
+        <Literal>o melhor filme do mundo</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#dirige"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#dirigido_por"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#estrela_em"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#estrelado_por"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#interpreta"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contem_personagem"/>
+        <ObjectProperty IRI="#personagem_em"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#dirige"/>
+        <ObjectProperty IRI="#dirigido_por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#estrela_em"/>
+        <ObjectProperty IRI="#estrelado_por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#interpreta"/>
+        <ObjectProperty IRI="#interpretado_por"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contem_personagem"/>
+        <Class IRI="#Filme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dirige"/>
+        <Class IRI="#Diretor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dirigido_por"/>
+        <Class IRI="#Filme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estrela_em"/>
+        <Class IRI="#Estrela"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#estrelado_por"/>
+        <Class IRI="#Filme"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#interpreta"/>
+        <Class IRI="#Estrela"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <Class IRI="#Personagem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#personagem_em"/>
+        <Class IRI="#Personagem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contem_personagem"/>
+        <Class IRI="#Personagem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dirige"/>
+        <Class IRI="#Filme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dirigido_por"/>
+        <Class IRI="#Diretor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estrela_em"/>
+        <Class IRI="#Filme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#estrelado_por"/>
+        <Class IRI="#Estrela"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interpreta"/>
+        <Class IRI="#Personagem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interpretado_por"/>
+        <Class IRI="#Estrela"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#personagem_em"/>
+        <Class IRI="#Filme"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nome_do_personagem"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nome_familia"/>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/familyName"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ano_lancamento"/>
+        <Class IRI="#Filme"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duracao"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <Class IRI="#Estrela"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <Class IRI="#Diretor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nome_do_personagem"/>
+        <Class IRI="#Personagem"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nome_familia"/>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#titulo"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ano_lancamento"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duracao"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nome_da_estrela"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nome_do_personagem"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nome_familia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#titulo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
