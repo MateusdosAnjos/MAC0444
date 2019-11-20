@@ -7,6 +7,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 SELECT ?filme
 WHERE {
 	?diretor :nome_do_diretor "Joao".
+	?diretor :nome_familia "Migual".
 	?diretor :dirige ?filme.
 }
 ORDER BY (?filme)
