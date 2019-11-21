@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1574280275873" name="http://www.semanticweb.org/mateus/ontologies/2019/10/projeto_mac0444_inferido" uri="projeto_mac0444_inferido.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1574280275873" name="duplicate:http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444" uri="Ontologia_Projeto_with_test_individuals.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1574280275873" name="duplicate:http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444" uri="Ontologia_Projeto.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1574355420534" name="http://www.semanticweb.org/mateus/ontologies/2019/10/projeto_mac0444_inferido" uri="projeto_mac0444_inferido.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1574355420534" name="duplicate:http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444" uri="Ontologia_Projeto_with_test_individuals.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1574355420534" name="duplicate:http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444" uri="Ontologia_Projeto.owl"/>
     </group>
 </catalog>

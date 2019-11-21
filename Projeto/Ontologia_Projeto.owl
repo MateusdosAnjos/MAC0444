@@ -20,6 +20,9 @@
         <Class IRI="#Atriz"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Atuacao"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Diretor"/>
     </Declaration>
     <Declaration>
