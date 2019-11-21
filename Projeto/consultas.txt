@@ -9,9 +9,9 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 	SELECT ?TituloDoFilme
 	WHERE {
-		?diretor :nome_do_diretor "Umberto".
-		?diretor :nome_familia "Um".
-		?diretor :dirige ?TituloDoFilme.
+		VALUES ?diretor {:diretor_um}.
+		?Filme :dirigido_por ?diretor.
+		?Filme :titulo ?TituloDoFilme.
 	}
 	ORDER BY (?TituloDoFilme)
 
