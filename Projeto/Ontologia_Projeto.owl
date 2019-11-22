@@ -98,13 +98,6 @@
         <Class IRI="#Atriz"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Personagem"/>
-        <ObjectUnionOf>
-            <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
-            <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
-        </ObjectUnionOf>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
@@ -122,7 +115,11 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#filme_da_atuacao"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#personagem_da_atuacao"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#dirige"/>
