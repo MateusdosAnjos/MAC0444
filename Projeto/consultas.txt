@@ -9,7 +9,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 	SELECT ?TituloDoFilme
 	WHERE {
-		VALUES ?diretor {:diretor_um}.
+		VALUES ?diretor {:diretor_marvel}.
 		?Filme :dirigido_por ?diretor.
 		?Filme :titulo ?TituloDoFilme.
 	}
@@ -18,13 +18,15 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 (2)
 
+
 	SELECT ?PrimeiroNome ?UltimoNome ?Personagem
 	WHERE {
-		?filme :titulo "o filme um".
-		?ator :estrela_em ?filme.
+		?ator :atua ?atuacao.
+		?atuacao :filme_da_atuacao ?filme.
+		?atuacao :personagem_da_atuacao ?Personagem.
 		?ator :nome_da_estrela ?PrimeiroNome.
 		?ator :nome_familia ?UltimoNome.
-		?ator :interpreta ?Personagem.
+		VALUES ?filme {:homem_aranha}.
 	}
 	ORDER BY ?PrimeiroNome ?UltimoNome
 
