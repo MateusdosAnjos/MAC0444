@@ -4,7 +4,6 @@ Entidade:
     Filme
 Object Properties:
     dirigido_por - Preenchido via parser. (ver predicado diretor(F, D))
-    estrelado_por - Inferido a partit da inversa 'estrela_em'
 Data Properties:
     ano_lancamento - Preenchido via parser. (ver predicado filme(F, A))
     duracao - Preenchido via parser. (ver predicado tit_dur(F, T, D))
