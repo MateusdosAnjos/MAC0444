@@ -13,11 +13,11 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#contem_personagem
-:contem_personagem rdf:type owl:ObjectProperty ;
-                   owl:inverseOf :personagem_em ;
-                   rdfs:domain :Filme ;
-                   rdfs:range :Personagem .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atua
+:atua rdf:type owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
+      rdfs:domain :Estrela ;
+      rdfs:range :Atuacao .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirige
@@ -35,40 +35,18 @@
               rdfs:range :Diretor .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#estrela_em
-:estrela_em rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
-            owl:inverseOf :estrelado_por ;
-            rdfs:domain :Estrela ;
-            rdfs:range :Filme .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#filme_da_atuacao
+:filme_da_atuacao rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
+                  rdfs:domain :Atuacao ;
+                  rdfs:range :Filme .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#estrelado_por
-:estrelado_por rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/maker> ;
-               rdfs:domain :Filme ;
-               rdfs:range :Estrela .
-
-
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interpreta
-:interpreta rdf:type owl:ObjectProperty ;
-            rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
-            owl:inverseOf :interpretado_por ;
-            rdfs:domain :Estrela ;
-            rdfs:range :Personagem .
-
-
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interpretado_por
-:interpretado_por rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/maker> ;
-                  rdfs:domain :Personagem ;
-                  rdfs:range :Estrela .
-
-
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#personagem_em
-:personagem_em rdf:type owl:ObjectProperty ;
-               rdfs:domain :Personagem ;
-               rdfs:range :Filme .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#personagem_da_atuacao
+:personagem_da_atuacao rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
+                       rdfs:domain :Atuacao ;
+                       rdfs:range :Personagem .
 
 
 #################################################################
@@ -136,6 +114,10 @@
        rdfs:subClassOf :Estrela .
 
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atuacao
+:Atuacao rdf:type owl:Class .
+
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor
 :Diretor rdf:type owl:Class ;
          rdfs:subClassOf <http://www.w3.org/2000/10/swap/pim/contact#Person> .
@@ -152,12 +134,7 @@
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem
-:Personagem rdf:type owl:Class ;
-            owl:disjointWith [ rdf:type owl:Class ;
-                               owl:unionOf ( <http://www.w3.org/2000/10/swap/pim/contact#Person>
-                                             <http://xmlns.com/foaf/0.1/Project>
-                                           )
-                             ] .
+:Personagem rdf:type owl:Class .
 
 
 ###  http://www.w3.org/2000/10/swap/pim/contact#Person
@@ -171,101 +148,224 @@
 #    Individuals
 #################################################################
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ator_dois
-:ator_dois rdf:type owl:NamedIndividual ,
-                    :Ator ;
-           :estrela_em :filme_dois ;
-           :interpreta :pers_dois ;
-           :nome_da_estrela "Artor" ;
-           :nome_familia "Dois" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Batman
+:Batman rdf:type owl:NamedIndividual ,
+                 :Personagem ;
+        :nome_do_personagem "Batman" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ator_um
-:ator_um rdf:type owl:NamedIndividual ,
-                  :Ator ;
-         :estrela_em :filme_tres ,
-                     :filme_um ;
-         :interpreta :pers_um ;
-         :nome_da_estrela "Artor" ;
-         :nome_familia "Um" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Christian_Bale
+:Christian_Bale rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :atuacao_nove ,
+                      :atuacao_um ;
+                :nome_da_estrela "Christian" ;
+                :nome_familia "Bale" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atriz_dois
-:atriz_dois rdf:type owl:NamedIndividual ,
-                     :Atriz ;
-            :estrela_em :filme_dois ;
-            :interpreta :pers_dois ;
-            :nome_da_estrela "Artriz" ;
-            :nome_familia "Dois" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Figurante
+:Figurante rdf:type owl:NamedIndividual ,
+                    :Personagem ;
+           :nome_do_personagem "Figurante" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atriz_um
-:atriz_um rdf:type owl:NamedIndividual ,
-                   :Atriz ;
-          :estrela_em :filme_um ;
-          :interpreta :pers_um ;
-          :nome_da_estrela "Artriz" ;
-          :nome_familia "Um" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Gwyneth_Paltrow
+:Gwyneth_Paltrow rdf:type owl:NamedIndividual ,
+                          :Atriz ;
+                 :atua :atuacao_quatro ;
+                 :nome_da_estrela "Gwyneth" ;
+                 :nome_familia "Paltrow" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_dois
-:diretor_dois rdf:type owl:NamedIndividual ,
-                       :Diretor ;
-              :nome_do_diretor "Doisberto" ;
-              :nome_familia "Dois" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Homem_Aranha
+:Homem_Aranha rdf:type owl:NamedIndividual ,
+                       :Personagem ;
+              :nome_do_personagem "Homem Aranha" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_um
-:diretor_um rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Homem_de_Ferro
+:Homem_de_Ferro rdf:type owl:NamedIndividual ,
+                         :Personagem ;
+                :nome_do_personagem "Homem de Ferro" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Kirsten_Dunst
+:Kirsten_Dunst rdf:type owl:NamedIndividual ,
+                        :Atriz ;
+               :atua :atuacao_cinco ;
+               :nome_da_estrela "Kirsten" ;
+               :nome_familia "Dunst" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Maria_Oliveira
+:Maria_Oliveira rdf:type owl:NamedIndividual ,
+                         :Atriz ;
+                :atua :atuacao_sete ;
+                :nome_da_estrela "Maria" ;
+                :nome_familia "Oliveira" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Mary_Jane
+:Mary_Jane rdf:type owl:NamedIndividual ,
+                    :Personagem ;
+           :nome_do_personagem "Mary Jane" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Patrick_Bateman
+:Patrick_Bateman rdf:type owl:NamedIndividual ,
+                          :Personagem ;
+                 :nome_do_personagem "Patrick Bateman" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Pepper_Potts
+:Pepper_Potts rdf:type owl:NamedIndividual ,
+                       :Personagem ;
+              :nome_do_personagem "Pepper Potts" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Robert_Downey
+:Robert_Downey rdf:type owl:NamedIndividual ,
+                        :Ator ;
+               :atua :atuacao_dois ;
+               :nome_da_estrela "Robert" ;
+               :nome_familia "Downey" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Tobey_Maguire
+:Tobey_Maguire rdf:type owl:NamedIndividual ,
+                        :Ator ;
+               :atua :atuacao_tres ;
+               :nome_da_estrela "Tobey" ;
+               :nome_familia "Maguire" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ze_Silva
+:Ze_Silva rdf:type owl:NamedIndividual ,
+                   :Ator ;
+          :atua :atuacao_oito ,
+                :atuacao_seis ;
+          :nome_da_estrela "Ze" ;
+          :nome_familia "Silva" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_cinco
+:atuacao_cinco rdf:type owl:NamedIndividual ,
+                        :Atuacao ;
+               :filme_da_atuacao :homem_aranha ;
+               :personagem_da_atuacao :Mary_Jane .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_dois
+:atuacao_dois rdf:type owl:NamedIndividual ,
+                       :Atuacao ;
+              :filme_da_atuacao :homem_de_ferro ;
+              :personagem_da_atuacao :Homem_de_Ferro .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_nove
+:atuacao_nove rdf:type owl:NamedIndividual ,
+                       :Atuacao ;
+              :filme_da_atuacao :psicopata_americano ;
+              :personagem_da_atuacao :Patrick_Bateman .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_oito
+:atuacao_oito rdf:type owl:NamedIndividual ,
+                       :Atuacao ;
+              :filme_da_atuacao :batman ;
+              :personagem_da_atuacao :Figurante .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_quatro
+:atuacao_quatro rdf:type owl:NamedIndividual ,
+                         :Atuacao ;
+                :filme_da_atuacao :homem_de_ferro ;
+                :personagem_da_atuacao :Pepper_Potts .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_seis
+:atuacao_seis rdf:type owl:NamedIndividual ,
+                       :Atuacao ;
+              :filme_da_atuacao :homem_aranha ;
+              :personagem_da_atuacao :Figurante .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_sete
+:atuacao_sete rdf:type owl:NamedIndividual ,
+                       :Atuacao ;
+              :filme_da_atuacao :batman ;
+              :personagem_da_atuacao :Figurante .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_tres
+:atuacao_tres rdf:type owl:NamedIndividual ,
+                       :Atuacao ;
+              :filme_da_atuacao :homem_aranha ;
+              :personagem_da_atuacao :Homem_Aranha .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_um
+:atuacao_um rdf:type owl:NamedIndividual ,
+                     :Atuacao ;
+            :filme_da_atuacao :batman ;
+            :personagem_da_atuacao :Batman .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#batman
+:batman rdf:type owl:NamedIndividual ,
+                 :Filme ;
+        :dirigido_por :diretor_dc ;
+        :ano_lancamento 2008 ;
+        :duracao 152 ;
+        :titulo "Batman: O Cavaleiro das Trevas" .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_dc
+:diretor_dc rdf:type owl:NamedIndividual ,
                      :Diretor ;
-            :nome_do_diretor "Umberto" ;
-            :nome_familia "Um" .
+            :nome_do_diretor "Christopher" ;
+            :nome_familia "Nolan" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#filme_dois
-:filme_dois rdf:type owl:NamedIndividual ,
-                     :Filme ;
-            :dirigido_por :diretor_dois ;
-            :ano_lancamento 1992 ;
-            :duracao 122 ;
-            :titulo "o filme dois" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_marvel
+:diretor_marvel rdf:type owl:NamedIndividual ,
+                         :Diretor ;
+                :nome_do_diretor "Stan" ;
+                :nome_familia "Lee" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#filme_tres
-:filme_tres rdf:type owl:NamedIndividual ,
-                     :Filme ;
-            :dirigido_por :diretor_um ;
-            :ano_lancamento 1993 ;
-            :duracao 123 ;
-            :titulo "o filme tres" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#homem_aranha
+:homem_aranha rdf:type owl:NamedIndividual ,
+                       :Filme ;
+              :dirigido_por :diretor_marvel ;
+              :ano_lancamento 2002 ;
+              :duracao 121 ;
+              :titulo "Homem Aranha" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#filme_um
-:filme_um rdf:type owl:NamedIndividual ,
-                   :Filme ;
-          :dirigido_por :diretor_um ;
-          :ano_lancamento 1991 ;
-          :duracao 121 ;
-          :titulo "o filme um" .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#homem_de_ferro
+:homem_de_ferro rdf:type owl:NamedIndividual ,
+                         :Filme ;
+                :dirigido_por :diretor_marvel ;
+                :ano_lancamento 2008 ;
+                :duracao 126 ;
+                :titulo "Homem de Ferro" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#pers_dois
-:pers_dois rdf:type owl:NamedIndividual ,
-                    :Personagem ;
-           :personagem_em :filme_dois .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mary_harron
+:mary_harron rdf:type owl:NamedIndividual ,
+                      :Diretor ;
+             :nome_do_diretor "Mary" ;
+             :nome_familia "Harron" .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#pers_tres
-:pers_tres rdf:type owl:NamedIndividual ,
-                    :Personagem ;
-           :personagem_em :filme_tres .
-
-
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#pers_um
-:pers_um rdf:type owl:NamedIndividual ,
-                  :Personagem ;
-         :personagem_em :filme_tres ,
-                        :filme_um .
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#psicopata_americano
+:psicopata_americano rdf:type owl:NamedIndividual ,
+                              :Filme ;
+                     :dirigido_por :mary_harron ;
+                     :ano_lancamento 2000 ;
+                     :duracao 104 ;
+                     :titulo "Psicopata Americano" .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
