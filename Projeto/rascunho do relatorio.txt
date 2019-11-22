@@ -3,7 +3,6 @@ Rascunho do relatório
 Entidade: 
     Filme
 Object Properties:
-    contem_personagem - Inferido a partir da inversa 'personagem_em'
     dirigido_por - Preenchido via parser. (ver predicado diretor(F, D))
     estrelado_por - Inferido a partit da inversa 'estrela_em'
 Data Properties:
@@ -26,8 +25,7 @@ Apenas funciona como genérico para Ator e Atriz
 Entidade: 
     Ator
 Object Properties:
-    estrela_em - Preenchido via parser. (ver predicado ator(F, A, P))
-    interpreta - Preenchido via parser. (ver predicado ator(F, A, P))
+    atua - Preenchido via parser. (ver predicado ator(F, A, P))
 Data Properties:
     nome_da_estrela - Preenchido via parser. (ver predicado nome(X, FN, LN))
     nome_familia - Preenchido via parser. (ver predicado nome(X, FN, LN))
@@ -35,8 +33,7 @@ Data Properties:
 Entidade: 
     Atriz
 Object Properties:
-    estrela_em - Preenchido via parser. (ver predicado atriz(F, A, P))
-    interpreta - Preenchido via parser. (ver predicado atriz(F, A, P))
+    atua - Preenchido via parser. (ver predicado ator(F, A, P))
 Data Properties:
     nome_da_estrela - Preenchido via parser. (ver predicado nome(X, FN, LN))
     nome_familia - Preenchido via parser. (ver predicado nome(X, FN, LN))
@@ -44,10 +41,16 @@ Data Properties:
 Entidade: 
     Personagem
 Object Properties:
-    personagem_em - Preenchido via parser. (ver predicado ator(F, A, P) e 
-    atriz(F, A, P))
-    interpretado_por - Inferido a partir de 'interpreta'
+
 Data Properties:
     nome_do_personagem - Preenchido via parser. (ver predicado ator(F, A, P) e 
     atriz(F, A, P))
 
+Entidade: 
+    Atuacao
+Object Properties:
+    personagem_da_atuacao- Preenchido via parser. (ver predicado ator(F, A, P) e 
+    atriz(F, A, P))
+    filme_da_atuacao - Preenchido via parser. (ver predicado ator(F, A, P) e 
+    atriz(F, A, P))
+Data Properties:

@@ -38,7 +38,7 @@
         <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#contem_personagem"/>
+        <ObjectProperty IRI="#atua"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#dirige"/>
@@ -47,19 +47,10 @@
         <ObjectProperty IRI="#dirigido_por"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#estrela_em"/>
+        <ObjectProperty IRI="#filme_da_atuacao"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#estrelado_por"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#interpreta"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#interpretado_por"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#personagem_em"/>
+        <ObjectProperty IRI="#personagem_da_atuacao"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#ano_lancamento"/>
@@ -118,6 +109,10 @@
         <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
     </DisjointClasses>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#atua"/>
+        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#dirige"/>
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
     </SubObjectPropertyOf>
@@ -126,40 +121,16 @@
         <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#estrela_em"/>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
+        <ObjectProperty IRI="#filme_da_atuacao"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#estrelado_por"/>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#interpreta"/>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#interpretado_por"/>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
-    </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#contem_personagem"/>
-        <ObjectProperty IRI="#personagem_em"/>
-    </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#dirige"/>
         <ObjectProperty IRI="#dirigido_por"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#estrela_em"/>
-        <ObjectProperty IRI="#estrelado_por"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#interpreta"/>
-        <ObjectProperty IRI="#interpretado_por"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#contem_personagem"/>
-        <Class IRI="#Filme"/>
+        <ObjectProperty IRI="#atua"/>
+        <Class IRI="#Estrela"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#dirige"/>
@@ -170,28 +141,16 @@
         <Class IRI="#Filme"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#estrela_em"/>
-        <Class IRI="#Estrela"/>
+        <ObjectProperty IRI="#filme_da_atuacao"/>
+        <Class IRI="#Atuacao"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#estrelado_por"/>
-        <Class IRI="#Filme"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#interpreta"/>
-        <Class IRI="#Estrela"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#interpretado_por"/>
-        <Class IRI="#Personagem"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#personagem_em"/>
-        <Class IRI="#Personagem"/>
+        <ObjectProperty IRI="#personagem_da_atuacao"/>
+        <Class IRI="#Atuacao"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#contem_personagem"/>
-        <Class IRI="#Personagem"/>
+        <ObjectProperty IRI="#atua"/>
+        <Class IRI="#Atuacao"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#dirige"/>
@@ -202,24 +161,12 @@
         <Class IRI="#Diretor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#estrela_em"/>
+        <ObjectProperty IRI="#filme_da_atuacao"/>
         <Class IRI="#Filme"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#estrelado_por"/>
-        <Class IRI="#Estrela"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#interpreta"/>
+        <ObjectProperty IRI="#personagem_da_atuacao"/>
         <Class IRI="#Personagem"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#interpretado_por"/>
-        <Class IRI="#Estrela"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#personagem_em"/>
-        <Class IRI="#Filme"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#nome_da_estrela"/>
