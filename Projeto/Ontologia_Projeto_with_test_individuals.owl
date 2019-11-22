@@ -101,6 +101,9 @@
         <NamedIndividual IRI="#Mary_Jane"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Patrick_Bateman"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Pepper_Potts"/>
     </Declaration>
     <Declaration>
@@ -117,6 +120,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#atuacao_dois"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#atuacao_nove"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#atuacao_oito"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#atuacao_quatro"/>
@@ -147,6 +156,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#homem_de_ferro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mary_harron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#psicopata_americano"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Ator"/>
@@ -214,6 +229,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Personagem"/>
+        <NamedIndividual IRI="#Patrick_Bateman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personagem"/>
         <NamedIndividual IRI="#Pepper_Potts"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -235,6 +254,14 @@
     <ClassAssertion>
         <Class IRI="#Atuacao"/>
         <NamedIndividual IRI="#atuacao_dois"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atuacao"/>
+        <NamedIndividual IRI="#atuacao_nove"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atuacao"/>
+        <NamedIndividual IRI="#atuacao_oito"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Atuacao"/>
@@ -276,6 +303,19 @@
         <Class IRI="#Filme"/>
         <NamedIndividual IRI="#homem_de_ferro"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Diretor"/>
+        <NamedIndividual IRI="#mary_harron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Filme"/>
+        <NamedIndividual IRI="#psicopata_americano"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#atua"/>
+        <NamedIndividual IRI="#Christian_Bale"/>
+        <NamedIndividual IRI="#atuacao_nove"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#atua"/>
         <NamedIndividual IRI="#Christian_Bale"/>
@@ -309,6 +349,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#atua"/>
         <NamedIndividual IRI="#Ze_Silva"/>
+        <NamedIndividual IRI="#atuacao_oito"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#atua"/>
+        <NamedIndividual IRI="#Ze_Silva"/>
         <NamedIndividual IRI="#atuacao_seis"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -330,6 +375,26 @@
         <ObjectProperty IRI="#personagem_da_atuacao"/>
         <NamedIndividual IRI="#atuacao_dois"/>
         <NamedIndividual IRI="#Homem_de_Ferro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filme_da_atuacao"/>
+        <NamedIndividual IRI="#atuacao_nove"/>
+        <NamedIndividual IRI="#psicopata_americano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personagem_da_atuacao"/>
+        <NamedIndividual IRI="#atuacao_nove"/>
+        <NamedIndividual IRI="#Patrick_Bateman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filme_da_atuacao"/>
+        <NamedIndividual IRI="#atuacao_oito"/>
+        <NamedIndividual IRI="#batman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personagem_da_atuacao"/>
+        <NamedIndividual IRI="#atuacao_oito"/>
+        <NamedIndividual IRI="#Figurante"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#filme_da_atuacao"/>
@@ -395,6 +460,11 @@
         <ObjectProperty IRI="#dirigido_por"/>
         <NamedIndividual IRI="#homem_de_ferro"/>
         <NamedIndividual IRI="#diretor_marvel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#dirigido_por"/>
+        <NamedIndividual IRI="#psicopata_americano"/>
+        <NamedIndividual IRI="#mary_harron"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nome_do_personagem"/>
@@ -460,6 +530,11 @@
         <DataProperty IRI="#nome_do_personagem"/>
         <NamedIndividual IRI="#Mary_Jane"/>
         <Literal>Mary Jane</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_personagem"/>
+        <NamedIndividual IRI="#Patrick_Bateman"/>
+        <Literal>Patrick Bateman</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#nome_do_personagem"/>
@@ -560,6 +635,31 @@
         <DataProperty IRI="#titulo"/>
         <NamedIndividual IRI="#homem_de_ferro"/>
         <Literal>Homem de Ferro</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_do_diretor"/>
+        <NamedIndividual IRI="#mary_harron"/>
+        <Literal>Mary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome_familia"/>
+        <NamedIndividual IRI="#mary_harron"/>
+        <Literal>Harron</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ano_lancamento"/>
+        <NamedIndividual IRI="#psicopata_americano"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duracao"/>
+        <NamedIndividual IRI="#psicopata_americano"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">104</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#titulo"/>
+        <NamedIndividual IRI="#psicopata_americano"/>
+        <Literal>Psicopata Americano</Literal>
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#atua"/>
