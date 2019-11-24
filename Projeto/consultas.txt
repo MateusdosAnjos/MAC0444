@@ -45,3 +45,19 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 		?Filmes :ano_lancamento ?Ano.
 	}
 	ORDER BY (?Ano)
+
+(4)
+
+	SELECT ?Filme ?Duracao ?atorX ?atorY
+	WHERE {
+		VALUES ?f {:homem_aranha}.
+		?f :dirigido_por ?diretor.
+		?Filme :dirigido_por ?diretor.
+		?X :atua ?atuacaoX.
+		?Y :atua ?atuacaoY.
+		?atuacaoX :filme_da_atuacao ?Filme.
+		?atuacaoY :filme_da_atuacao ?Filme.
+		?atorX :atua ?atuacaoX.
+		?atorY :atua ?atuacaoY.
+	}
+	ORDER BY (?Ano)
