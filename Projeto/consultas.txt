@@ -20,7 +20,8 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 	SELECT ?PrimeiroNome ?UltimoNome ?Personagem
 	WHERE {
-        ?filme :titulo "'Her'".
+        VALUES ?titulo {"'Her'"}
+        ?filme :titulo ?titulo.
         ?atuacao :filme_da_atuacao ?filme.
 		?estrela :atua ?atuacao.
 		?atuacao :personagem_da_atuacao ?Personagem.
@@ -73,7 +74,7 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
         ?diretor rdf:type :Diretor.
         ?diretor :nome_do_diretor ?PNome.
         ?diretor :nome_familia ?PFamilia.
-        BIND(CONCAT(STR(?PNome), STR(?PFamilia))  AS ?Pessoa).
+        BIND(CONCAT(STR(?PNome), " ", STR(?PFamilia))  AS ?Pessoa).
         ?FilmeDir :dirigido_por ?diretor.
         ?diretor :atua ?atuacao.
         ?atuacao :filme_da_atuacao ?FilmeAt.
