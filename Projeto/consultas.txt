@@ -9,7 +9,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 	SELECT ?TituloDoFilme
 	WHERE {
-		VALUES ?diretor {:eric_schaeffer}.
+		VALUES ?diretor {:diretor_eric_schaeffer}.
 		?Filme :dirigido_por ?diretor.
 		?Filme :titulo ?TituloDoFilme.
 	}
@@ -31,7 +31,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 	ORDER BY ?PrimeiroNome ?UltimoNome
 
 
-(3) - OK
+(3) - OK (Duplicações)
 
 	SELECT ?Filmes ?Diretor ?Ano
 	WHERE {
@@ -66,25 +66,22 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 	ORDER BY ?Duracao
 
 
-(5) - Falta definirmos "Same individual as"
+(5) - OK
 
-	SELECT ?Pessoa ?FilmeAt ?FilmeDir
+	SELECT DISTINCT ?Pessoa ?FilmeAt ?FilmeDir 
 	WHERE {
         ?diretor rdf:type :Diretor.
-        ?x rdfs:subClassOf :Estrela.
-        ?ator rdf:type ?x.
-        ?ator owl:sameAs ?diretor.
         ?diretor :nome_do_diretor ?PNome.
         ?diretor :nome_familia ?PFamilia.
-        BIND(CONCAT(STR(?PNome), STR(?PFamilia))  AS ?Pessoa)
+        BIND(CONCAT(STR(?PNome), STR(?PFamilia))  AS ?Pessoa).
         ?FilmeDir :dirigido_por ?diretor.
-        ?ator :atua ?atuacao.
+        ?diretor :atua ?atuacao.
         ?atuacao :filme_da_atuacao ?FilmeAt.
 	}	
     ORDER BY ?Pessoa
 
 
-(6) - OK
+(6) - OK (duplicações)
 
 Diretores Diferentes:
 VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
@@ -100,5 +97,20 @@ VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
         ?Y :atua ?atuacaoY.
         ?atuacaoX :filme_da_atuacao ?Filme.
         ?atuacaoY :filme_da_atuacao ?Filme.
+	}	
+    ORDER BY ?Ano
+
+(7) - FAIL 
+
+	SELECT ?Atriz ?Ator ?Filme ?Duracao
+	WHERE {
+        VALUES (?M1 ?M2) {(100 140)}
+        FILTER (?Duracao >= ?M1 && ?Duracao <= ?M2).
+        ?Filme :duracao ?Duracao.
+        ?atuacao :filme_da_atuacao ?Filme.
+        ?Ator rdf:type :Ator.
+        ?Atriz rdf:type :Atriz.
+        ?Ator :atua ?atuacao.
+        ?Atriz :atua ?atuacao.
 	}	
     ORDER BY ?Ano

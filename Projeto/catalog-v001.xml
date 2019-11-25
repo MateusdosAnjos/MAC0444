@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1574693994337" name="http://www.semanticweb.org/mateus/ontologies/2019/10/projeto_inferido_mac0444" uri="Projeto_Inferido_mac0444.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1574693994337" name="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444" uri="Ontologia_do_Projeto.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1574714574350" name="http://www.semanticweb.org/mateus/ontologies/2019/10/projeto_inferido_mac0444" uri="Projeto_Inferido_mac0444.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1574714574350" name="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444" uri="Ontologia_do_Projeto.owl"/>
     </group>
 </catalog>
