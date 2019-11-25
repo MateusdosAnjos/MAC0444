@@ -258,7 +258,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_good_woman">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mike_barker"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_mike_barker"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</duracao>
         <titulo>&apos;A Good Woman&apos;</titulo>
@@ -292,7 +292,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_love_song_for_bobby_long">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#shainee_gabel"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_shainee_gabel"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119</duracao>
         <titulo>&apos;A Love Song for Bobby Long&apos;</titulo>
@@ -1229,16 +1229,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alex_de_la_iglesia -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alex_de_la_iglesia">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Alex</nome_do_diretor>
-        <nome_familia>Iglesia</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alex_foreman -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alex_foreman">
@@ -1312,16 +1302,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alexander_payne -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alexander_payne">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Alexander</nome_do_diretor>
-        <nome_familia>Payne</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alexis_wilson -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alexis_wilson">
@@ -1367,16 +1347,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alfio_sung_by_sequence_cavalleria_rusticana">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>alfio_sung_by_sequence_cavalleria_rusticana</nome_do_personagem>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alfonso_cuar_n -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alfonso_cuar_n">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Alfonso</nome_do_diretor>
-        <nome_familia>N</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -1724,7 +1694,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#american_beauty">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_mendes"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sam_mendes"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</duracao>
         <titulo>&apos;American Beauty&apos;</titulo>
@@ -1901,7 +1871,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#an_american_rhapsody">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#va_g_rdos"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_va_g_rdos"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</duracao>
         <titulo>&apos;An American Rhapsody&apos;</titulo>
@@ -2313,7 +2283,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#anna">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#yurek_bogayevicz"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_yurek_bogayevicz"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</duracao>
         <nome_do_personagem>anna</nome_do_personagem>
@@ -2451,16 +2421,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2235"/>
         <nome_da_estrela>&apos;Anne&apos;</nome_da_estrela>
         <nome_familia>&apos;Joyce&apos;</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#anne_marie_mi_ville -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#anne_marie_mi_ville">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Anne</nome_do_diretor>
-        <nome_familia>Ville</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -2822,16 +2782,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1314"/>
         <nome_da_estrela>Arnaud</nome_da_estrela>
         <nome_familia>Klein</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#arne_glimcher -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#arne_glimcher">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Arne</nome_do_diretor>
-        <nome_familia>Glimcher</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -3808,7 +3758,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#barton_fink">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</duracao>
         <nome_do_personagem>barton_fink</nome_do_personagem>
@@ -4613,7 +4563,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#blade_runner">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ridley_scott"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ridley_scott"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1982</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</duracao>
         <titulo>&apos;Blade Runner&apos;</titulo>
@@ -4695,7 +4645,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#blood_simple">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</duracao>
         <titulo>&apos;Blood Simple&apos;</titulo>
@@ -5299,16 +5249,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_de_palma -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_de_palma">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Brian</nome_do_diretor>
-        <nome_familia>Palma</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_doyle_murray -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_doyle_murray">
@@ -5415,16 +5355,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1423"/>
         <nome_da_estrela>Brian</nome_da_estrela>
         <nome_familia>Reddy</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_robbins -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_robbins">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Brian</nome_do_diretor>
-        <nome_familia>Robbins</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -5712,16 +5642,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2655"/>
         <nome_da_estrela>Bryan</nome_da_estrela>
         <nome_familia>Greenberg</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#bryan_singer -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#bryan_singer">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Bryan</nome_do_diretor>
-        <nome_familia>Singer</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -7680,16 +7600,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#chris_hegedus -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#chris_hegedus">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Chris</nome_do_diretor>
-        <nome_familia>Hegedus</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#chris_kelly -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#chris_kelly">
@@ -7916,16 +7826,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1848"/>
         <nome_da_estrela>&apos;Christine&apos;</nome_da_estrela>
         <nome_familia>&apos;Estabrook&apos;</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#christoffer_boe -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#christoffer_boe">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Christoffer</nome_do_diretor>
-        <nome_familia>Boe</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -9150,7 +9050,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#cq">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#roman_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_roman_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</duracao>
         <titulo>&apos;CQ&apos;</titulo>
@@ -9204,7 +9104,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#crash">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_haggis"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_paul_haggis"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</duracao>
         <titulo>&apos;Crash&apos;</titulo>
@@ -9234,7 +9134,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#crimewave">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_raimi"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sam_raimi"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</duracao>
         <titulo>&apos;Crimewave&apos;</titulo>
@@ -9247,16 +9147,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#cristina">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>cristina</nome_do_personagem>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#cristopher_nolan -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#cristopher_nolan">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Cristopher</nome_do_diretor>
-        <nome_familia>Nolan</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -9429,16 +9319,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#czech_demonstrator_3">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>czech_demonstrator_3</nome_do_personagem>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#d_a_pennebaker -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#d_a_pennebaker">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>D</nome_do_diretor>
-        <nome_familia>Pennebaker</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -9884,16 +9764,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2138"/>
         <nome_da_estrela>&apos;Daniela&apos;</nome_da_estrela>
         <nome_familia>&apos;Stanga&apos;</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#daniela_thomas -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#daniela_thomas">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Daniela</nome_do_diretor>
-        <nome_familia>Thomas</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -11110,8 +10980,10 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#denzel_washington -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#denzel_washington">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Denzel</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_denzel_washington"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#451"/>
+        <nome_da_estrela>Denzel</nome_da_estrela>
         <nome_familia>Washington</nome_familia>
     </owl:NamedIndividual>
     
@@ -11566,6 +11438,753 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#director_2">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>director_2</nome_do_personagem>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_alex_de_la_iglesia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_alex_de_la_iglesia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Alex</nome_do_diretor>
+        <nome_familia>Iglesia</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_alexander_payne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_alexander_payne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Alexander</nome_do_diretor>
+        <nome_familia>Payne</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_alfonso_cuar_n -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_alfonso_cuar_n">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Alfonso</nome_do_diretor>
+        <nome_familia>N</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_anne_marie_mi_ville -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_anne_marie_mi_ville">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Anne</nome_do_diretor>
+        <nome_familia>Ville</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_arne_glimcher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_arne_glimcher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Arne</nome_do_diretor>
+        <nome_familia>Glimcher</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_brian_de_palma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_brian_de_palma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Brian</nome_do_diretor>
+        <nome_familia>Palma</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_brian_robbins -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_brian_robbins">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Brian</nome_do_diretor>
+        <nome_familia>Robbins</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_bryan_singer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_bryan_singer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Bryan</nome_do_diretor>
+        <nome_familia>Singer</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_chris_hegedus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_chris_hegedus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Chris</nome_do_diretor>
+        <nome_familia>Hegedus</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_christoffer_boe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_christoffer_boe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Christoffer</nome_do_diretor>
+        <nome_familia>Boe</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_cristopher_nolan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_cristopher_nolan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Cristopher</nome_do_diretor>
+        <nome_familia>Nolan</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_d_a_pennebaker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_d_a_pennebaker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>D</nome_do_diretor>
+        <nome_familia>Pennebaker</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_daniela_thomas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_daniela_thomas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Daniela</nome_do_diretor>
+        <nome_familia>Thomas</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_denzel_washington -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_denzel_washington">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Denzel</nome_do_diretor>
+        <nome_familia>Washington</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_eleanor_coppola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_eleanor_coppola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eleanor_coppola"/>
+        <nome_do_diretor>Eleanor</nome_do_diretor>
+        <nome_familia>Coppola</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ellory_elkayem -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ellory_elkayem">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Ellory</nome_do_diretor>
+        <nome_familia>Elkayem</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_eric_schaeffer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_eric_schaeffer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eric_schaeffer"/>
+        <nome_do_diretor>Eric</nome_do_diretor>
+        <nome_familia>Schaeffer</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_erik_fleming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_erik_fleming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Erik</nome_do_diretor>
+        <nome_familia>Fleming</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ethan_coen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ethan_coen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ethan_coen"/>
+        <nome_do_diretor>Ethan</nome_do_diretor>
+        <nome_familia>Coen</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ettore_scola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ettore_scola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Ettore</nome_do_diretor>
+        <nome_familia>Scola</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_fax_bahr -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_fax_bahr">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Fax</nome_do_diretor>
+        <nome_familia>Bahr</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_fr_d_ric_auburtin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_fr_d_ric_auburtin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Fr</nome_do_diretor>
+        <nome_familia>Auburtin</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_francis_ford_coppola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_francis_ford_coppola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola"/>
+        <nome_do_diretor>Francis</nome_do_diretor>
+        <nome_familia>Coppola</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_g_rard_depardieu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_g_rard_depardieu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#g_rard_depardieu"/>
+        <nome_do_diretor>G</nome_do_diretor>
+        <nome_familia>Depardieu</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_george_hickenlooper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_george_hickenlooper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>George</nome_do_diretor>
+        <nome_familia>Hickenlooper</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_george_lucas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_george_lucas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_lucas"/>
+        <nome_do_diretor>George</nome_do_diretor>
+        <nome_familia>Lucas</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_gus_van_sant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_gus_van_sant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Gus</nome_do_diretor>
+        <nome_familia>Sant</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_harold_ramis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_harold_ramis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#harold_ramis"/>
+        <nome_do_diretor>Harold</nome_do_diretor>
+        <nome_familia>Ramis</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_isabel_coixet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_isabel_coixet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Isabel</nome_do_diretor>
+        <nome_familia>Coixet</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ivan_reitman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ivan_reitman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ivan_reitman"/>
+        <nome_do_diretor>Ivan</nome_do_diretor>
+        <nome_familia>Reitman</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_james_l_brooks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_james_l_brooks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>James</nome_do_diretor>
+        <nome_familia>Brooks</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_james_marsh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_james_marsh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>James</nome_do_diretor>
+        <nome_familia>Marsh</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_jean_luc_godard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_jean_luc_godard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Jean</nome_do_diretor>
+        <nome_familia>Godard</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_jefery_levy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_jefery_levy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Jefery</nome_do_diretor>
+        <nome_familia>Levy</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joe_wright -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joe_wright">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Joe</nome_do_diretor>
+        <nome_familia>Wright</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <nome_do_diretor>Joel</nome_do_diretor>
+        <nome_familia>Coen</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_john_landis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_john_landis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>John</nome_do_diretor>
+        <nome_familia>Landis</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_lance_bangs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_lance_bangs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Lance</nome_do_diretor>
+        <nome_familia>Bangs</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_lisa_krueger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_lisa_krueger">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Lisa</nome_do_diretor>
+        <nome_familia>Krueger</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_michael_bay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_michael_bay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Michael</nome_do_diretor>
+        <nome_familia>Bay</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_mike_barker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_mike_barker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Mike</nome_do_diretor>
+        <nome_familia>Barker</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_morten_tyldum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_morten_tyldum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Morten</nome_do_diretor>
+        <nome_familia>Tyldum</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_nick_doob -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_nick_doob">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Nick</nome_do_diretor>
+        <nome_familia>Doob</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_nobuhiro_suwa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_nobuhiro_suwa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Nobuhiro</nome_do_diretor>
+        <nome_familia>Suwa</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_oliver_schmitz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_oliver_schmitz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Oliver</nome_do_diretor>
+        <nome_familia>Schmitz</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_olivier_assayas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_olivier_assayas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Olivier</nome_do_diretor>
+        <nome_familia>Assayas</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_paul_haggis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_paul_haggis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Paul</nome_do_diretor>
+        <nome_familia>Haggis</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_paul_weitz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_paul_weitz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Paul</nome_do_diretor>
+        <nome_familia>Weitz</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_peter_webber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_peter_webber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Peter</nome_do_diretor>
+        <nome_familia>Webber</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_raja_gosnell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_raja_gosnell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Raja</nome_do_diretor>
+        <nome_familia>Gosnell</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_richard_lagravenese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_richard_lagravenese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Richard</nome_do_diretor>
+        <nome_familia>Lagravenese</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ridley_scott -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ridley_scott">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Ridley</nome_do_diretor>
+        <nome_familia>Scott</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_rob_reiner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_rob_reiner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Rob</nome_do_diretor>
+        <nome_familia>Reiner</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_robert_redford -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_robert_redford">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#robert_redford"/>
+        <nome_do_diretor>Robert</nome_do_diretor>
+        <nome_familia>Redford</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_roman_coppola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_roman_coppola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#roman_coppola"/>
+        <nome_do_diretor>Roman</nome_do_diretor>
+        <nome_familia>Coppola</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ron_howard -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ron_howard">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Ron</nome_do_diretor>
+        <nome_familia>Howard</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sam_mendes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sam_mendes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Sam</nome_do_diretor>
+        <nome_familia>Mendes</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sam_raimi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sam_raimi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_raimi"/>
+        <nome_do_diretor>Sam</nome_do_diretor>
+        <nome_familia>Raimi</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_shainee_gabel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_shainee_gabel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Shainee</nome_do_diretor>
+        <nome_familia>Gabel</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sofia_coppola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sofia_coppola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sofia_coppola"/>
+        <nome_do_diretor>Sofia</nome_do_diretor>
+        <nome_familia>Coppola</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_spike_jonze -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_spike_jonze">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#spike_jonze"/>
+        <nome_do_diretor>Spike</nome_do_diretor>
+        <nome_familia>Jonze</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_stephen_hillenburg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_stephen_hillenburg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#stephen_hillenburg"/>
+        <nome_do_diretor>Stephen</nome_do_diretor>
+        <nome_familia>Hillenburg</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sydney_pollack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sydney_pollack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Sydney</nome_do_diretor>
+        <nome_familia>Pollack</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sylvain_chomet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sylvain_chomet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Sylvain</nome_do_diretor>
+        <nome_familia>Chomet</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_terry_zwigoff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_terry_zwigoff">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Terry</nome_do_diretor>
+        <nome_familia>Zwigoff</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_tim_burton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_tim_burton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Tim</nome_do_diretor>
+        <nome_familia>Burton</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_tom_tykwer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_tom_tykwer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Tom</nome_do_diretor>
+        <nome_familia>Tykwer</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_torrance_community_dance_group -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_torrance_community_dance_group">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Torrance</nome_do_diretor>
+        <nome_familia>Group</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_va_g_rdos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_va_g_rdos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#va_g_rdos"/>
+        <nome_do_diretor>Va</nome_do_diretor>
+        <nome_familia>Rdos</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_vincenzo_natali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_vincenzo_natali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Vincenzo</nome_do_diretor>
+        <nome_familia>Natali</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_walter_salles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_walter_salles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Walter</nome_do_diretor>
+        <nome_familia>Salles</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_woody_allen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_woody_allen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#woody_allen"/>
+        <nome_do_diretor>Woody</nome_do_diretor>
+        <nome_familia>Allen</nome_familia>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_yurek_bogayevicz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_yurek_bogayevicz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <nome_do_diretor>Yurek</nome_do_diretor>
+        <nome_familia>Bogayevicz</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -12290,7 +12909,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#down_from_the_mountain">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#d_a_pennebaker"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_d_a_pennebaker"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</duracao>
         <titulo>&apos;Down from the Mountain&apos;</titulo>
@@ -13083,7 +13702,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eight_legged_freaks">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ellory_elkayem"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ellory_elkayem"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">99</duracao>
         <titulo>&apos;Eight Legged Freaks&apos;</titulo>
@@ -13172,9 +13791,10 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eleanor_coppola -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eleanor_coppola">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Eleanor</nome_do_diretor>
-        <nome_familia>Coppola</nome_familia>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#954"/>
+        <nome_da_estrela>&apos;Eleanor&apos;</nome_da_estrela>
+        <nome_familia>&apos;Coppola&apos;</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -13374,16 +13994,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ellis_island_nurse">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>ellis_island_nurse</nome_do_personagem>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ellory_elkayem -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ellory_elkayem">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Ellory</nome_do_diretor>
-        <nome_familia>Elkayem</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -13754,8 +14364,10 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eric_schaeffer -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eric_schaeffer">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Eric</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1993"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2143"/>
+        <nome_da_estrela>Eric</nome_da_estrela>
         <nome_familia>Schaeffer</nome_familia>
     </owl:NamedIndividual>
     
@@ -13779,16 +14391,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#804"/>
         <nome_da_estrela>&apos;Erica&apos;</nome_da_estrela>
         <nome_familia>&apos;Yohn&apos;</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#erik_fleming -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#erik_fleming">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Erik</nome_do_diretor>
-        <nome_familia>Fleming</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -13953,8 +14555,9 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ethan_coen -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ethan_coen">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Ethan</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#444"/>
+        <nome_da_estrela>Ethan</nome_da_estrela>
         <nome_familia>Coen</nome_familia>
     </owl:NamedIndividual>
     
@@ -14023,16 +14626,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ets_woman">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>ets_woman</nome_do_personagem>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ettore_scola -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ettore_scola">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Ettore</nome_do_diretor>
-        <nome_familia>Scola</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -14306,7 +14899,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fall">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eric_schaeffer"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_eric_schaeffer"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</duracao>
         <titulo>&apos;Fall&apos;</titulo>
@@ -14374,7 +14967,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fargo">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98</duracao>
         <titulo>&apos;Fargo&apos;</titulo>
@@ -14506,16 +15099,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2353"/>
         <nome_da_estrela>Fausto</nome_da_estrela>
         <nome_familia>Rodriguez</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fax_bahr -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fax_bahr">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Fax</nome_do_diretor>
-        <nome_familia>Bahr</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -15004,16 +15587,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fr_d_ric_auburtin -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fr_d_ric_auburtin">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Fr</nome_do_diretor>
-        <nome_familia>Auburtin</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fr_d_ric_de_brabant -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fr_d_ric_de_brabant">
@@ -15208,8 +15781,9 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Francis</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#955"/>
+        <nome_da_estrela>Francis</nome_da_estrela>
         <nome_familia>Coppola</nome_familia>
     </owl:NamedIndividual>
     
@@ -15441,7 +16015,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#frankenweenie">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tim_burton"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_tim_burton"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</duracao>
         <titulo>&apos;Frankenweenie&apos;</titulo>
@@ -15761,8 +16335,9 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#g_rard_depardieu -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#g_rard_depardieu">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>G</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#320"/>
+        <nome_da_estrela>G</nome_da_estrela>
         <nome_familia>Depardieu</nome_familia>
     </owl:NamedIndividual>
     
@@ -16477,16 +17052,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_hickenlooper -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_hickenlooper">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>George</nome_do_diretor>
-        <nome_familia>Hickenlooper</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_hillman -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_hillman">
@@ -16513,8 +17078,9 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_lucas -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_lucas">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>George</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#965"/>
+        <nome_da_estrela>George</nome_da_estrela>
         <nome_familia>Lucas</nome_familia>
     </owl:NamedIndividual>
     
@@ -16651,7 +17217,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ghost_world">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#terry_zwigoff"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_terry_zwigoff"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</duracao>
         <titulo>&apos;Ghost World&apos;</titulo>
@@ -16663,7 +17229,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ghostbusters">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ivan_reitman"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ivan_reitman"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</duracao>
         <titulo>&apos;Ghostbusters&apos;</titulo>
@@ -16960,7 +17526,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#girl_with_a_pearl_earring">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#peter_webber"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_peter_webber"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</duracao>
         <titulo>&apos;Girl with a Pearl Earring&apos;</titulo>
@@ -17598,7 +18164,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#groundhog_day">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#harold_ramis"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_harold_ramis"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</duracao>
         <titulo>&apos;Groundhog Day&apos;</titulo>
@@ -17732,16 +18298,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#gus_s_pal">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>gus_s_pal</nome_do_personagem>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#gus_van_sant -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#gus_van_sant">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Gus</nome_do_diretor>
-        <nome_familia>Sant</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -18013,8 +18569,10 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#harold_ramis -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#harold_ramis">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Harold</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#588"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#913"/>
+        <nome_da_estrela>Harold</nome_da_estrela>
         <nome_familia>Ramis</nome_familia>
     </owl:NamedIndividual>
     
@@ -18221,7 +18779,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#hearts_of_darkness_a_filmmaker_s_apocalypse">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_hickenlooper"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_george_hickenlooper"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</duracao>
         <titulo>&apos;Hearts of Darkness: A Filmmaker&apos;s Apocalypse&apos;</titulo>
@@ -18482,7 +19040,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#her">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#spike_jonze"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_spike_jonze"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</duracao>
         <titulo>&apos;Her&apos;</titulo>
@@ -18739,7 +19297,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#home_alone_3">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#raja_gosnell"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_raja_gosnell"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</duracao>
         <titulo>&apos;Home Alone 3&apos;</titulo>
@@ -19171,7 +19729,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#if_lucy_fell">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eric_schaeffer"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_eric_schaeffer"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</duracao>
         <titulo>&apos;If Lucy Fell&apos;</titulo>
@@ -19272,7 +19830,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#in_good_company">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_weitz"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_paul_weitz"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</duracao>
         <titulo>&apos;In Good Company&apos;</titulo>
@@ -19304,7 +19862,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#inside_monkey_zetterland">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jefery_levy"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_jefery_levy"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</duracao>
         <titulo>&apos;Inside Monkey Zetterland&apos;</titulo>
@@ -19352,7 +19910,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interstellar">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#cristopher_nolan"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_cristopher_nolan"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</duracao>
         <titulo>&apos;Interstellar&apos;</titulo>
@@ -19373,7 +19931,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#intolerable_cruelty">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</duracao>
         <titulo>&apos;Intolerable Cruelty&apos;</titulo>
@@ -19485,16 +20043,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#isabel_coixet -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#isabel_coixet">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Isabel</nome_do_diretor>
-        <nome_familia>Coixet</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#isabell_o_connor -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#isabell_o_connor">
@@ -19561,8 +20109,9 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ivan_reitman -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ivan_reitman">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Ivan</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#645"/>
+        <nome_da_estrela>Ivan</nome_da_estrela>
         <nome_familia>Reitman</nome_familia>
     </owl:NamedIndividual>
     
@@ -20172,26 +20721,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#james_l_brooks -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#james_l_brooks">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>James</nome_do_diretor>
-        <nome_familia>Brooks</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#james_marsh -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#james_marsh">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>James</nome_do_diretor>
-        <nome_familia>Marsh</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#james_matusky -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#james_matusky">
@@ -20752,16 +21281,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jean_luc_godard -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jean_luc_godard">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Jean</nome_do_diretor>
-        <nome_familia>Godard</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jean_lundegaard -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jean_lundegaard">
@@ -20879,16 +21398,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#842"/>
         <nome_da_estrela>&apos;Jeannie&apos;</nome_da_estrela>
         <nome_familia>&apos;Linero&apos;</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jefery_levy -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jefery_levy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Jefery</nome_do_diretor>
-        <nome_familia>Levy</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -22024,21 +22533,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joe_wright -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joe_wright">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Joe</nome_do_diretor>
-        <nome_familia>Wright</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Joel</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1695"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#406"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#445"/>
+        <nome_da_estrela>Joel</nome_da_estrela>
         <nome_familia>Coen</nome_familia>
     </owl:NamedIndividual>
     
@@ -22516,16 +23018,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1786"/>
         <nome_da_estrela>John</nome_da_estrela>
         <nome_familia>Knoll</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#john_landis -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#john_landis">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>John</nome_do_diretor>
-        <nome_familia>Landis</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -23785,7 +24277,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#just_cause">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#arne_glimcher"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_arne_glimcher"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</duracao>
         <titulo>&apos;Just Cause&apos;</titulo>
@@ -25564,16 +26056,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lance_bangs -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lance_bangs">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Lance</nome_do_diretor>
-        <nome_familia>Bangs</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lance_davis -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lance_davis">
@@ -26657,7 +27139,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lick_the_star">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sofia_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sofia_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</duracao>
         <titulo>&apos;Lick the Star&apos;</titulo>
@@ -26862,16 +27344,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1953"/>
         <nome_da_estrela>&apos;Lisa&apos;</nome_da_estrela>
         <nome_familia>&apos;Persky&apos;</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lisa_krueger -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lisa_krueger">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Lisa</nome_do_diretor>
-        <nome_familia>Krueger</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -27228,7 +27700,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lost_in_translation">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sofia_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sofia_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</duracao>
         <titulo>&apos;Lost in Translation&apos;</titulo>
@@ -28308,7 +28780,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#manny__lo">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lisa_krueger"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_lisa_krueger"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</duracao>
         <titulo>&apos;Manny &amp; Lo&apos;</titulo>
@@ -28697,7 +29169,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#marie_antoinette">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sofia_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sofia_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</duracao>
         <nome_do_personagem>marie_antoinette</nome_do_personagem>
@@ -29504,7 +29976,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#match_point">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#woody_allen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_woody_allen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</duracao>
         <titulo>&apos;Match Point&apos;</titulo>
@@ -30468,16 +30940,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#michael_bay -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#michael_bay">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Michael</nome_do_diretor>
-        <nome_familia>Bay</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#michael_boccio -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#michael_boccio">
@@ -31106,16 +31568,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mike_barker -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mike_barker">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Mike</nome_do_diretor>
-        <nome_familia>Barker</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mike_best -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mike_best">
@@ -31251,7 +31703,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#miller_s_crossing">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</duracao>
         <titulo>&apos;Miller&apos;s Crossing&apos;</titulo>
@@ -31356,7 +31808,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mission_impossible">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_de_palma"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_brian_de_palma"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</duracao>
         <titulo>&apos;Mission: Impossible&apos;</titulo>
@@ -31665,16 +32117,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#morning_show_hostess">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>morning_show_hostess</nome_do_personagem>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#morten_tyldum -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#morten_tyldum">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Morten</nome_do_diretor>
-        <nome_familia>Tyldum</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -32415,7 +32857,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#my_brother_the_pig">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#erik_fleming"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_erik_fleming"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</duracao>
         <titulo>&apos;My Brother the Pig&apos;</titulo>
@@ -33062,16 +33504,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nick_doob -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nick_doob">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Nick</nome_do_diretor>
-        <nome_familia>Doob</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nick_fuoco -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nick_fuoco">
@@ -33320,7 +33752,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#no_country_for_old_men">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</duracao>
         <titulo>&apos;No Country for Old Men&apos;</titulo>
@@ -33377,16 +33809,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1211"/>
         <nome_da_estrela>Nobuhiko</nome_da_estrela>
         <nome_familia>Kitamura</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nobuhiro_suwa -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nobuhiro_suwa">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Nobuhiro</nome_do_diretor>
-        <nome_familia>Suwa</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -33485,7 +33907,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#north">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#rob_reiner"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_rob_reiner"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</duracao>
         <nome_do_personagem>north</nome_do_personagem>
@@ -33591,7 +34013,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_brother_where_art_thou">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</duracao>
         <titulo>&apos;O Brother, Where Art Thou?&apos;</titulo>
@@ -33860,16 +34282,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#oliver_schmitz -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#oliver_schmitz">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Oliver</nome_do_diretor>
-        <nome_familia>Schmitz</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#oliver_walpole -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#oliver_walpole">
@@ -33910,16 +34322,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2396"/>
         <nome_da_estrela>&apos;Olivia&apos;</nome_da_estrela>
         <nome_familia>&apos;Tracey&apos;</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#olivier_assayas -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#olivier_assayas">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Olivier</nome_do_diretor>
-        <nome_familia>Assayas</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -34752,16 +35154,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_haggis -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_haggis">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Paul</nome_do_diretor>
-        <nome_familia>Haggis</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_herman -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_herman">
@@ -34912,16 +35304,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_weitz -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_weitz">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Paul</nome_do_diretor>
-        <nome_familia>Weitz</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_zies -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_zies">
@@ -35050,7 +35432,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#peggy_sue_got_married">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_francis_ford_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</duracao>
         <titulo>&apos;Peggy Sue Got Married&apos;</titulo>
@@ -35388,16 +35770,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2162"/>
         <nome_da_estrela>Peter</nome_da_estrela>
         <nome_familia>Walker</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#peter_webber -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#peter_webber">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Peter</nome_do_diretor>
-        <nome_familia>Webber</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -36095,7 +36467,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#pride__prejudice">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joe_wright"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joe_wright"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</duracao>
         <titulo>&apos;Pride &amp; Prejudice&apos;</titulo>
@@ -36503,20 +36875,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#raising_arizona">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</duracao>
         <titulo>&apos;Raising Arizona&apos;</titulo>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#raja_gosnell -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#raja_gosnell">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Raja</nome_do_diretor>
-        <nome_familia>Gosnell</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -37637,16 +37999,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#richard_lagravenese -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#richard_lagravenese">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Richard</nome_do_diretor>
-        <nome_familia>Lagravenese</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#richard_liberty -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#richard_liberty">
@@ -37906,16 +38258,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ridley_scott -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ridley_scott">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Ridley</nome_do_diretor>
-        <nome_familia>Scott</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#riley_smith -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#riley_smith">
@@ -38038,16 +38380,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1467"/>
         <nome_da_estrela>Rob</nome_da_estrela>
         <nome_familia>Lowe</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#rob_reiner -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#rob_reiner">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Rob</nome_do_diretor>
-        <nome_familia>Reiner</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -38326,8 +38658,9 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#robert_redford -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#robert_redford">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Robert</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2209"/>
+        <nome_da_estrela>Robert</nome_da_estrela>
         <nome_familia>Redford</nome_familia>
     </owl:NamedIndividual>
     
@@ -38719,9 +39052,13 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#roman_coppola -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#roman_coppola">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
-        <nome_do_diretor>Roman</nome_do_diretor>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1775"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1807"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#806"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#957"/>
+        <nome_da_estrela>Roman</nome_da_estrela>
         <nome_do_personagem>roman_coppola</nome_do_personagem>
         <nome_familia>Coppola</nome_familia>
     </owl:NamedIndividual>
@@ -38802,16 +39139,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#717"/>
         <nome_da_estrela>Ron</nome_da_estrela>
         <nome_familia>Gilbert</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ron_howard -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ron_howard">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Ron</nome_do_diretor>
-        <nome_familia>Howard</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -39186,7 +39513,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#rumble_fish">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_francis_ford_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1983</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</duracao>
         <titulo>&apos;Rumble Fish&apos;</titulo>
@@ -39823,16 +40150,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_mendes -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_mendes">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Sam</nome_do_diretor>
-        <nome_familia>Mendes</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_moses -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_moses">
@@ -39858,8 +40175,11 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_raimi -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_raimi">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Sam</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1006"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1355"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1696"/>
+        <nome_da_estrela>Sam</nome_da_estrela>
         <nome_familia>Raimi</nome_familia>
     </owl:NamedIndividual>
     
@@ -40403,7 +40723,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#scoop">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#woody_allen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_woody_allen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</duracao>
         <titulo>&apos;Scoop&apos;</titulo>
@@ -41015,16 +41335,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sgt_rogers">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>sgt_rogers</nome_do_personagem>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#shainee_gabel -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#shainee_gabel">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Shainee</nome_do_diretor>
-        <nome_familia>Gabel</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -41949,9 +42259,23 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sofia_coppola -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sofia_coppola">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Sofia</nome_do_diretor>
-        <nome_familia>Coppola</nome_familia>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1053"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1480"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1526"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1645"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1741"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1808"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#235"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#364"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#570"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#69"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#716"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#807"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#822"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#958"/>
+        <nome_da_estrela>&apos;Sofia&apos;</nome_da_estrela>
+        <nome_familia>&apos;Coppola&apos;</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -42177,7 +42501,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#spanglish">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#james_l_brooks"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_james_l_brooks"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131</duracao>
         <titulo>&apos;Spanglish&apos;</titulo>
@@ -42319,7 +42643,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#spies_like_us">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#john_landis"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_john_landis"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</duracao>
         <titulo>&apos;Spies Like Us&apos;</titulo>
@@ -42330,8 +42654,9 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#spike_jonze -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#spike_jonze">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Spike</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1803"/>
+        <nome_da_estrela>Spike</nome_da_estrela>
         <nome_familia>Jonze</nome_familia>
     </owl:NamedIndividual>
     
@@ -42511,7 +42836,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#star_wars_episode_i__the_phantom_menace">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_lucas"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_george_lucas"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</duracao>
         <titulo>&apos;Star Wars: Episode I - The Phantom Menace&apos;</titulo>
@@ -42633,8 +42958,9 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#stephen_hillenburg -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#stephen_hillenburg">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Stephen</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2737"/>
+        <nome_da_estrela>Stephen</nome_da_estrela>
         <nome_familia>Hillenburg</nome_familia>
     </owl:NamedIndividual>
     
@@ -43553,26 +43879,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sydney_pollack -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sydney_pollack">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Sydney</nome_do_diretor>
-        <nome_familia>Pollack</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sylvain_chomet -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sylvain_chomet">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Sylvain</nome_do_diretor>
-        <nome_familia>Chomet</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sylvester_morand -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sylvester_morand">
@@ -44250,16 +44556,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#terry_zwigoff -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#terry_zwigoff">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Terry</nome_do_diretor>
-        <nome_familia>Zwigoff</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#test_instructor -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#test_instructor">
@@ -44311,7 +44607,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_big_lebowski">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">117</duracao>
         <titulo>&apos;The Big Lebowski&apos;</titulo>
@@ -44323,7 +44619,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_black_dahlia">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_de_palma"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_brian_de_palma"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">121</duracao>
         <titulo>&apos;The Black Dahlia&apos;</titulo>
@@ -44335,7 +44631,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_cotton_club">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_francis_ford_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1984</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">127</duracao>
         <titulo>&apos;The Cotton Club&apos;</titulo>
@@ -44356,7 +44652,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_da_vinci_code">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ron_howard"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ron_howard"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</duracao>
         <titulo>&apos;The Da Vinci Code&apos;</titulo>
@@ -44395,7 +44691,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_firm">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sydney_pollack"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sydney_pollack"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">154</duracao>
         <titulo>&apos;The Firm&apos;</titulo>
@@ -44425,7 +44721,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_godfather">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_francis_ford_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1972</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">175</duracao>
         <titulo>&apos;The Godfather&apos;</titulo>
@@ -44437,7 +44733,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_godfather_part_ii">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_francis_ford_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</duracao>
         <titulo>&apos;The Godfather: Part II&apos;</titulo>
@@ -44449,7 +44745,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_godfather_part_iii">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_francis_ford_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</duracao>
         <titulo>&apos;The Godfather: Part III&apos;</titulo>
@@ -44461,7 +44757,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_great_debaters">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#denzel_washington"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_denzel_washington"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126</duracao>
         <titulo>&apos;The Great Debaters&apos;</titulo>
@@ -44482,7 +44778,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_horse_whisperer">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#robert_redford"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_robert_redford"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169</duracao>
         <titulo>&apos;The Horse Whisperer&apos;</titulo>
@@ -44494,7 +44790,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_hudsucker_proxy">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</duracao>
         <titulo>&apos;The Hudsucker Proxy&apos;</titulo>
@@ -44515,7 +44811,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_imitation_game">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#morten_tyldum"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_morten_tyldum"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</duracao>
         <titulo>&apos;The Imitation Game&apos;</titulo>
@@ -44527,7 +44823,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_island">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#michael_bay"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_michael_bay"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">136</duracao>
         <titulo>&apos;The Island&apos;</titulo>
@@ -44557,7 +44853,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_ladykillers">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</duracao>
         <titulo>&apos;The Ladykillers&apos;</titulo>
@@ -44578,7 +44874,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_man_who_wasn_t_there">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</duracao>
         <titulo>&apos;The Man Who Wasn&apos;t There&apos;</titulo>
@@ -44626,7 +44922,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_outsiders">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_francis_ford_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1983</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</duracao>
         <titulo>&apos;The Outsiders&apos;</titulo>
@@ -44638,7 +44934,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_oxford_murders">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alex_de_la_iglesia"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_alex_de_la_iglesia"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</duracao>
         <titulo>&apos;The Oxford Murders&apos;</titulo>
@@ -44650,7 +44946,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_perfect_score">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_robbins"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_brian_robbins"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</duracao>
         <titulo>&apos;The Perfect Score&apos;</titulo>
@@ -44680,7 +44976,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_spongebob_squarepants_movie">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#stephen_hillenburg"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_stephen_hillenburg"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</duracao>
         <titulo>&apos;The SpongeBob SquarePants Movie&apos;</titulo>
@@ -44710,7 +45006,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_theory_of_everything">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#james_marsh"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_james_marsh"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</duracao>
         <titulo>&apos;The Theory of Everything&apos;</titulo>
@@ -44731,7 +45027,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_usual_suspects">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#bryan_singer"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_bryan_singer"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</duracao>
         <titulo>&apos;The Usual Suspects&apos;</titulo>
@@ -44743,7 +45039,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_virgin_suicides">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sofia_coppola"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sofia_coppola"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">97</duracao>
         <titulo>&apos;The Virgin Suicides&apos;</titulo>
@@ -44994,16 +45290,6 @@
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2733"/>
         <nome_da_estrela>Tim</nome_da_estrela>
         <nome_familia>Blaney</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tim_burton -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tim_burton">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Tim</nome_do_diretor>
-        <nome_familia>Burton</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -45575,16 +45861,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tom_tykwer -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tom_tykwer">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Tom</nome_do_diretor>
-        <nome_familia>Tykwer</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tom_waits -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tom_waits">
@@ -45896,21 +46172,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#torrance_community_dance_group -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#torrance_community_dance_group">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Torrance</nome_do_diretor>
-        <nome_familia>Group</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#torrance_rises -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#torrance_rises">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme"/>
-        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#torrance_community_dance_group"/>
+        <dirigido_por rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_torrance_community_dance_group"/>
         <ano_lancamento rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</ano_lancamento>
         <duracao rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</duracao>
         <titulo>&apos;Torrance Rises&apos;</titulo>
@@ -46456,9 +46722,10 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#va_g_rdos -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#va_g_rdos">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Va</nome_do_diretor>
-        <nome_familia>Rdos</nome_familia>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1971"/>
+        <nome_da_estrela>&apos;Va&apos;</nome_da_estrela>
+        <nome_familia>&apos;Rdos&apos;</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -46882,16 +47149,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#vincenzo_natali -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#vincenzo_natali">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Vincenzo</nome_do_diretor>
-        <nome_familia>Natali</nome_familia>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#vincenzo_pentangeli -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#vincenzo_pentangeli">
@@ -47231,16 +47488,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#walter_peck_wally_wick">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>walter_peck_wally_wick</nome_do_personagem>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#walter_salles -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#walter_salles">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Walter</nome_do_diretor>
-        <nome_familia>Salles</nome_familia>
     </owl:NamedIndividual>
     
 
@@ -48140,8 +48387,9 @@
     <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#woody_allen -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#woody_allen">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Woody</nome_do_diretor>
+        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2740"/>
+        <nome_da_estrela>Woody</nome_da_estrela>
         <nome_familia>Allen</nome_familia>
     </owl:NamedIndividual>
     
@@ -48438,16 +48686,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#yuppie_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem"/>
         <nome_do_personagem>yuppie_1</nome_do_personagem>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#yurek_bogayevicz -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#yurek_bogayevicz">
-        <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor"/>
-        <nome_do_diretor>Yurek</nome_do_diretor>
-        <nome_familia>Bogayevicz</nome_familia>
     </owl:NamedIndividual>
     
 

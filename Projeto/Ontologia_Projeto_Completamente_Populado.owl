@@ -154,7 +154,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#american_beauty
 :american_beauty rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :sam_mendes ;
+        :dirigido_por :diretor_sam_mendes ;
         :ano_lancamento 1999 ;
         :duracao 122 ;
         :titulo "'American Beauty'" .
@@ -162,7 +162,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#anna
 :anna rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :yurek_bogayevicz ;
+        :dirigido_por :diretor_yurek_bogayevicz ;
         :ano_lancamento 1987 ;
         :duracao 100 ;
         :titulo "'Anna'" .
@@ -170,7 +170,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#blade_runner
 :blade_runner rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :ridley_scott ;
+        :dirigido_por :diretor_ridley_scott ;
         :ano_lancamento 1982 ;
         :duracao 117 ;
         :titulo "'Blade Runner'" .
@@ -178,7 +178,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#barton_fink
 :barton_fink rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 1991 ;
         :duracao 116 ;
         :titulo "'Barton Fink'" .
@@ -186,7 +186,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_big_lebowski
 :the_big_lebowski rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 1998 ;
         :duracao 117 ;
         :titulo "'The Big Lebowski'" .
@@ -194,7 +194,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#blood_simple
 :blood_simple rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 1984 ;
         :duracao 99 ;
         :titulo "'Blood Simple'" .
@@ -202,7 +202,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_cotton_club
 :the_cotton_club rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :francis_ford_coppola ;
+        :dirigido_por :diretor_francis_ford_coppola ;
         :ano_lancamento 1984 ;
         :duracao 127 ;
         :titulo "'The Cotton Club'" .
@@ -210,7 +210,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#cq
 :cq rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :roman_coppola ;
+        :dirigido_por :diretor_roman_coppola ;
         :ano_lancamento 2001 ;
         :duracao 88 ;
         :titulo "'CQ'" .
@@ -218,7 +218,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#crimewave
 :crimewave rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :sam_raimi ;
+        :dirigido_por :diretor_sam_raimi ;
         :ano_lancamento 1985 ;
         :duracao 83 ;
         :titulo "'Crimewave'" .
@@ -226,7 +226,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#down_from_the_mountain
 :down_from_the_mountain rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :d_a_pennebaker ;
+        :dirigido_por :diretor_d_a_pennebaker ;
         :ano_lancamento 2000 ;
         :duracao 98 ;
         :titulo "'Down from the Mountain'" .
@@ -234,7 +234,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_great_debaters
 :the_great_debaters rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :denzel_washington ;
+        :dirigido_por :diretor_denzel_washington ;
         :ano_lancamento 2007 ;
         :duracao 126 ;
         :titulo "'The Great Debaters'" .
@@ -242,7 +242,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fargo
 :fargo rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 1996 ;
         :duracao 98 ;
         :titulo "'Fargo'" .
@@ -250,7 +250,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_firm
 :the_firm rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :sydney_pollack ;
+        :dirigido_por :diretor_sydney_pollack ;
         :ano_lancamento 1993 ;
         :duracao 154 ;
         :titulo "'The Firm'" .
@@ -258,7 +258,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#frankenweenie
 :frankenweenie rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :tim_burton ;
+        :dirigido_por :diretor_tim_burton ;
         :ano_lancamento 1984 ;
         :duracao 29 ;
         :titulo "'Frankenweenie'" .
@@ -266,7 +266,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#her
 :her rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :spike_jonze ;
+        :dirigido_por :diretor_spike_jonze ;
         :ano_lancamento 2013 ;
         :duracao 126 ;
         :titulo "'Her'" .
@@ -274,7 +274,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ghostbusters
 :ghostbusters rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :ivan_reitman ;
+        :dirigido_por :diretor_ivan_reitman ;
         :ano_lancamento 1984 ;
         :duracao 105 ;
         :titulo "'Ghostbusters'" .
@@ -282,7 +282,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#girl_with_a_pearl_earring
 :girl_with_a_pearl_earring rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :peter_webber ;
+        :dirigido_por :diretor_peter_webber ;
         :ano_lancamento 2003 ;
         :duracao 100 ;
         :titulo "'Girl with a Pearl Earring'" .
@@ -290,7 +290,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_godfather
 :the_godfather rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :francis_ford_coppola ;
+        :dirigido_por :diretor_francis_ford_coppola ;
         :ano_lancamento 1972 ;
         :duracao 175 ;
         :titulo "'The Godfather'" .
@@ -298,7 +298,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_godfather_part_ii
 :the_godfather_part_ii rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :francis_ford_coppola ;
+        :dirigido_por :diretor_francis_ford_coppola ;
         :ano_lancamento 1974 ;
         :duracao 202 ;
         :titulo "'The Godfather: Part II'" .
@@ -306,7 +306,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_godfather_part_iii
 :the_godfather_part_iii rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :francis_ford_coppola ;
+        :dirigido_por :diretor_francis_ford_coppola ;
         :ano_lancamento 1990 ;
         :duracao 162 ;
         :titulo "'The Godfather: Part III'" .
@@ -314,7 +314,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#groundhog_day
 :groundhog_day rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :harold_ramis ;
+        :dirigido_por :diretor_harold_ramis ;
         :ano_lancamento 1993 ;
         :duracao 101 ;
         :titulo "'Groundhog Day'" .
@@ -322,7 +322,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#hearts_of_darkness_a_filmmaker_s_apocalypse
 :hearts_of_darkness_a_filmmaker_s_apocalypse rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :george_hickenlooper ;
+        :dirigido_por :diretor_george_hickenlooper ;
         :ano_lancamento 1991 ;
         :duracao 96 ;
         :titulo "'Hearts of Darkness: A Filmmaker\'s Apocalypse'" .
@@ -330,7 +330,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_hudsucker_proxy
 :the_hudsucker_proxy rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 1994 ;
         :duracao 111 ;
         :titulo "'The Hudsucker Proxy'" .
@@ -338,7 +338,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#inside_monkey_zetterland
 :inside_monkey_zetterland rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :jefery_levy ;
+        :dirigido_por :diretor_jefery_levy ;
         :ano_lancamento 1992 ;
         :duracao 93 ;
         :titulo "'Inside Monkey Zetterland'" .
@@ -346,7 +346,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#intolerable_cruelty
 :intolerable_cruelty rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 2003 ;
         :duracao 100 ;
         :titulo "'Intolerable Cruelty'" .
@@ -354,7 +354,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_da_vinci_code
 :the_da_vinci_code rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :ron_howard ;
+        :dirigido_por :diretor_ron_howard ;
         :ano_lancamento 2006 ;
         :duracao 149 ;
         :titulo "'The Da Vinci Code'" .
@@ -362,7 +362,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_ladykillers
 :the_ladykillers rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 2004 ;
         :duracao 104 ;
         :titulo "'The Ladykillers'" .
@@ -370,7 +370,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lick_the_star
 :lick_the_star rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :sofia_coppola ;
+        :dirigido_por :diretor_sofia_coppola ;
         :ano_lancamento 1998 ;
         :duracao 14 ;
         :titulo "'Lick the Star'" .
@@ -378,7 +378,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lost_in_translation
 :lost_in_translation rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :sofia_coppola ;
+        :dirigido_por :diretor_sofia_coppola ;
         :ano_lancamento 2003 ;
         :duracao 102 ;
         :titulo "'Lost in Translation'" .
@@ -386,7 +386,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_man_who_wasn_t_there
 :the_man_who_wasn_t_there rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 2001 ;
         :duracao 116 ;
         :titulo "'The Man Who Wasn\'t There'" .
@@ -394,7 +394,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#marie_antoinette
 :marie_antoinette rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :sofia_coppola ;
+        :dirigido_por :diretor_sofia_coppola ;
         :ano_lancamento 2006 ;
         :duracao 123 ;
         :titulo "'Marie Antoinette'" .
@@ -402,7 +402,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#miller_s_crossing
 :miller_s_crossing rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 1990 ;
         :duracao 115 ;
         :titulo "'Miller\'s Crossing'" .
@@ -410,7 +410,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mission_impossible
 :mission_impossible rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :brian_de_palma ;
+        :dirigido_por :diretor_brian_de_palma ;
         :ano_lancamento 1996 ;
         :duracao 110 ;
         :titulo "'Mission: Impossible'" .
@@ -418,7 +418,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#no_country_for_old_men
 :no_country_for_old_men rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 2007 ;
         :duracao 122 ;
         :titulo "'No Country for Old Men'" .
@@ -426,7 +426,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#o_brother_where_art_thou
 :o_brother_where_art_thou rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 2000 ;
         :duracao 107 ;
         :titulo "'O Brother, Where Art Thou?'" .
@@ -434,7 +434,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_outsiders
 :the_outsiders rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :francis_ford_coppola ;
+        :dirigido_por :diretor_francis_ford_coppola ;
         :ano_lancamento 1983 ;
         :duracao 91 ;
         :titulo "'The Outsiders'" .
@@ -442,7 +442,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#peggy_sue_got_married
 :peggy_sue_got_married rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :francis_ford_coppola ;
+        :dirigido_por :diretor_francis_ford_coppola ;
         :ano_lancamento 1986 ;
         :duracao 103 ;
         :titulo "'Peggy Sue Got Married'" .
@@ -450,7 +450,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#interstellar
 :interstellar rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :cristopher_nolan ;
+        :dirigido_por :diretor_cristopher_nolan ;
         :ano_lancamento 2014 ;
         :duracao 169 ;
         :titulo "'Interstellar'" .
@@ -458,7 +458,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#raising_arizona
 :raising_arizona rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joel_coen ;
+        :dirigido_por :diretor_joel_coen ;
         :ano_lancamento 1987 ;
         :duracao 94 ;
         :titulo "'Raising Arizona'" .
@@ -466,7 +466,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#rumble_fish
 :rumble_fish rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :francis_ford_coppola ;
+        :dirigido_por :diretor_francis_ford_coppola ;
         :ano_lancamento 1983 ;
         :duracao 94 ;
         :titulo "'Rumble Fish'" .
@@ -474,7 +474,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#spies_like_us
 :spies_like_us rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :john_landis ;
+        :dirigido_por :diretor_john_landis ;
         :ano_lancamento 1985 ;
         :duracao 102 ;
         :titulo "'Spies Like Us'" .
@@ -482,7 +482,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#star_wars_episode_i__the_phantom_menace
 :star_wars_episode_i__the_phantom_menace rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :george_lucas ;
+        :dirigido_por :diretor_george_lucas ;
         :ano_lancamento 1999 ;
         :duracao 136 ;
         :titulo "'Star Wars: Episode I - The Phantom Menace'" .
@@ -490,7 +490,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#torrance_rises
 :torrance_rises rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :torrance_community_dance_group ;
+        :dirigido_por :diretor_torrance_community_dance_group ;
         :ano_lancamento 1999 ;
         :duracao 34 ;
         :titulo "'Torrance Rises'" .
@@ -498,7 +498,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_usual_suspects
 :the_usual_suspects rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :bryan_singer ;
+        :dirigido_por :diretor_bryan_singer ;
         :ano_lancamento 1995 ;
         :duracao 106 ;
         :titulo "'The Usual Suspects'" .
@@ -506,7 +506,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_virgin_suicides
 :the_virgin_suicides rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :sofia_coppola ;
+        :dirigido_por :diretor_sofia_coppola ;
         :ano_lancamento 1999 ;
         :duracao 97 ;
         :titulo "'The Virgin Suicides'" .
@@ -514,7 +514,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#an_american_rhapsody
 :an_american_rhapsody rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :va_g_rdos ;
+        :dirigido_por :diretor_va_g_rdos ;
         :ano_lancamento 2001 ;
         :duracao 106 ;
         :titulo "'An American Rhapsody'" .
@@ -522,7 +522,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_black_dahlia
 :the_black_dahlia rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :brian_de_palma ;
+        :dirigido_por :diretor_brian_de_palma ;
         :ano_lancamento 2006 ;
         :duracao 121 ;
         :titulo "'The Black Dahlia'" .
@@ -530,7 +530,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fall
 :fall rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :eric_schaeffer ;
+        :dirigido_por :diretor_eric_schaeffer ;
         :ano_lancamento 1997 ;
         :duracao 93 ;
         :titulo "'Fall'" .
@@ -538,7 +538,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#spanglish
 :spanglish rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :james_l_brooks ;
+        :dirigido_por :diretor_james_l_brooks ;
         :ano_lancamento 2004 ;
         :duracao 131 ;
         :titulo "'Spanglish'" .
@@ -546,7 +546,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eight_legged_freaks
 :eight_legged_freaks rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :ellory_elkayem ;
+        :dirigido_por :diretor_ellory_elkayem ;
         :ano_lancamento 2002 ;
         :duracao 99 ;
         :titulo "'Eight Legged Freaks'" .
@@ -554,7 +554,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ghost_world
 :ghost_world rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :terry_zwigoff ;
+        :dirigido_por :diretor_terry_zwigoff ;
         :ano_lancamento 2001 ;
         :duracao 111 ;
         :titulo "'Ghost World'" .
@@ -562,7 +562,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_good_woman
 :a_good_woman rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :mike_barker ;
+        :dirigido_por :diretor_mike_barker ;
         :ano_lancamento 2004 ;
         :duracao 93 ;
         :titulo "'A Good Woman'" .
@@ -570,7 +570,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#if_lucy_fell
 :if_lucy_fell rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :eric_schaeffer ;
+        :dirigido_por :diretor_eric_schaeffer ;
         :ano_lancamento 1996 ;
         :duracao 92 ;
         :titulo "'If Lucy Fell'" .
@@ -578,7 +578,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_oxford_murders
 :the_oxford_murders rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :alex_de_la_iglesia ;
+        :dirigido_por :diretor_alex_de_la_iglesia ;
         :ano_lancamento 2008 ;
         :duracao 104 ;
         :titulo "'The Oxford Murders'" .
@@ -586,7 +586,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#home_alone_3
 :home_alone_3 rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :raja_gosnell ;
+        :dirigido_por :diretor_raja_gosnell ;
         :ano_lancamento 1997 ;
         :duracao 102 ;
         :titulo "'Home Alone 3'" .
@@ -594,7 +594,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_horse_whisperer
 :the_horse_whisperer rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :robert_redford ;
+        :dirigido_por :diretor_robert_redford ;
         :ano_lancamento 1998 ;
         :duracao 169 ;
         :titulo "'The Horse Whisperer'" .
@@ -602,7 +602,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#pride__prejudice
 :pride__prejudice rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :joe_wright ;
+        :dirigido_por :diretor_joe_wright ;
         :ano_lancamento 2005 ;
         :duracao 129 ;
         :titulo "'Pride & Prejudice'" .
@@ -610,7 +610,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#in_good_company
 :in_good_company rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :paul_weitz ;
+        :dirigido_por :diretor_paul_weitz ;
         :ano_lancamento 2004 ;
         :duracao 109 ;
         :titulo "'In Good Company'" .
@@ -618,7 +618,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#just_cause
 :just_cause rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :arne_glimcher ;
+        :dirigido_por :diretor_arne_glimcher ;
         :ano_lancamento 1995 ;
         :duracao 102 ;
         :titulo "'Just Cause'" .
@@ -626,7 +626,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_island
 :the_island rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :michael_bay ;
+        :dirigido_por :diretor_michael_bay ;
         :ano_lancamento 2005 ;
         :duracao 136 ;
         :titulo "'The Island'" .
@@ -634,7 +634,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#a_love_song_for_bobby_long
 :a_love_song_for_bobby_long rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :shainee_gabel ;
+        :dirigido_por :diretor_shainee_gabel ;
         :ano_lancamento 2004 ;
         :duracao 119 ;
         :titulo "'A Love Song for Bobby Long'" .
@@ -642,7 +642,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#manny__lo
 :manny__lo rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :lisa_krueger ;
+        :dirigido_por :diretor_lisa_krueger ;
         :ano_lancamento 1996 ;
         :duracao 88 ;
         :titulo "'Manny & Lo'" .
@@ -650,7 +650,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_theory_of_everything
 :the_theory_of_everything rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :james_marsh ;
+        :dirigido_por :diretor_james_marsh ;
         :ano_lancamento 2014 ;
         :duracao 123 ;
         :titulo "'The Theory of Everything'" .
@@ -658,7 +658,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#crash
 :crash rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :paul_haggis ;
+        :dirigido_por :diretor_paul_haggis ;
         :ano_lancamento 2004 ;
         :duracao 112 ;
         :titulo "'Crash'" .
@@ -666,7 +666,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#match_point
 :match_point rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :woody_allen ;
+        :dirigido_por :diretor_woody_allen ;
         :ano_lancamento 2005 ;
         :duracao 124 ;
         :titulo "'Match Point'" .
@@ -674,7 +674,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#my_brother_the_pig
 :my_brother_the_pig rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :erik_fleming ;
+        :dirigido_por :diretor_erik_fleming ;
         :ano_lancamento 1999 ;
         :duracao 92 ;
         :titulo "'My Brother the Pig'" .
@@ -682,7 +682,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#north
 :north rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :rob_reiner ;
+        :dirigido_por :diretor_rob_reiner ;
         :ano_lancamento 1994 ;
         :duracao 87 ;
         :titulo "'North'" .
@@ -690,7 +690,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_perfect_score
 :the_perfect_score rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :brian_robbins ;
+        :dirigido_por :diretor_brian_robbins ;
         :ano_lancamento 2004 ;
         :duracao 93 ;
         :titulo "'The Perfect Score'" .
@@ -698,7 +698,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_spongebob_squarepants_movie
 :the_spongebob_squarepants_movie rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :stephen_hillenburg ;
+        :dirigido_por :diretor_stephen_hillenburg ;
         :ano_lancamento 2004 ;
         :duracao 87 ;
         :titulo "'The SpongeBob SquarePants Movie'" .
@@ -706,7 +706,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#scoop
 :scoop rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :woody_allen ;
+        :dirigido_por :diretor_woody_allen ;
         :ano_lancamento 2006 ;
         :duracao 96 ;
         :titulo "'Scoop'" .
@@ -714,445 +714,463 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#the_imitation_game
 :the_imitation_game rdf:type owl:NamedIndividual ,
                  :Filme ;
-        :dirigido_por :morten_tyldum ;
+        :dirigido_por :diretor_morten_tyldum ;
         :ano_lancamento 2014 ;
         :duracao 114 ;
         :titulo "'The Imitation Game'" .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_mendes
-:sam_mendes rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sam_mendes
+:diretor_sam_mendes rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Sam' ;
             :nome_familia 'Mendes' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#yurek_bogayevicz
-:yurek_bogayevicz rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_yurek_bogayevicz
+:diretor_yurek_bogayevicz rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Yurek' ;
             :nome_familia 'Bogayevicz' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ridley_scott
-:ridley_scott rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ridley_scott
+:diretor_ridley_scott rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Ridley' ;
             :nome_familia 'Scott' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ethan_coen
-:ethan_coen rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ethan_coen
+:diretor_ethan_coen rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :ethan_coen ;
             :nome_do_diretor 'Ethan' ;
             :nome_familia 'Coen' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen
-:joel_coen rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joel_coen
+:diretor_joel_coen rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :joel_coen ;
             :nome_do_diretor 'Joel' ;
             :nome_familia 'Coen' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola
-:francis_ford_coppola rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_francis_ford_coppola
+:diretor_francis_ford_coppola rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :francis_ford_coppola ;
             :nome_do_diretor 'Francis' ;
             :nome_familia 'Coppola' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#roman_coppola
-:roman_coppola rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_roman_coppola
+:diretor_roman_coppola rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :roman_coppola ;
             :nome_do_diretor 'Roman' ;
             :nome_familia 'Coppola' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_raimi
-:sam_raimi rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sam_raimi
+:diretor_sam_raimi rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :sam_raimi ;
             :nome_do_diretor 'Sam' ;
             :nome_familia 'Raimi' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nick_doob
-:nick_doob rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_nick_doob
+:diretor_nick_doob rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Nick' ;
             :nome_familia 'Doob' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#chris_hegedus
-:chris_hegedus rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_chris_hegedus
+:diretor_chris_hegedus rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Chris' ;
             :nome_familia 'Hegedus' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#d_a_pennebaker
-:d_a_pennebaker rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_d_a_pennebaker
+:diretor_d_a_pennebaker rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'D' ;
             :nome_familia 'Pennebaker' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#denzel_washington
-:denzel_washington rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_denzel_washington
+:diretor_denzel_washington rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :denzel_washington ;
             :nome_do_diretor 'Denzel' ;
             :nome_familia 'Washington' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sydney_pollack
-:sydney_pollack rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sydney_pollack
+:diretor_sydney_pollack rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Sydney' ;
             :nome_familia 'Pollack' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tim_burton
-:tim_burton rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_tim_burton
+:diretor_tim_burton rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Tim' ;
             :nome_familia 'Burton' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#spike_jonze
-:spike_jonze rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_spike_jonze
+:diretor_spike_jonze rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :spike_jonze ;
             :nome_do_diretor 'Spike' ;
             :nome_familia 'Jonze' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ivan_reitman
-:ivan_reitman rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ivan_reitman
+:diretor_ivan_reitman rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :ivan_reitman ;
             :nome_do_diretor 'Ivan' ;
             :nome_familia 'Reitman' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#peter_webber
-:peter_webber rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_peter_webber
+:diretor_peter_webber rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Peter' ;
             :nome_familia 'Webber' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#harold_ramis
-:harold_ramis rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_harold_ramis
+:diretor_harold_ramis rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :harold_ramis ;
             :nome_do_diretor 'Harold' ;
             :nome_familia 'Ramis' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fax_bahr
-:fax_bahr rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_fax_bahr
+:diretor_fax_bahr rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Fax' ;
             :nome_familia 'Bahr' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eleanor_coppola
-:eleanor_coppola rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_eleanor_coppola
+:diretor_eleanor_coppola rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :eleanor_coppola ;
             :nome_do_diretor 'Eleanor' ;
             :nome_familia 'Coppola' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_hickenlooper
-:george_hickenlooper rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_george_hickenlooper
+:diretor_george_hickenlooper rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'George' ;
             :nome_familia 'Hickenlooper' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jefery_levy
-:jefery_levy rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_jefery_levy
+:diretor_jefery_levy rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Jefery' ;
             :nome_familia 'Levy' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ron_howard
-:ron_howard rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ron_howard
+:diretor_ron_howard rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Ron' ;
             :nome_familia 'Howard' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sofia_coppola
-:sofia_coppola rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sofia_coppola
+:diretor_sofia_coppola rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :sofia_coppola ;
             :nome_do_diretor 'Sofia' ;
             :nome_familia 'Coppola' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_de_palma
-:brian_de_palma rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_brian_de_palma
+:diretor_brian_de_palma rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Brian' ;
             :nome_familia 'Palma' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#olivier_assayas
-:olivier_assayas rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_olivier_assayas
+:diretor_olivier_assayas rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Olivier' ;
             :nome_familia 'Assayas' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#fr_d_ric_auburtin
-:fr_d_ric_auburtin rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_fr_d_ric_auburtin
+:diretor_fr_d_ric_auburtin rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Fr' ;
             :nome_familia 'Auburtin' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#christoffer_boe
-:christoffer_boe rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_christoffer_boe
+:diretor_christoffer_boe rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Christoffer' ;
             :nome_familia 'Boe' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sylvain_chomet
-:sylvain_chomet rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_sylvain_chomet
+:diretor_sylvain_chomet rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Sylvain' ;
             :nome_familia 'Chomet' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#isabel_coixet
-:isabel_coixet rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_isabel_coixet
+:diretor_isabel_coixet rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Isabel' ;
             :nome_familia 'Coixet' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alfonso_cuar_n
-:alfonso_cuar_n rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_alfonso_cuar_n
+:diretor_alfonso_cuar_n rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Alfonso' ;
             :nome_familia 'N' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#g_rard_depardieu
-:g_rard_depardieu rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_g_rard_depardieu
+:diretor_g_rard_depardieu rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :g_rard_depardieu ;
             :nome_do_diretor 'G' ;
             :nome_familia 'Depardieu' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jean_luc_godard
-:jean_luc_godard rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_jean_luc_godard
+:diretor_jean_luc_godard rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Jean' ;
             :nome_familia 'Godard' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#richard_lagravenese
-:richard_lagravenese rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_richard_lagravenese
+:diretor_richard_lagravenese rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Richard' ;
             :nome_familia 'Lagravenese' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#anne_marie_mi_ville
-:anne_marie_mi_ville rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_anne_marie_mi_ville
+:diretor_anne_marie_mi_ville rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Anne' ;
             :nome_familia 'Ville' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#vincenzo_natali
-:vincenzo_natali rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_vincenzo_natali
+:diretor_vincenzo_natali rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Vincenzo' ;
             :nome_familia 'Natali' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alexander_payne
-:alexander_payne rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_alexander_payne
+:diretor_alexander_payne rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Alexander' ;
             :nome_familia 'Payne' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#walter_salles
-:walter_salles rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_walter_salles
+:diretor_walter_salles rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Walter' ;
             :nome_familia 'Salles' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#oliver_schmitz
-:oliver_schmitz rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_oliver_schmitz
+:diretor_oliver_schmitz rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Oliver' ;
             :nome_familia 'Schmitz' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ettore_scola
-:ettore_scola rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ettore_scola
+:diretor_ettore_scola rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Ettore' ;
             :nome_familia 'Scola' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nobuhiro_suwa
-:nobuhiro_suwa rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_nobuhiro_suwa
+:diretor_nobuhiro_suwa rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Nobuhiro' ;
             :nome_familia 'Suwa' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#daniela_thomas
-:daniela_thomas rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_daniela_thomas
+:diretor_daniela_thomas rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Daniela' ;
             :nome_familia 'Thomas' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tom_tykwer
-:tom_tykwer rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_tom_tykwer
+:diretor_tom_tykwer rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Tom' ;
             :nome_familia 'Tykwer' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#gus_van_sant
-:gus_van_sant rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_gus_van_sant
+:diretor_gus_van_sant rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Gus' ;
             :nome_familia 'Sant' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#cristopher_nolan
-:cristopher_nolan rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_cristopher_nolan
+:diretor_cristopher_nolan rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Cristopher' ;
             :nome_familia 'Nolan' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#john_landis
-:john_landis rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_john_landis
+:diretor_john_landis rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'John' ;
             :nome_familia 'Landis' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_lucas
-:george_lucas rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_george_lucas
+:diretor_george_lucas rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :george_lucas ;
             :nome_do_diretor 'George' ;
             :nome_familia 'Lucas' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lance_bangs
-:lance_bangs rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_lance_bangs
+:diretor_lance_bangs rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Lance' ;
             :nome_familia 'Bangs' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#torrance_community_dance_group
-:torrance_community_dance_group rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_torrance_community_dance_group
+:diretor_torrance_community_dance_group rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Torrance' ;
             :nome_familia 'Group' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#bryan_singer
-:bryan_singer rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_bryan_singer
+:diretor_bryan_singer rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Bryan' ;
             :nome_familia 'Singer' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#va_g_rdos
-:va_g_rdos rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_va_g_rdos
+:diretor_va_g_rdos rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :va_g_rdos ;
             :nome_do_diretor 'Va' ;
             :nome_familia 'Rdos' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eric_schaeffer
-:eric_schaeffer rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_eric_schaeffer
+:diretor_eric_schaeffer rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :eric_schaeffer ;
             :nome_do_diretor 'Eric' ;
             :nome_familia 'Schaeffer' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#james_l_brooks
-:james_l_brooks rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_james_l_brooks
+:diretor_james_l_brooks rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'James' ;
             :nome_familia 'Brooks' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ellory_elkayem
-:ellory_elkayem rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_ellory_elkayem
+:diretor_ellory_elkayem rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Ellory' ;
             :nome_familia 'Elkayem' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#terry_zwigoff
-:terry_zwigoff rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_terry_zwigoff
+:diretor_terry_zwigoff rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Terry' ;
             :nome_familia 'Zwigoff' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mike_barker
-:mike_barker rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_mike_barker
+:diretor_mike_barker rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Mike' ;
             :nome_familia 'Barker' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#alex_de_la_iglesia
-:alex_de_la_iglesia rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_alex_de_la_iglesia
+:diretor_alex_de_la_iglesia rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Alex' ;
             :nome_familia 'Iglesia' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#raja_gosnell
-:raja_gosnell rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_raja_gosnell
+:diretor_raja_gosnell rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Raja' ;
             :nome_familia 'Gosnell' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#robert_redford
-:robert_redford rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_robert_redford
+:diretor_robert_redford rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :robert_redford ;
             :nome_do_diretor 'Robert' ;
             :nome_familia 'Redford' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joe_wright
-:joe_wright rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_joe_wright
+:diretor_joe_wright rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Joe' ;
             :nome_familia 'Wright' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_weitz
-:paul_weitz rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_paul_weitz
+:diretor_paul_weitz rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Paul' ;
             :nome_familia 'Weitz' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#arne_glimcher
-:arne_glimcher rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_arne_glimcher
+:diretor_arne_glimcher rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Arne' ;
             :nome_familia 'Glimcher' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#michael_bay
-:michael_bay rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_michael_bay
+:diretor_michael_bay rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Michael' ;
             :nome_familia 'Bay' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#shainee_gabel
-:shainee_gabel rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_shainee_gabel
+:diretor_shainee_gabel rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Shainee' ;
             :nome_familia 'Gabel' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lisa_krueger
-:lisa_krueger rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_lisa_krueger
+:diretor_lisa_krueger rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Lisa' ;
             :nome_familia 'Krueger' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#james_marsh
-:james_marsh rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_james_marsh
+:diretor_james_marsh rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'James' ;
             :nome_familia 'Marsh' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#paul_haggis
-:paul_haggis rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_paul_haggis
+:diretor_paul_haggis rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Paul' ;
             :nome_familia 'Haggis' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#woody_allen
-:woody_allen rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_woody_allen
+:diretor_woody_allen rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :woody_allen ;
             :nome_do_diretor 'Woody' ;
             :nome_familia 'Allen' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#erik_fleming
-:erik_fleming rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_erik_fleming
+:diretor_erik_fleming rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Erik' ;
             :nome_familia 'Fleming' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#rob_reiner
-:rob_reiner rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_rob_reiner
+:diretor_rob_reiner rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Rob' ;
             :nome_familia 'Reiner' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#brian_robbins
-:brian_robbins rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_brian_robbins
+:diretor_brian_robbins rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Brian' ;
             :nome_familia 'Robbins' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#stephen_hillenburg
-:stephen_hillenburg rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_stephen_hillenburg
+:diretor_stephen_hillenburg rdf:type owl:NamedIndividual ,
                      :Diretor ;
+             owl:sameAs :stephen_hillenburg ;
             :nome_do_diretor 'Stephen' ;
             :nome_familia 'Hillenburg' .
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#morten_tyldum
-:morten_tyldum rdf:type owl:NamedIndividual ,
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_morten_tyldum
+:diretor_morten_tyldum rdf:type owl:NamedIndividual ,
                      :Diretor ;
             :nome_do_diretor 'Morten' ;
             :nome_familia 'Tyldum' .
@@ -21702,6 +21720,13 @@
                 :nome_da_estrela 'Jeremy' ;
                 :nome_familia 'Davies' .
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#g_rard_depardieu
+:g_rard_depardieu rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :320 ;
+                :nome_da_estrela 'G' ;
+                :nome_familia 'Depardieu' .
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#giancarlo_giannini
 :giancarlo_giannini rdf:type owl:NamedIndividual ,
                          :Ator ;
@@ -22115,6 +22140,13 @@
                 :nome_da_estrela 'Dennis' ;
                 :nome_familia 'Chaitlin' .
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joel_coen
+:joel_coen rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :406 , :445 , :1695 ;
+                :nome_da_estrela 'Joel' ;
+                :nome_familia 'Coen' .
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dan_nelson
 :dan_nelson rdf:type owl:NamedIndividual ,
                          :Ator ;
@@ -22304,6 +22336,13 @@
                 :nome_da_estrela 'T' ;
                 :nome_familia 'Burnett' .
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ethan_coen
+:ethan_coen rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :444 ;
+                :nome_da_estrela 'Ethan' ;
+                :nome_familia 'Coen' .
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tim_blake_nelson
 :tim_blake_nelson rdf:type owl:NamedIndividual ,
                          :Ator ;
@@ -22324,6 +22363,13 @@
                 :atua :449 ;
                 :nome_da_estrela 'Wes' ;
                 :nome_familia 'Motley' .
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#denzel_washington
+:denzel_washington rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :451 ;
+                :nome_da_estrela 'Denzel' ;
+                :nome_familia 'Washington' .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nate_parker
 :nate_parker rdf:type owl:NamedIndividual ,
@@ -22969,6 +23015,13 @@
                 :nome_da_estrela 'Dan' ;
                 :nome_familia 'Aykroyd' .
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#harold_ramis
+:harold_ramis rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :588 , :913 ;
+                :nome_da_estrela 'Harold' ;
+                :nome_familia 'Ramis' .
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#rick_moranis
 :rick_moranis rdf:type owl:NamedIndividual ,
                          :Ator ;
@@ -23234,6 +23287,13 @@
                 :atua :644 ;
                 :nome_da_estrela 'Harrison' ;
                 :nome_familia 'Ray' .
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ivan_reitman
+:ivan_reitman rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :645 ;
+                :nome_da_estrela 'Ivan' ;
+                :nome_familia 'Reitman' .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mario_todisco
 :mario_todisco rdf:type owl:NamedIndividual ,
@@ -23956,6 +24016,13 @@
                 :nome_da_estrela 'Richard' ;
                 :nome_familia 'Watson' .
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#roman_coppola
+:roman_coppola rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :806 , :957 , :1775 , :1807 ;
+                :nome_da_estrela 'Roman' ;
+                :nome_familia 'Coppola' .
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#larry_guardino
 :larry_guardino rdf:type owl:NamedIndividual ,
                          :Ator ;
@@ -24600,6 +24667,13 @@
                 :nome_da_estrela 'Sam' ;
                 :nome_familia 'Bottoms' .
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#francis_ford_coppola
+:francis_ford_coppola rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :955 ;
+                :nome_da_estrela 'Francis' ;
+                :nome_familia 'Coppola' .
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#frederic_forrest
 :frederic_forrest rdf:type owl:NamedIndividual ,
                          :Ator ;
@@ -24620,6 +24694,13 @@
                 :atua :964 , :1632 ;
                 :nome_da_estrela 'Dennis' ;
                 :nome_familia 'Hopper' .
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#george_lucas
+:george_lucas rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :965 ;
+                :nome_da_estrela 'George' ;
+                :nome_familia 'Lucas' .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#martin_sheen
 :martin_sheen rdf:type owl:NamedIndividual ,
@@ -24795,6 +24876,13 @@
                 :atua :1005 ;
                 :nome_da_estrela 'Arthur' ;
                 :nome_familia 'Bridgers' .
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_raimi
+:sam_raimi rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :1006 , :1355 , :1696 ;
+                :nome_da_estrela 'Sam' ;
+                :nome_familia 'Raimi' .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#john_cameron
 :john_cameron rdf:type owl:NamedIndividual ,
@@ -28114,6 +28202,13 @@
                 :nome_da_estrela 'Bob' ;
                 :nome_familia 'Woods' .
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#spike_jonze
+:spike_jonze rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :1803 ;
+                :nome_da_estrela 'Spike' ;
+                :nome_familia 'Jonze' .
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eminem
 :eminem rdf:type owl:NamedIndividual ,
                          :Ator ;
@@ -28799,6 +28894,13 @@
                 :atua :1991 ;
                 :nome_da_estrela 'Joost' ;
                 :nome_familia 'Scholte' .
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eric_schaeffer
+:eric_schaeffer rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :1993 , :2143 ;
+                :nome_da_estrela 'Eric' ;
+                :nome_familia 'Schaeffer' .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#rudolf_martin
 :rudolf_martin rdf:type owl:NamedIndividual ,
@@ -29702,6 +29804,13 @@
                 :atua :2207 ;
                 :nome_da_estrela 'Zachary' ;
                 :nome_familia 'Lee' .
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#robert_redford
+:robert_redford rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :2209 ;
+                :nome_da_estrela 'Robert' ;
+                :nome_familia 'Redford' .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sam_neill
 :sam_neill rdf:type owl:NamedIndividual ,
@@ -31936,6 +32045,13 @@
                 :nome_da_estrela 'Neil' ;
                 :nome_familia 'Ross' .
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#stephen_hillenburg
+:stephen_hillenburg rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :2737 ;
+                :nome_da_estrela 'Stephen' ;
+                :nome_familia 'Hillenburg' .
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#michael_patrick_bell
 :michael_patrick_bell rdf:type owl:NamedIndividual ,
                          :Ator ;
@@ -31949,6 +32065,13 @@
                 :atua :2739 ;
                 :nome_da_estrela 'Jim' ;
                 :nome_familia 'Wise' .
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#woody_allen
+:woody_allen rdf:type owl:NamedIndividual ,
+                         :Ator ;
+                :atua :2740 ;
+                :nome_da_estrela 'Woody' ;
+                :nome_familia 'Allen' .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jody_halse
 :jody_halse rdf:type owl:NamedIndividual ,
@@ -32306,6 +32429,13 @@
                  :atua :65 ;
                  :nome_da_estrela "'Caroline'" ;
                  :nome_familia "'Aaron'" .
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sofia_coppola
+:sofia_coppola rdf:type owl:NamedIndividual ,
+                          :Atriz ;
+                 :atua :69 , :235 , :364 , :570 , :716 , :807 , :822 , :958 , :1053 , :1480 , :1526 , :1645 , :1741 , :1808 ;
+                 :nome_da_estrela "'Sofia'" ;
+                 :nome_familia "'Coppola'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nina_port
 :nina_port rdf:type owl:NamedIndividual ,
@@ -34035,6 +34165,13 @@
                  :atua :953 , :1954 , :2271 ;
                  :nome_da_estrela "'Colleen'" ;
                  :nome_familia "'Camp'" .
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#eleanor_coppola
+:eleanor_coppola rdf:type owl:NamedIndividual ,
+                          :Atriz ;
+                 :atua :954 ;
+                 :nome_da_estrela "'Eleanor'" ;
+                 :nome_familia "'Coppola'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#gia_coppola
 :gia_coppola rdf:type owl:NamedIndividual ,
@@ -36030,6 +36167,13 @@
                  :atua :1970 ;
                  :nome_da_estrela "'Zsuzsa'" ;
                  :nome_familia "'Ger'" .
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#va_g_rdos
+:va_g_rdos rdf:type owl:NamedIndividual ,
+                          :Atriz ;
+                 :atua :1971 ;
+                 :nome_da_estrela "'Va'" ;
+                 :nome_familia "'Rdos'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#hilary_swank
 :hilary_swank rdf:type owl:NamedIndividual ,
