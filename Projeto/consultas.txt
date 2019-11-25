@@ -84,13 +84,18 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
     ORDER BY ?Pessoa
 
 
-(6) - FAIL
+(6) - OK
 
-	SELECT ?N1 ?N2 ?Filme ?ano
+	SELECT ?Ano ?Diretor ?Filme
 	WHERE {
-        VALUES (?N1 ?N2) {(2004 2012)}
-        ?Filme rdf:type :Filme.
-        ?Filme :ano_lancamento ?ano.
-        FILTER (?ano >= ?N1 && ?ano <= ?N2).
+        VALUES (?N1 ?N2) {(1994 2004)}
+        VALUES (?X ?Y) {(:john_turturro :john_goodman)}.
+        ?Filme :ano_lancamento ?Ano.
+        FILTER (?Ano >= ?N1 && ?Ano <= ?N2).
+        ?Filme :dirigido_por ?Diretor.
+        ?X :atua ?atuacaoX.
+        ?Y :atua ?atuacaoY.
+        ?atuacaoX :filme_da_atuacao ?Filme.
+        ?atuacaoY :filme_da_atuacao ?Filme.
 	}	
-    ORDER BY ?Pessoa
+    ORDER BY ?Ano
