@@ -35,8 +35,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 	SELECT ?Filmes ?Diretor ?Ano
 	WHERE {
-		VALUES ?atorUm {:daniel_stern}.
-		VALUES ?atorDois {:barret_oliver}.
+		VALUES (?atorUm ?atorDois) {(:john_turturro :john_goodman)}.
 		?atorUm :atua ?atuaUm.
 		?atorDois :atua ?atuaDois.
 		?atuaUm :filme_da_atuacao ?Filmes.
@@ -82,4 +81,16 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
         ?ator :atua ?atuacao.
         ?atuacao :filme_da_atuacao ?FilmeAt.
 	}	
-    ORDER BY (?Pessoa
+    ORDER BY (?Pessoa)
+
+
+(6)
+
+	SELECT ?N1 ?N2 ?Filme
+	WHERE {
+        VALUES (?N1 ?N2) {(2004 2012)}
+        ?Filme rdf:type :Filme.
+        ?Filme :ano_lancamento ?ano.
+        FILTER (?ano > ?N1 ).
+	}	
+    ORDER BY (?Pessoa)
