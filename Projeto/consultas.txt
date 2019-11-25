@@ -48,6 +48,9 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 	ORDER BY (?Ano)
 
 (4)
+Testar com :
+
+VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 
 	SELECT ?Filme ?Duracao
 	WHERE {
@@ -56,8 +59,9 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 		?Filme :dirigido_por ?diretor.
 		?X :atua ?atuacaoX.
 		?Y :atua ?atuacaoY.
-		?atorX :atua ?atuacaoX.
-		?atorY :atua ?atuacaoY.
+        {?atuacaoX :filme_da_atuacao ?Filme.}
+        UNION
+        {?atuacaoY :filme_da_atuacao ?Filme.}
 		?Filme :duracao ?Duracao.
 	}	
 	ORDER BY (?Duracao)
