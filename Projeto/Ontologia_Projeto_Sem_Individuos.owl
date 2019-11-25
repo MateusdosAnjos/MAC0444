@@ -1,245 +1,147 @@
-<?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444">
-    <Prefix name="" IRI="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://xmlns.com/foaf/0.1/</Import>
-    <Declaration>
-        <Class IRI="#Ator"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Atriz"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Atuacao"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Diretor"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Estrela"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Filme"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Personagem"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#atua"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#dirige"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#dirigido_por"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#filme_da_atuacao"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#personagem_da_atuacao"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#ano_lancamento"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#duracao"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#nome_da_estrela"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#nome_do_diretor"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#nome_do_personagem"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#nome_familia"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#titulo"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="#Ator"/>
-        <Class IRI="#Estrela"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Atriz"/>
-        <Class IRI="#Estrela"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Diretor"/>
-        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Estrela"/>
-        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Filme"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
-    </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#Ator"/>
-        <Class IRI="#Atriz"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
-    </DisjointClasses>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#atua"/>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#dirige"/>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#dirigido_por"/>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/maker"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#filme_da_atuacao"/>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#personagem_da_atuacao"/>
-        <ObjectProperty IRI="http://xmlns.com/foaf/0.1/made"/>
-    </SubObjectPropertyOf>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#dirige"/>
-        <ObjectProperty IRI="#dirigido_por"/>
-    </InverseObjectProperties>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#atua"/>
-        <Class IRI="#Estrela"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#dirige"/>
-        <Class IRI="#Diretor"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#dirigido_por"/>
-        <Class IRI="#Filme"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#filme_da_atuacao"/>
-        <Class IRI="#Atuacao"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#personagem_da_atuacao"/>
-        <Class IRI="#Atuacao"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#atua"/>
-        <Class IRI="#Atuacao"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#dirige"/>
-        <Class IRI="#Filme"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#dirigido_por"/>
-        <Class IRI="#Diretor"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#filme_da_atuacao"/>
-        <Class IRI="#Filme"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#personagem_da_atuacao"/>
-        <Class IRI="#Personagem"/>
-    </ObjectPropertyRange>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#nome_da_estrela"/>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#nome_do_diretor"/>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#nome_do_personagem"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#nome_familia"/>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/familyName"/>
-    </SubDataPropertyOf>
-    <DataPropertyDomain>
-        <DataProperty IRI="#ano_lancamento"/>
-        <Class IRI="#Filme"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#duracao"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#nome_da_estrela"/>
-        <Class IRI="#Estrela"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#nome_do_diretor"/>
-        <Class IRI="#Diretor"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#nome_do_personagem"/>
-        <Class IRI="#Personagem"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#nome_familia"/>
-        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#titulo"/>
-        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
-    </DataPropertyDomain>
-    <DataPropertyRange>
-        <DataProperty IRI="#ano_lancamento"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#duracao"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#nome_da_estrela"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#nome_do_diretor"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#nome_do_personagem"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#nome_familia"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#titulo"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-</Ontology>
+@prefix : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444> .
+
+<http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444> rdf:type owl:Ontology ;
+                                                                      owl:imports <http://xmlns.com/foaf/0.1/> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atua
+:atua rdf:type owl:ObjectProperty ;
+      rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
+      rdfs:domain :Estrela ;
+      rdfs:range :Atuacao .
 
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirige
+:dirige rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
+        owl:inverseOf :dirigido_por ;
+        rdfs:domain :Diretor ;
+        rdfs:range :Filme .
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#dirigido_por
+:dirigido_por rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/maker> ;
+              rdfs:domain :Filme ;
+              rdfs:range :Diretor .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#filme_da_atuacao
+:filme_da_atuacao rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
+                  rdfs:domain :Atuacao ;
+                  rdfs:range :Filme .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#personagem_da_atuacao
+:personagem_da_atuacao rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/made> ;
+                       rdfs:domain :Atuacao ;
+                       rdfs:range :Personagem .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#ano_lancamento
+:ano_lancamento rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Filme ;
+                rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#duracao
+:duracao rdf:type owl:DatatypeProperty ;
+         rdfs:domain <http://xmlns.com/foaf/0.1/Project> ;
+         rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_da_estrela
+:nome_da_estrela rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
+                 rdfs:domain :Estrela ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_diretor
+:nome_do_diretor rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
+                 rdfs:domain :Diretor ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_personagem
+:nome_do_personagem rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :Personagem ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_familia
+:nome_familia rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/familyName> ;
+              rdfs:domain <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
+              rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#titulo
+:titulo rdf:type owl:DatatypeProperty ;
+        rdfs:domain <http://xmlns.com/foaf/0.1/Project> ;
+        rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator
+:Ator rdf:type owl:Class ;
+      rdfs:subClassOf :Estrela ;
+      owl:disjointWith :Atriz .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz
+:Atriz rdf:type owl:Class ;
+       rdfs:subClassOf :Estrela .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atuacao
+:Atuacao rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Diretor
+:Diretor rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Estrela
+:Estrela rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.w3.org/2000/10/swap/pim/contact#Person> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Filme
+:Filme rdf:type owl:Class ;
+       rdfs:subClassOf <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Personagem
+:Personagem rdf:type owl:Class .
+
+
+###  http://www.w3.org/2000/10/swap/pim/contact#Person
+<http://www.w3.org/2000/10/swap/pim/contact#Person> rdf:type owl:Class ;
+                                                    owl:disjointWith <http://xmlns.com/foaf/0.1/Project> .
+
+
+###  http://xmlns.com/foaf/0.1/Project
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
