@@ -32,17 +32,20 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 	ORDER BY ?PrimeiroNome ?UltimoNome
 
 
-(3) - OK (Duplicações)
+(3) - OK
 
-	SELECT ?Filmes ?Diretor ?Ano
+	SELECT DISTINCT ?Filmes ?Diretor ?Ano
 	WHERE {
 		VALUES (?atorUm ?atorDois) {(:john_turturro :john_goodman)}.
 		?atorUm :atua ?atuaUm.
 		?atorDois :atua ?atuaDois.
 		?atuaUm :filme_da_atuacao ?Filmes.
 		?atuaDois :filme_da_atuacao ?Filmes.
-		?Filmes :dirigido_por ?Diretor.
+		?Filmes :dirigido_por ?diretor.
 		?Filmes :ano_lancamento ?Ano.
+        ?diretor :nome_do_diretor ?Dnome.
+        ?diretor :nome_familia ?Dfamilia.
+        BIND(CONCAT(STR(?Dnome), " ", STR(?Dfamilia)) AS ?Diretor).   
 	}
 	ORDER BY ?Ano
 
@@ -87,17 +90,20 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 Diretores Diferentes:
 VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
 
-	SELECT ?Ano ?Diretor ?Filme
+	SELECT DISTINCT ?Ano ?Diretor ?Filme
 	WHERE {
         VALUES (?N1 ?N2) {(1994 2004)}
         VALUES (?X ?Y) {(:john_turturro :john_goodman)}.
         ?Filme :ano_lancamento ?Ano.
         FILTER (?Ano >= ?N1 && ?Ano <= ?N2).
-        ?Filme :dirigido_por ?Diretor.
+        ?Filme :dirigido_por ?diretor.
         ?X :atua ?atuacaoX.
         ?Y :atua ?atuacaoY.
         ?atuacaoX :filme_da_atuacao ?Filme.
         ?atuacaoY :filme_da_atuacao ?Filme.
+        ?diretor :nome_do_diretor ?Dnome.
+        ?diretor :nome_familia ?Dfamilia.
+        BIND(CONCAT(STR(?Dnome), " ", STR(?Dfamilia)) AS ?Diretor).
 	}	
     ORDER BY ?Ano
 
