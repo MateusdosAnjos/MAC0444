@@ -3562,6 +3562,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#barbara_ann_grimes">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#930"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#999"/>
         <nome_da_estrela>&apos;Barbara&apos;</nome_da_estrela>
         <nome_familia>&apos;Grimes&apos;</nome_familia>
@@ -7413,6 +7414,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#cheryl_white">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1456"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#434"/>
         <nome_da_estrela>&apos;Cheryl&apos;</nome_da_estrela>
         <nome_familia>&apos;White&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -8622,7 +8624,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#colleen_camp">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1954"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2271"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#953"/>
         <nome_da_estrela>&apos;Colleen&apos;</nome_da_estrela>
         <nome_familia>&apos;Camp&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -11413,6 +11417,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diane_keaton">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#689"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#739"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#815"/>
         <nome_da_estrela>&apos;Diane&apos;</nome_da_estrela>
         <nome_familia>&apos;Keaton&apos;</nome_familia>
@@ -11424,7 +11430,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diane_lane">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1471"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1631"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#175"/>
         <nome_da_estrela>&apos;Diane&apos;</nome_da_estrela>
         <nome_familia>&apos;Lane&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -14132,6 +14140,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#evelyn_cox">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1451"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#408"/>
         <nome_da_estrela>&apos;Evelyn&apos;</nome_da_estrela>
         <nome_familia>&apos;Cox&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -14734,6 +14743,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#filomena_spagnuolo">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#731"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#813"/>
         <nome_da_estrela>&apos;Filomena&apos;</nome_da_estrela>
         <nome_familia>&apos;Spagnuolo&apos;</nome_familia>
@@ -15083,7 +15093,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#frances_mcdormand">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1232"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1361"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#157"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1577"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#397"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#478"/>
         <nome_da_estrela>&apos;Frances&apos;</nome_da_estrela>
         <nome_familia>&apos;McDormand&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -16772,6 +16787,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#gillian_welch">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1435"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#431"/>
         <nome_da_estrela>&apos;Gillian&apos;</nome_da_estrela>
         <nome_familia>&apos;Welch&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -16837,6 +16853,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#gintare_parulyte">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#353"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#671"/>
         <nome_da_estrela>&apos;Gintare&apos;</nome_da_estrela>
         <nome_familia>&apos;Parulyte&apos;</nome_familia>
@@ -17842,6 +17859,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#hallie_singleton">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1142"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1254"/>
         <nome_da_estrela>&apos;Hallie&apos;</nome_da_estrela>
         <nome_familia>&apos;Singleton&apos;</nome_familia>
@@ -18324,6 +18342,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#helen_hunt">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1530"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2119"/>
         <nome_da_estrela>&apos;Helen&apos;</nome_da_estrela>
         <nome_familia>&apos;Hunt&apos;</nome_familia>
@@ -18685,7 +18704,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#holly_hunter">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1417"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1572"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#171"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#446"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#506"/>
         <nome_da_estrela>&apos;Holly&apos;</nome_da_estrela>
         <nome_familia>&apos;Hunter&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -20852,6 +20875,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jeannie_linero">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#706"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#842"/>
         <nome_da_estrela>&apos;Jeannie&apos;</nome_da_estrela>
         <nome_familia>&apos;Linero&apos;</nome_familia>
@@ -21643,6 +21667,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joan_m_blair">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1282"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2105"/>
         <nome_da_estrela>&apos;Joan&apos;</nome_da_estrela>
         <nome_familia>&apos;Blair&apos;</nome_familia>
@@ -23486,6 +23511,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#judy_davis">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1293"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#89"/>
         <nome_da_estrela>&apos;Judy&apos;</nome_da_estrela>
         <nome_familia>&apos;Davis&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -24127,6 +24153,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#kathleen_turner">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1514"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1870"/>
         <nome_da_estrela>&apos;Kathleen&apos;</nome_da_estrela>
         <nome_familia>&apos;Turner&apos;</nome_familia>
@@ -24342,6 +24369,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#keira_knightley">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1742"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2246"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2748"/>
         <nome_da_estrela>&apos;Keira&apos;</nome_da_estrela>
         <nome_familia>&apos;Knightley&apos;</nome_familia>
@@ -25048,6 +25077,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#kirsten_dunst">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1290"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1871"/>
         <nome_da_estrela>&apos;Kirsten&apos;</nome_da_estrela>
         <nome_familia>&apos;Dunst&apos;</nome_familia>
@@ -25245,6 +25275,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#kristin_scott_thomas">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1368"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2210"/>
         <nome_da_estrela>&apos;Kristin&apos;</nome_da_estrela>
         <nome_familia>&apos;Thomas&apos;</nome_familia>
@@ -25935,6 +25966,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lauren_tom">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2272"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2606"/>
         <nome_da_estrela>&apos;Lauren&apos;</nome_da_estrela>
         <nome_familia>&apos;Tom&apos;</nome_familia>
@@ -26372,6 +26404,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#leonor_watling">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1508"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2168"/>
         <nome_da_estrela>&apos;Leonor&apos;</nome_da_estrela>
         <nome_familia>&apos;Watling&apos;</nome_familia>
@@ -26824,6 +26857,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lisa_jane_persky">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1521"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#183"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1953"/>
         <nome_da_estrela>&apos;Lisa&apos;</nome_da_estrela>
         <nome_familia>&apos;Persky&apos;</nome_familia>
@@ -27046,6 +27081,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lola_pashalinski">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2578"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#58"/>
         <nome_da_estrela>&apos;Lola&apos;</nome_da_estrela>
         <nome_familia>&apos;Pashalinski&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -27169,6 +27205,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lorna_scott">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1959"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2098"/>
         <nome_da_estrela>&apos;Lorna&apos;</nome_da_estrela>
         <nome_familia>&apos;Scott&apos;</nome_familia>
@@ -28636,6 +28673,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#marianne_faithfull">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1295"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1494"/>
         <nome_da_estrela>&apos;Marianne&apos;</nome_da_estrela>
         <nome_familia>&apos;Faithfull&apos;</nome_familia>
@@ -29249,6 +29287,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mary_bogue">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1266"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2094"/>
         <nome_da_estrela>&apos;Mary&apos;</nome_da_estrela>
         <nome_familia>&apos;Bogue&apos;</nome_familia>
@@ -29355,6 +29394,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mary_pat_gleason">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1089"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2398"/>
         <nome_da_estrela>&apos;Mary&apos;</nome_da_estrela>
         <nome_familia>&apos;Gleason&apos;</nome_familia>
@@ -30978,6 +31018,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#michelle_weber">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1269"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1833"/>
         <nome_da_estrela>&apos;Michelle&apos;</nome_da_estrela>
         <nome_familia>&apos;Weber&apos;</nome_familia>
@@ -31591,6 +31632,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#morgana_king">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#696"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#752"/>
         <nome_da_estrela>&apos;Morgana&apos;</nome_da_estrela>
         <nome_familia>&apos;King&apos;</nome_familia>
@@ -32596,6 +32638,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#natalie_portman">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1505"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1715"/>
         <nome_da_estrela>&apos;Natalie&apos;</nome_da_estrela>
         <nome_familia>&apos;Portman&apos;</nome_familia>
@@ -33491,6 +33534,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#novella_nelson">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#186"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2473"/>
         <nome_da_estrela>&apos;Novella&apos;</nome_da_estrela>
         <nome_familia>&apos;Nelson&apos;</nome_familia>
@@ -37283,6 +37327,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#rhoda_gemignani">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1250"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#612"/>
         <nome_da_estrela>&apos;Rhoda&apos;</nome_da_estrela>
         <nome_familia>&apos;Gemignani&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -39401,6 +39446,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#s_e_hinton">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1483"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1647"/>
         <nome_da_estrela>&apos;S&apos;</nome_da_estrela>
         <nome_familia>&apos;Hinton&apos;</nome_familia>
@@ -40287,7 +40333,30 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#scarlett_johansson">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1180"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1237"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1934"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1974"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2001"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2026"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2048"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2120"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2151"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2185"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2213"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2260"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2315"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2365"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2441"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2465"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2511"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2525"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2636"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2656"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2701"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2743"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#582"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#649"/>
         <nome_da_estrela>&apos;Scarlett&apos;</nome_da_estrela>
         <nome_familia>&apos;Johansson&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -41060,6 +41129,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sharon_white">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1455"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#435"/>
         <nome_da_estrela>&apos;Sharon&apos;</nome_da_estrela>
         <nome_familia>&apos;White&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -41553,6 +41623,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#simonetta_stefanelli">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#709"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#892"/>
         <nome_da_estrela>&apos;Simonetta&apos;</nome_da_estrela>
         <nome_familia>&apos;Stefanelli&apos;</nome_familia>
@@ -42317,6 +42388,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#stacey_travis">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1080"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2053"/>
         <nome_da_estrela>&apos;Stacey&apos;</nome_da_estrela>
         <nome_familia>&apos;Travis&apos;</nome_familia>
@@ -43356,6 +43428,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#suzanne_cox">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1452"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#410"/>
         <nome_da_estrela>&apos;Suzanne&apos;</nome_da_estrela>
         <nome_familia>&apos;Cox&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -43606,6 +43679,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#talia_shire">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#691"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#742"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#816"/>
         <nome_da_estrela>&apos;Talia&apos;</nome_da_estrela>
         <nome_familia>&apos;Shire&apos;</nome_familia>
@@ -44020,6 +44095,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tere_livrano">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#704"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#762"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#846"/>
         <nome_da_estrela>&apos;Tere&apos;</nome_da_estrela>
         <nome_familia>&apos;Livrano&apos;</nome_familia>
@@ -44846,6 +44923,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#thora_birch">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2047"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#3"/>
         <nome_da_estrela>&apos;Thora&apos;</nome_da_estrela>
         <nome_familia>&apos;Birch&apos;</nome_familia>
     </owl:NamedIndividual>
@@ -46491,6 +46569,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#vanessa_angel">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1670"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2661"/>
         <nome_da_estrela>&apos;Vanessa&apos;</nome_da_estrela>
         <nome_familia>&apos;Angel&apos;</nome_familia>
@@ -47395,6 +47474,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#wendle_josepher">
         <rdf:type rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Atriz"/>
+        <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#1088"/>
         <atua rdf:resource="http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#2643"/>
         <nome_da_estrela>&apos;Wendle&apos;</nome_da_estrela>
         <nome_familia>&apos;Josepher&apos;</nome_familia>

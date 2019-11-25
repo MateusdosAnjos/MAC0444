@@ -32037,7 +32037,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#thora_birch
 :thora_birch rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2047 ;
+                 :atua :3 , :2047 ;
                  :nome_da_estrela "'Thora'" ;
                  :nome_familia "'Birch'" .
 
@@ -32289,7 +32289,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lola_pashalinski
 :lola_pashalinski rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2578 ;
+                 :atua :58 , :2578 ;
                  :nome_da_estrela "'Lola'" ;
                  :nome_familia "'Pashalinski'" .
 
@@ -32345,7 +32345,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#judy_davis
 :judy_davis rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1293 ;
+                 :atua :89 , :1293 ;
                  :nome_da_estrela "'Judy'" ;
                  :nome_familia "'Davis'" .
 
@@ -32450,7 +32450,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#frances_mcdormand
 :frances_mcdormand rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1577 ;
+                 :atua :157 , :397 , :478 , :1232 , :1361 , :1577 ;
                  :nome_da_estrela "'Frances'" ;
                  :nome_familia "'McDormand'" .
 
@@ -32485,14 +32485,14 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#holly_hunter
 :holly_hunter rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1572 ;
+                 :atua :171 , :446 , :506 , :1417 , :1572 ;
                  :nome_da_estrela "'Holly'" ;
                  :nome_familia "'Hunter'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diane_lane
 :diane_lane rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1631 ;
+                 :atua :175 , :1471 , :1631 ;
                  :nome_da_estrela "'Diane'" ;
                  :nome_familia "'Lane'" .
 
@@ -32513,14 +32513,14 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lisa_jane_persky
 :lisa_jane_persky rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1953 ;
+                 :atua :183 , :1521 , :1953 ;
                  :nome_da_estrela "'Lisa'" ;
                  :nome_familia "'Persky'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#novella_nelson
 :novella_nelson rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2473 ;
+                 :atua :186 , :2473 ;
                  :nome_da_estrela "'Novella'" ;
                  :nome_familia "'Nelson'" .
 
@@ -32975,7 +32975,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#gintare_parulyte
 :gintare_parulyte rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :671 ;
+                 :atua :353 , :671 ;
                  :nome_da_estrela "'Gintare'" ;
                  :nome_familia "'Parulyte'" .
 
@@ -33087,14 +33087,14 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#evelyn_cox
 :evelyn_cox rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1451 ;
+                 :atua :408 , :1451 ;
                  :nome_da_estrela "'Evelyn'" ;
                  :nome_familia "'Cox'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#suzanne_cox
 :suzanne_cox rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1452 ;
+                 :atua :410 , :1452 ;
                  :nome_da_estrela "'Suzanne'" ;
                  :nome_familia "'Cox'" .
 
@@ -33136,21 +33136,21 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#gillian_welch
 :gillian_welch rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1435 ;
+                 :atua :431 , :1435 ;
                  :nome_da_estrela "'Gillian'" ;
                  :nome_familia "'Welch'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#cheryl_white
 :cheryl_white rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1456 ;
+                 :atua :434 , :1456 ;
                  :nome_da_estrela "'Cheryl'" ;
                  :nome_familia "'White'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#sharon_white
 :sharon_white rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1455 ;
+                 :atua :435 , :1455 ;
                  :nome_da_estrela "'Sharon'" ;
                  :nome_familia "'White'" .
 
@@ -33402,7 +33402,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#scarlett_johansson
 :scarlett_johansson rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2743 ;
+                 :atua :582 , :649 , :1180 , :1237 , :1934 , :1974 , :2001 , :2026 , :2048 , :2120 , :2151 , :2185 , :2213 , :2260 , :2315 , :2365 , :2441 , :2465 , :2511 , :2525 , :2636 , :2656 , :2701 , :2743 ;
                  :nome_da_estrela "'Scarlett'" ;
                  :nome_familia "'Johansson'" .
 
@@ -33451,7 +33451,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#rhoda_gemignani
 :rhoda_gemignani rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1250 ;
+                 :atua :612 , :1250 ;
                  :nome_da_estrela "'Rhoda'" ;
                  :nome_familia "'Gemignani'" .
 
@@ -33654,35 +33654,35 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diane_keaton
 :diane_keaton rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :815 ;
+                 :atua :689 , :739 , :815 ;
                  :nome_da_estrela "'Diane'" ;
                  :nome_familia "'Keaton'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#talia_shire
 :talia_shire rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :816 ;
+                 :atua :691 , :742 , :816 ;
                  :nome_da_estrela "'Talia'" ;
                  :nome_familia "'Shire'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#morgana_king
 :morgana_king rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :752 ;
+                 :atua :696 , :752 ;
                  :nome_da_estrela "'Morgana'" ;
                  :nome_familia "'King'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#tere_livrano
 :tere_livrano rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :846 ;
+                 :atua :704 , :762 , :846 ;
                  :nome_da_estrela "'Tere'" ;
                  :nome_familia "'Livrano'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#jeannie_linero
 :jeannie_linero rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :842 ;
+                 :atua :706 , :842 ;
                  :nome_da_estrela "'Jeannie'" ;
                  :nome_familia "'Linero'" .
 
@@ -33703,14 +33703,14 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#simonetta_stefanelli
 :simonetta_stefanelli rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :892 ;
+                 :atua :709 , :892 ;
                  :nome_da_estrela "'Simonetta'" ;
                  :nome_familia "'Stefanelli'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#filomena_spagnuolo
 :filomena_spagnuolo rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :813 ;
+                 :atua :731 , :813 ;
                  :nome_da_estrela "'Filomena'" ;
                  :nome_familia "'Spagnuolo'" .
 
@@ -33976,7 +33976,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#barbara_ann_grimes
 :barbara_ann_grimes rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :999 ;
+                 :atua :930 , :999 ;
                  :nome_da_estrela "'Barbara'" ;
                  :nome_familia "'Grimes'" .
 
@@ -34032,7 +34032,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#colleen_camp
 :colleen_camp rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2271 ;
+                 :atua :953 , :1954 , :2271 ;
                  :nome_da_estrela "'Colleen'" ;
                  :nome_familia "'Camp'" .
 
@@ -34200,7 +34200,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#stacey_travis
 :stacey_travis rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2053 ;
+                 :atua :1080 , :2053 ;
                  :nome_da_estrela "'Stacey'" ;
                  :nome_familia "'Travis'" .
 
@@ -34221,14 +34221,14 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#wendle_josepher
 :wendle_josepher rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2643 ;
+                 :atua :1088 , :2643 ;
                  :nome_da_estrela "'Wendle'" ;
                  :nome_familia "'Josepher'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mary_pat_gleason
 :mary_pat_gleason rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2398 ;
+                 :atua :1089 , :2398 ;
                  :nome_da_estrela "'Mary'" ;
                  :nome_familia "'Gleason'" .
 
@@ -34361,7 +34361,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#hallie_singleton
 :hallie_singleton rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1254 ;
+                 :atua :1142 , :1254 ;
                  :nome_da_estrela "'Hallie'" ;
                  :nome_familia "'Singleton'" .
 
@@ -34620,14 +34620,14 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mary_bogue
 :mary_bogue rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2094 ;
+                 :atua :1266 , :2094 ;
                  :nome_da_estrela "'Mary'" ;
                  :nome_familia "'Bogue'" .
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#michelle_weber
 :michelle_weber rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1833 ;
+                 :atua :1269 , :1833 ;
                  :nome_da_estrela "'Michelle'" ;
                  :nome_familia "'Weber'" .
 
@@ -34676,7 +34676,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#joan_m_blair
 :joan_m_blair rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2105 ;
+                 :atua :1282 , :2105 ;
                  :nome_da_estrela "'Joan'" ;
                  :nome_familia "'Blair'" .
 
@@ -34697,7 +34697,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#kirsten_dunst
 :kirsten_dunst rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1871 ;
+                 :atua :1290 , :1871 ;
                  :nome_da_estrela "'Kirsten'" ;
                  :nome_familia "'Dunst'" .
 
@@ -34711,7 +34711,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#marianne_faithfull
 :marianne_faithfull rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1494 ;
+                 :atua :1295 , :1494 ;
                  :nome_da_estrela "'Marianne'" ;
                  :nome_familia "'Faithfull'" .
 
@@ -34830,7 +34830,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#kristin_scott_thomas
 :kristin_scott_thomas rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2210 ;
+                 :atua :1368 , :2210 ;
                  :nome_da_estrela "'Kristin'" ;
                  :nome_familia "'Thomas'" .
 
@@ -35005,7 +35005,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#s_e_hinton
 :s_e_hinton rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1647 ;
+                 :atua :1483 , :1647 ;
                  :nome_da_estrela "'S'" ;
                  :nome_familia "'Hinton'" .
 
@@ -35061,7 +35061,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#natalie_portman
 :natalie_portman rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1715 ;
+                 :atua :1505 , :1715 ;
                  :nome_da_estrela "'Natalie'" ;
                  :nome_familia "'Portman'" .
 
@@ -35075,7 +35075,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#leonor_watling
 :leonor_watling rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2168 ;
+                 :atua :1508 , :2168 ;
                  :nome_da_estrela "'Leonor'" ;
                  :nome_familia "'Watling'" .
 
@@ -35103,7 +35103,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#kathleen_turner
 :kathleen_turner rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :1870 ;
+                 :atua :1514 , :1870 ;
                  :nome_da_estrela "'Kathleen'" ;
                  :nome_familia "'Turner'" .
 
@@ -35145,7 +35145,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#helen_hunt
 :helen_hunt rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2119 ;
+                 :atua :1530 , :2119 ;
                  :nome_da_estrela "'Helen'" ;
                  :nome_familia "'Hunt'" .
 
@@ -35369,7 +35369,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#vanessa_angel
 :vanessa_angel rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2661 ;
+                 :atua :1670 , :2661 ;
                  :nome_da_estrela "'Vanessa'" ;
                  :nome_familia "'Angel'" .
 
@@ -35467,7 +35467,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#keira_knightley
 :keira_knightley rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2748 ;
+                 :atua :1742 , :2246 , :2748 ;
                  :nome_da_estrela "'Keira'" ;
                  :nome_familia "'Knightley'" .
 
@@ -35978,7 +35978,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lorna_scott
 :lorna_scott rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2098 ;
+                 :atua :1959 , :2098 ;
                  :nome_da_estrela "'Lorna'" ;
                  :nome_familia "'Scott'" .
 
@@ -36713,7 +36713,7 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#lauren_tom
 :lauren_tom rdf:type owl:NamedIndividual ,
                           :Atriz ;
-                 :atua :2606 ;
+                 :atua :2272 , :2606 ;
                  :nome_da_estrela "'Lauren'" ;
                  :nome_familia "'Tom'" .
 
