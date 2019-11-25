@@ -85,7 +85,7 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
     ORDER BY ?Pessoa
 
 
-(6) - OK (duplicações)
+(6) - OK
 
 Diretores Diferentes:
 VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
@@ -107,17 +107,18 @@ VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
 	}	
     ORDER BY ?Ano
 
-(7) - FAIL 
+(7) - OK
 
 	SELECT ?Atriz ?Ator ?Filme ?Duracao
 	WHERE {
-        VALUES (?M1 ?M2) {(100 140)}
+        VALUES (?M1 ?M2) {(126 126)}
         FILTER (?Duracao >= ?M1 && ?Duracao <= ?M2).
         ?Filme :duracao ?Duracao.
-        ?atuacao :filme_da_atuacao ?Filme.
+        ?atuacaoAtor :filme_da_atuacao ?Filme.
+        ?atuacaoAtriz :filme_da_atuacao ?Filme.
         ?Ator rdf:type :Ator.
+        ?Ator :atua ?atuacaoAtor.
         ?Atriz rdf:type :Atriz.
-        ?Ator :atua ?atuacao.
-        ?Atriz :atua ?atuacao.
+        ?Atriz :atua ?atuacaoAtriz.
 	}	
-    ORDER BY ?Ano
+    ORDER BY ?Filme
