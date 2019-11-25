@@ -5,7 +5,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 
-(1)
+(1) - OK
 
 	SELECT ?TituloDoFilme
 	WHERE {
@@ -16,7 +16,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 	ORDER BY ?TituloDoFilme
 
 
-(2)
+(2) - OK
 
 	SELECT ?PrimeiroNome ?UltimoNome ?Personagem
 	WHERE {
@@ -31,7 +31,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 	ORDER BY ?PrimeiroNome ?UltimoNome
 
 
-(3)
+(3) - OK
 
 	SELECT ?Filmes ?Diretor ?Ano
 	WHERE {
@@ -46,12 +46,12 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 	ORDER BY ?Ano
 
 
-(4)
+(4) - OK
 
 Testar com :
 VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 
-	SELECT ?Filme ?Duracao
+	SELECT DISTINCT ?Filme ?Duracao
 	WHERE {
 		VALUES (?f ?X ?Y) {(:match_point :emily_mortimer :scarlett_johansson)}.
 		?f :dirigido_por ?diretor.
