@@ -21,12 +21,13 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 	SELECT ?PrimeiroNome ?UltimoNome ?Personagem
 	WHERE {
-		?ator :atua ?atuacao.
-		?atuacao :filme_da_atuacao ?filme.
+        ?filme :titulo "'Her'".
+        ?atuacao :filme_da_atuacao ?filme.
+		?estrela :atua ?atuacao.
 		?atuacao :personagem_da_atuacao ?Personagem.
-		?ator :nome_da_estrela ?PrimeiroNome.
-		?ator :nome_familia ?UltimoNome.
-		?filme :titulo "'Her'".
+		?estrela :nome_da_estrela ?PrimeiroNome.
+		?estrela :nome_familia ?UltimoNome.
+		
 	}
 	ORDER BY ?PrimeiroNome ?UltimoNome
 
@@ -35,8 +36,8 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 	SELECT ?Filmes ?Diretor ?Ano
 	WHERE {
-		VALUES ?atorUm {:Ze_Silva}.
-		VALUES ?atorDois {:Tobey_Maguire}.
+		VALUES ?atorUm {:daniel_stern}.
+		VALUES ?atorDois {:barret_oliver}.
 		?atorUm :atua ?atuaUm.
 		?atorDois :atua ?atuaDois.
 		?atuaUm :filme_da_atuacao ?Filmes.
