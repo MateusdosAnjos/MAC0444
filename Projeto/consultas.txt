@@ -69,10 +69,17 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 
 (5)
 
-	SELECT ?Pessoa ?FilmeAt ?FilmeDir ?diretor ?ator ?x
+	SELECT ?Pessoa ?FilmeAt ?FilmeDir
 	WHERE {
         ?diretor rdf:type :Diretor.
         ?x rdfs:subClassOf :Estrela.
         ?ator rdf:type ?x.
+        ?ator owl:sameAs ?diretor.
+        ?diretor :nome_do_diretor ?PNome.
+        ?diretor :nome_familia ?PFamilia.
+        BIND(CONCAT(STR(?PNome), STR(?PFamilia))  AS ?Pessoa)
+        ?FilmeDir :dirigido_por ?diretor.
+        ?ator :atua ?atuacao.
+        ?atuacao :filme_da_atuacao ?FilmeAt.
 	}	
-    ORDER BY (?Pessoa)
+    ORDER BY (?Pessoa
