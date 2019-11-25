@@ -81,7 +81,7 @@
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_personagem
 :nome_do_personagem rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
                     rdfs:domain :Personagem ;
                     rdfs:range xsd:string .
 
@@ -242,7 +242,8 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ze_Silva
 :Ze_Silva rdf:type owl:NamedIndividual ,
                    :Ator ;
-          :atua :atuacao_oito ,
+          :atua :atuacao_dez ,
+                :atuacao_oito ,
                 :atuacao_seis ;
           :nome_da_estrela "Ze" ;
           :nome_familia "Silva" .
@@ -253,6 +254,13 @@
                         :Atuacao ;
                :filme_da_atuacao :homem_aranha ;
                :personagem_da_atuacao :Mary_Jane .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_dez
+:atuacao_dez rdf:type owl:NamedIndividual ,
+                      :Atuacao ;
+             :filme_da_atuacao :homem_de_ferro ;
+             :personagem_da_atuacao :Figurante .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_dois

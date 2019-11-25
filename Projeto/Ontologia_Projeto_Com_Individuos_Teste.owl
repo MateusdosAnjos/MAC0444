@@ -757,7 +757,7 @@
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#nome_do_personagem"/>
-        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#nome_familia"/>
