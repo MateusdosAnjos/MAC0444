@@ -7,7 +7,7 @@
 @base <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#> .
 
 <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#> rdf:type owl:Ontology ;
-                                                                      owl:imports <http://xmlns.com/foaf/0.1/> .
+                                                                       owl:imports <http://xmlns.com/foaf/0.1/> .
 
 #################################################################
 #    Object Properties
@@ -148,6 +148,13 @@
 #    Individuals
 #################################################################
 
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator_Marvel
+:Ator_Marvel rdf:type owl:NamedIndividual ,
+                      :Ator ;
+             owl:sameAs :diretor_marvel ;
+             :atua :atuacao_onze .
+
+
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Batman
 :Batman rdf:type owl:NamedIndividual ,
                  :Personagem ;
@@ -281,6 +288,13 @@
 :atuacao_oito rdf:type owl:NamedIndividual ,
                        :Atuacao ;
               :filme_da_atuacao :batman ;
+              :personagem_da_atuacao :Figurante .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_onze
+:atuacao_onze rdf:type owl:NamedIndividual ,
+                       :Atuacao ;
+              :filme_da_atuacao :homem_aranha ;
               :personagem_da_atuacao :Figurante .
 
 
