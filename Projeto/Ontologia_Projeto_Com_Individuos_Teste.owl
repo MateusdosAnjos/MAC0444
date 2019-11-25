@@ -119,6 +119,9 @@
         <NamedIndividual IRI="#atuacao_cinco"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#atuacao_dez"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#atuacao_dois"/>
     </Declaration>
     <Declaration>
@@ -253,6 +256,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Atuacao"/>
+        <NamedIndividual IRI="#atuacao_dez"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Atuacao"/>
         <NamedIndividual IRI="#atuacao_dois"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -349,6 +356,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#atua"/>
         <NamedIndividual IRI="#Ze_Silva"/>
+        <NamedIndividual IRI="#atuacao_dez"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#atua"/>
+        <NamedIndividual IRI="#Ze_Silva"/>
         <NamedIndividual IRI="#atuacao_oito"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -365,6 +377,16 @@
         <ObjectProperty IRI="#personagem_da_atuacao"/>
         <NamedIndividual IRI="#atuacao_cinco"/>
         <NamedIndividual IRI="#Mary_Jane"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#filme_da_atuacao"/>
+        <NamedIndividual IRI="#atuacao_dez"/>
+        <NamedIndividual IRI="#homem_de_ferro"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#personagem_da_atuacao"/>
+        <NamedIndividual IRI="#atuacao_dez"/>
+        <NamedIndividual IRI="#Figurante"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#filme_da_atuacao"/>
