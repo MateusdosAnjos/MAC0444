@@ -13,7 +13,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 		?Filme :dirigido_por ?diretor.
 		?Filme :titulo ?TituloDoFilme.
 	}
-	ORDER BY (?TituloDoFilme)
+	ORDER BY ?TituloDoFilme
 
 
 (2)
@@ -43,7 +43,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 		?Filmes :dirigido_por ?Diretor.
 		?Filmes :ano_lancamento ?Ano.
 	}
-	ORDER BY (?Ano)
+	ORDER BY ?Ano
 
 
 (4)
@@ -63,7 +63,7 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
         {?atuacaoY :filme_da_atuacao ?Filme.}
 		?Filme :duracao ?Duracao.
 	}	
-	ORDER BY (?Duracao)
+	ORDER BY ?Duracao
 
 
 (5)
@@ -81,16 +81,16 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
         ?ator :atua ?atuacao.
         ?atuacao :filme_da_atuacao ?FilmeAt.
 	}	
-    ORDER BY (?Pessoa)
+    ORDER BY ?Pessoa
 
 
 (6)
 
-	SELECT ?N1 ?N2 ?Filme
+	SELECT ?N1 ?N2 ?Filme ?ano
 	WHERE {
         VALUES (?N1 ?N2) {(2004 2012)}
         ?Filme rdf:type :Filme.
         ?Filme :ano_lancamento ?ano.
-        FILTER (?ano > ?N1 ).
+        FILTER (?ano >= ?N1 && ?ano <= ?N2).
 	}	
-    ORDER BY (?Pessoa)
+    ORDER BY ?Pessoa
