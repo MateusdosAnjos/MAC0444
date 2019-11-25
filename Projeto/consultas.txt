@@ -9,7 +9,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 	SELECT ?TituloDoFilme
 	WHERE {
-		VALUES ?diretor {:diretor_marvel}.
+		VALUES ?diretor {:eric_schaeffer}.
 		?Filme :dirigido_por ?diretor.
 		?Filme :titulo ?TituloDoFilme.
 	}
@@ -48,16 +48,19 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 (4)
 
-	SELECT ?Filme ?Duracao ?atorX ?atorY
+	SELECT ?Filme ?Duracao ?atorX ?atorY ?atuacaoX ?atuacaoY
 	WHERE {
-		VALUES ?f {:homem_aranha}.
+		VALUES (?f ?X ?Y) {(:homem_aranha :Tobey_Maguire :Ze_Silva)}.
 		?f :dirigido_por ?diretor.
 		?Filme :dirigido_por ?diretor.
+
 		?X :atua ?atuacaoX.
 		?Y :atua ?atuacaoY.
-		?atuacaoX :filme_da_atuacao ?Filme.
-		?atuacaoY :filme_da_atuacao ?Filme.
+
 		?atorX :atua ?atuacaoX.
 		?atorY :atua ?atuacaoY.
-	}
-	ORDER BY (?Ano)
+		
+		?Filme :duracao ?Duracao.
+	
+	}	
+	ORDER BY (?Duracao)
