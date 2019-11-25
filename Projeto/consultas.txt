@@ -86,6 +86,9 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 
 (6) - OK
 
+Diretores Diferentes:
+VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
+
 	SELECT ?Ano ?Diretor ?Filme
 	WHERE {
         VALUES (?N1 ?N2) {(1994 2004)}
