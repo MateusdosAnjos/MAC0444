@@ -18,7 +18,6 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 (2)
 
-
 	SELECT ?PrimeiroNome ?UltimoNome ?Personagem
 	WHERE {
         ?filme :titulo "'Her'".
@@ -47,9 +46,10 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 	}
 	ORDER BY (?Ano)
 
-(4)
-Testar com :
 
+(4)
+
+Testar com :
 VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 
 	SELECT ?Filme ?Duracao
@@ -65,3 +65,14 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 		?Filme :duracao ?Duracao.
 	}	
 	ORDER BY (?Duracao)
+
+
+(5)
+
+	SELECT ?Pessoa ?FilmeAt ?FilmeDir ?diretor ?ator ?x
+	WHERE {
+        ?diretor rdf:type :Diretor.
+        ?x rdfs:subClassOf :Estrela.
+        ?ator rdf:type ?x.
+	}	
+    ORDER BY (?Pessoa)
