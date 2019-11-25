@@ -49,19 +49,15 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 (4)
 
-	SELECT ?Filme ?Duracao ?atorX ?atorY ?atuacaoX ?atuacaoY
+	SELECT ?Filme ?Duracao
 	WHERE {
-		VALUES (?f ?X ?Y) {(:homem_aranha :Tobey_Maguire :Ze_Silva)}.
+		VALUES (?f ?X ?Y) {(:match_point :emily_mortimer :scarlett_johansson)}.
 		?f :dirigido_por ?diretor.
 		?Filme :dirigido_por ?diretor.
-
 		?X :atua ?atuacaoX.
 		?Y :atua ?atuacaoY.
-
 		?atorX :atua ?atuacaoX.
 		?atorY :atua ?atuacaoY.
-		
 		?Filme :duracao ?Duracao.
-	
 	}	
 	ORDER BY (?Duracao)
