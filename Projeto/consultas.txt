@@ -26,7 +26,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 		?atuacao :personagem_da_atuacao ?Personagem.
 		?ator :nome_da_estrela ?PrimeiroNome.
 		?ator :nome_familia ?UltimoNome.
-		?filme :titulo 'Homem Aranha'.
+		?filme :titulo "'Her'".
 	}
 	ORDER BY ?PrimeiroNome ?UltimoNome
 
