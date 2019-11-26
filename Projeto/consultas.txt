@@ -84,6 +84,21 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 	}	
     ORDER BY ?Pessoa
 
+(5) - OK Caso queira apenas o SAMPLE
+
+	SELECT DISTINCT ?Pessoa (SAMPLE(?filme_atuado) AS ?FilmeAt) (SAMPLE(?filme_dirigido) AS ?FilmeDir) 
+	WHERE {
+        ?diretor rdf:type :Diretor.
+        ?diretor :nome_do_diretor ?PNome.
+        ?diretor :nome_familia ?PFamilia.
+        BIND(CONCAT(STR(?PNome), " ", STR(?PFamilia))  AS ?Pessoa).
+        ?filme_dirigido :dirigido_por ?diretor.
+        ?diretor :atua ?atuacao.
+        ?atuacao :filme_da_atuacao ?filme_atuado.
+	}
+    GROUP BY ?Pessoa
+    ORDER BY ?Pessoa
+
 
 (6) - OK
 
