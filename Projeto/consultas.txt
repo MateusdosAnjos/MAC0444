@@ -122,3 +122,28 @@ VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
         ?Atriz :atua ?atuacaoAtriz.
 	}	
     ORDER BY ?Filme
+
+(8)
+
+	SELECT ?Diretor
+		WHERE {
+		SELECT ?Diretor (count(?Diretor) as ?count)
+		WHERE {
+			VALUES ?Xp {"Ewan"}.
+			VALUES ?Xu {"McGregor"}.
+			?Filme :dirigido_por ?diretor.
+			?x rdfs:subClassOf :Estrela.
+			?ator rdf:type ?x.
+			?ator :nome_da_estrela ?Xp.
+			?ator :nome_familia ?Xu.
+			?ator :atua ?atuacao.
+			?atuacao :filme_da_atuacao ?Filme.
+			?diretor :nome_do_diretor ?PNome.
+			?diretor :nome_familia ?PFamilia.
+			BIND(CONCAT(STR(?PNome), " ", STR(?PFamilia))  AS ?Diretor)		
+		}
+		GROUP BY ?Diretor
+		ORDER BY DESC (?count)
+		LIMIT 1
+		}
+		
