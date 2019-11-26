@@ -123,7 +123,7 @@ VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
 	}	
     ORDER BY ?Filme
 
-(8)
+(8) Problemas devido a duplicação.
 
 	SELECT ?Diretor
 		WHERE {
@@ -131,7 +131,6 @@ VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
 		WHERE {
 			VALUES ?Xp {"Ewan"}.
 			VALUES ?Xu {"McGregor"}.
-			?Filme :dirigido_por ?diretor.
 			?x rdfs:subClassOf :Estrela.
 			?ator rdf:type ?x.
 			?ator :nome_da_estrela ?Xp.
@@ -140,6 +139,7 @@ VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
 			?atuacao :filme_da_atuacao ?Filme.
 			?diretor :nome_do_diretor ?PNome.
 			?diretor :nome_familia ?PFamilia.
+			?Filme :dirigido_por ?diretor.
 			BIND(CONCAT(STR(?PNome), " ", STR(?PFamilia))  AS ?Diretor)		
 		}
 		GROUP BY ?Diretor
