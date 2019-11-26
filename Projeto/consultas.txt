@@ -108,6 +108,8 @@ VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
     ORDER BY ?Ano
 
 (7) - OK
+Testar com:
+VALUES (?M1 ?M2) {(149 149)}
 
 	SELECT ?Atriz ?Ator ?Filme ?Duracao
 	WHERE {
