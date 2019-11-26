@@ -148,13 +148,6 @@
 #    Individuals
 #################################################################
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ator_Marvel
-:Ator_Marvel rdf:type owl:NamedIndividual ,
-                      :Ator ;
-             owl:sameAs :diretor_marvel ;
-             :atua :atuacao_onze .
-
-
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Batman
 :Batman rdf:type owl:NamedIndividual ,
                  :Personagem ;
@@ -291,13 +284,6 @@
               :personagem_da_atuacao :Figurante .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_onze
-:atuacao_onze rdf:type owl:NamedIndividual ,
-                       :Atuacao ;
-              :filme_da_atuacao :homem_aranha ;
-              :personagem_da_atuacao :Figurante .
-
-
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_quatro
 :atuacao_quatro rdf:type owl:NamedIndividual ,
                          :Atuacao ;
@@ -344,6 +330,7 @@
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_dc
 :diretor_dc rdf:type owl:NamedIndividual ,
+                     :Ator ,
                      :Diretor ;
             :nome_do_diretor "Christopher" ;
             :nome_familia "Nolan" .
@@ -351,6 +338,7 @@
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_marvel
 :diretor_marvel rdf:type owl:NamedIndividual ,
+                         :Ator ,
                          :Diretor ;
                 :nome_do_diretor "Stan" ;
                 :nome_familia "Lee" .
