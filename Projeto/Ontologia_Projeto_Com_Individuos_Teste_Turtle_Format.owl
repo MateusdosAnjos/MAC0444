@@ -65,20 +65,6 @@
          rdfs:range xsd:integer .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_da_estrela
-:nome_da_estrela rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
-                 rdfs:domain :Estrela ;
-                 rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_diretor
-:nome_do_diretor rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
-                 rdfs:domain :Diretor ;
-                 rdfs:range xsd:string .
-
-
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_personagem
 :nome_do_personagem rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
@@ -91,6 +77,13 @@
               rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/familyName> ;
               rdfs:domain <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#primeiro_nome
+:primeiro_nome rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
+               rdfs:domain <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
+               rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#titulo
@@ -159,8 +152,8 @@
                          :Ator ;
                 :atua :atuacao_nove ,
                       :atuacao_um ;
-                :nome_da_estrela "Christian" ;
-                :nome_familia "Bale" .
+                :nome_familia "Bale" ;
+                :primeiro_nome "Christian" .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Figurante
@@ -173,8 +166,8 @@
 :Gwyneth_Paltrow rdf:type owl:NamedIndividual ,
                           :Atriz ;
                  :atua :atuacao_quatro ;
-                 :nome_da_estrela "Gwyneth" ;
-                 :nome_familia "Paltrow" .
+                 :nome_familia "Paltrow" ;
+                 :primeiro_nome "Gwyneth" .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Homem_Aranha
@@ -193,16 +186,16 @@
 :Kirsten_Dunst rdf:type owl:NamedIndividual ,
                         :Atriz ;
                :atua :atuacao_cinco ;
-               :nome_da_estrela "Kirsten" ;
-               :nome_familia "Dunst" .
+               :nome_familia "Dunst" ;
+               :primeiro_nome "Kirsten" .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Maria_Oliveira
 :Maria_Oliveira rdf:type owl:NamedIndividual ,
                          :Atriz ;
                 :atua :atuacao_sete ;
-                :nome_da_estrela "Maria" ;
-                :nome_familia "Oliveira" .
+                :nome_familia "Oliveira" ;
+                :primeiro_nome "Maria" .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Mary_Jane
@@ -227,16 +220,16 @@
 :Robert_Downey rdf:type owl:NamedIndividual ,
                         :Ator ;
                :atua :atuacao_dois ;
-               :nome_da_estrela "Robert" ;
-               :nome_familia "Downey" .
+               :nome_familia "Downey" ;
+               :primeiro_nome "Robert" .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Tobey_Maguire
 :Tobey_Maguire rdf:type owl:NamedIndividual ,
                         :Ator ;
                :atua :atuacao_tres ;
-               :nome_da_estrela "Tobey" ;
-               :nome_familia "Maguire" .
+               :nome_familia "Maguire" ;
+               :primeiro_nome "Tobey" .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#Ze_Silva
@@ -245,8 +238,8 @@
           :atua :atuacao_dez ,
                 :atuacao_oito ,
                 :atuacao_seis ;
-          :nome_da_estrela "Ze" ;
-          :nome_familia "Silva" .
+          :nome_familia "Silva" ;
+          :primeiro_nome "Ze" .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#atuacao_cinco
@@ -339,8 +332,8 @@
 :diretor_dc rdf:type owl:NamedIndividual ,
                      :Ator ,
                      :Diretor ;
-            :nome_do_diretor "Christopher" ;
-            :nome_familia "Nolan" .
+            :nome_familia "Nolan" ;
+            :primeiro_nome "Christopher" .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#diretor_marvel
@@ -348,8 +341,8 @@
                          :Ator ,
                          :Diretor ;
                 :atua :atuacao_onze ;
-                :nome_do_diretor "Stan" ;
-                :nome_familia "Lee" .
+                :nome_familia "Lee" ;
+                :primeiro_nome "Stan" .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#homem_aranha
@@ -373,8 +366,8 @@
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#mary_harron
 :mary_harron rdf:type owl:NamedIndividual ,
                       :Diretor ;
-             :nome_do_diretor "Mary" ;
-             :nome_familia "Harron" .
+             :nome_familia "Harron" ;
+             :primeiro_nome "Mary" .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#psicopata_americano

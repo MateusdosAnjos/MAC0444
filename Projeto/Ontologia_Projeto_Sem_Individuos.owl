@@ -7,7 +7,7 @@
 @base <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#> .
 
 <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#> rdf:type owl:Ontology ;
-                                                                      owl:imports <http://xmlns.com/foaf/0.1/> .
+                                                                       owl:imports <http://xmlns.com/foaf/0.1/> .
 
 #################################################################
 #    Object Properties
@@ -65,20 +65,6 @@
          rdfs:range xsd:integer .
 
 
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_da_estrela
-:nome_da_estrela rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
-                 rdfs:domain :Estrela ;
-                 rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_diretor
-:nome_do_diretor rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
-                 rdfs:domain :Diretor ;
-                 rdfs:range xsd:string .
-
-
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#nome_do_personagem
 :nome_do_personagem rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
@@ -91,6 +77,13 @@
               rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/familyName> ;
               rdfs:domain <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#primeiro_nome
+:primeiro_nome rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/firstName> ;
+               rdfs:domain <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
+               rdfs:range xsd:string .
 
 
 ###  http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#titulo
