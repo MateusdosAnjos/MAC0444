@@ -9,7 +9,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 	SELECT ?TituloDoFilme
 	WHERE {
-		VALUES ?diretor {:diretor_eric_schaeffer}.
+		VALUES ?diretor {:eric_schaeffer}.
 		?Filme :dirigido_por ?diretor.
 		?Filme :titulo ?TituloDoFilme.
 	}
@@ -20,12 +20,12 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 	SELECT ?PrimeiroNome ?UltimoNome ?Personagem
 	WHERE {
-        VALUES ?titulo {"'Her'"}
+        VALUES ?titulo {'Her'}
         ?filme :titulo ?titulo.
         ?atuacao :filme_da_atuacao ?filme.
 		?estrela :atua ?atuacao.
 		?atuacao :personagem_da_atuacao ?Personagem.
-		?estrela :nome_da_estrela ?PrimeiroNome.
+		?estrela :primeiro_nome ?PrimeiroNome.
 		?estrela :nome_familia ?UltimoNome.
 		
 	}
@@ -34,18 +34,15 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 (3) - OK
 
-	SELECT DISTINCT ?Filmes ?Diretor ?Ano
+	SELECT ?Filmes ?Diretor ?Ano
 	WHERE {
 		VALUES (?atorUm ?atorDois) {(:john_turturro :john_goodman)}.
 		?atorUm :atua ?atuaUm.
 		?atorDois :atua ?atuaDois.
 		?atuaUm :filme_da_atuacao ?Filmes.
 		?atuaDois :filme_da_atuacao ?Filmes.
-		?Filmes :dirigido_por ?diretor.
-		?Filmes :ano_lancamento ?Ano.
-        ?diretor :nome_do_diretor ?Dnome.
-        ?diretor :nome_familia ?Dfamilia.
-        BIND(CONCAT(STR(?Dnome), " ", STR(?Dfamilia)) AS ?Diretor).   
+		?Filmes :dirigido_por ?Diretor.
+		?Filmes :ano_lancamento ?Ano.  
 	}
 	ORDER BY ?Ano
 
