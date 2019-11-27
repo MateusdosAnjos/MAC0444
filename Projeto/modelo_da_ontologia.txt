@@ -1,6 +1,4 @@
-Rascunho do relatório
-
-Entidade: 
+Classe: 
     Filme
 Object Properties:
     dirigido_por - Preenchido via parser. (ver predicado diretor(F, D))
@@ -9,35 +7,35 @@ Data Properties:
     duracao - Preenchido via parser. (ver predicado tit_dur(F, T, D))
     titulo -Preenchido via parser. (ver predicado tit_dur(F, T, D))
 
-Entidade: 
+Classe: 
     Diretor
 Object Properties:
     dirige - Inferido a partir da inversa 'dirigido_por'
 Data Properties:
-    nome_do_diretor - Preenchido via parser. (ver predicado nome(X, FN, LN))
+    primeiro_nome - Preenchido via parser. (ver predicado nome(X, FN, LN))
     nome_familia - Preenchido via parser. (ver predicado nome(X, FN, LN))
 
-Entidade:
+Classe:
     Estrela
 Apenas funciona como genérico para Ator e Atriz
 
-Entidade: 
+Classe: 
     Ator
 Object Properties:
     atua - Preenchido via parser. (ver predicado ator(F, A, P))
 Data Properties:
-    nome_da_estrela - Preenchido via parser. (ver predicado nome(X, FN, LN))
+    primeiro_nome - Preenchido via parser. (ver predicado nome(X, FN, LN))
     nome_familia - Preenchido via parser. (ver predicado nome(X, FN, LN))
 
-Entidade: 
+Classe: 
     Atriz
 Object Properties:
     atua - Preenchido via parser. (ver predicado ator(F, A, P))
 Data Properties:
-    nome_da_estrela - Preenchido via parser. (ver predicado nome(X, FN, LN))
+    primeiro_nome - Preenchido via parser. (ver predicado nome(X, FN, LN))
     nome_familia - Preenchido via parser. (ver predicado nome(X, FN, LN))
 
-Entidade: 
+Classe: 
     Personagem
 Object Properties:
 
@@ -45,7 +43,7 @@ Data Properties:
     nome_do_personagem - Preenchido via parser. (ver predicado ator(F, A, P) e 
     atriz(F, A, P))
 
-Entidade: 
+Classe: 
     Atuacao
 Object Properties:
     personagem_da_atuacao- Preenchido via parser. (ver predicado ator(F, A, P) e 
