@@ -5,7 +5,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 
 
-(1) - OK
+# Consulta 1.
 
 	SELECT ?TituloDoFilme
 	WHERE {
@@ -16,7 +16,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 	ORDER BY ?TituloDoFilme
 
 
-(2) - OK
+# Consulta 2.
 
 	SELECT ?PrimeiroNome ?UltimoNome ?Personagem
 	WHERE {
@@ -32,7 +32,7 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 	ORDER BY ?PrimeiroNome ?UltimoNome
 
 
-(3) - OK
+# Consulta 3.
 
 	SELECT ?Filmes ?Diretor ?Ano
 	WHERE {
@@ -47,10 +47,8 @@ PREFIX : <http://www.semanticweb.org/root/ontologies/2019/10/projeto_mac0444#>
 	ORDER BY ?Ano
 
 
-(4) - OK
-
-Testar com :
-VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
+# Consulta 4 - scarlett_johansson aparece em todos os filmes 
+# do diretor woody_allen, enquanto emily_mortimer aparece apenas em 1 deles.
 
 	SELECT DISTINCT ?Filme ?Duracao
 	WHERE {
@@ -66,8 +64,25 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 	}	
 	ORDER BY ?Duracao
 
+# Consulta 4 - michael_patrick_bell não aparece em nenhum dos filmes 
+# de woody_allen, já jody_halse aparece em apenas 1 deles.
 
-(5) - OK
+	SELECT DISTINCT ?Filme ?Duracao
+	WHERE {
+		VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
+		?f :dirigido_por ?diretor.
+		?Filme :dirigido_por ?diretor.
+		?X :atua ?atuacaoX.
+		?Y :atua ?atuacaoY.
+        {?atuacaoX :filme_da_atuacao ?Filme.}
+        UNION
+        {?atuacaoY :filme_da_atuacao ?Filme.}
+		?Filme :duracao ?Duracao.
+	}	
+	ORDER BY ?Duracao
+
+
+# Consulta 5 - Listando todas as combinações.
 
 	SELECT ?Pessoa ?FilmeAt ?FilmeDir 
 	WHERE {
@@ -78,7 +93,7 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
 	}
     ORDER BY ?Pessoa
 
-(5) - OK Caso queira apenas o SAMPLE
+# Consulta 5 - Lista apenas um exemplo por Pessoa.
 
 	SELECT ?Pessoa (SAMPLE(?filme_atuado) AS ?FilmeAt) (SAMPLE(?filme_dirigido) AS ?FilmeDir)
 	WHERE {
@@ -91,10 +106,8 @@ VALUES (?f ?X ?Y) {(:match_point :michael_patrick_bell :jody_halse)}.
     ORDER BY ?Pessoa
 
 
-(6) - OK
-
-Diretores Diferentes:
-VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
+# Consulta 6 - Mostra que o filtro de Ano funciona, pois não exibe o filme
+# barton_fink de 1991.
 
 	SELECT ?Ano ?Diretor ?Filme
 	WHERE {
@@ -110,9 +123,24 @@ VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
 	}	
     ORDER BY ?Ano
 
-(7) - OK
-Testar com:
-VALUES (?M1 ?M2) {(149 149)}
+# Consulta 6 - Mostra que são capturados filmes de diretores diferentes.
+
+	SELECT ?Ano ?Diretor ?Filme
+	WHERE {
+        VALUES (?N1 ?N2) {(1994 2004)}
+        VALUES (?X ?Y) {(:issac_freeman :jerry_douglas)}.
+        ?Filme :ano_lancamento ?Ano.
+        FILTER (?Ano >= ?N1 && ?Ano <= ?N2).
+        ?Filme :dirigido_por ?Diretor.
+        ?X :atua ?atuacaoX.
+        ?Y :atua ?atuacaoY.
+        ?atuacaoX :filme_da_atuacao ?Filme.
+        ?atuacaoY :filme_da_atuacao ?Filme.
+	}	
+    ORDER BY ?Ano
+
+# Consulta 7 - Lista todas as combinações de pares (ator, atriz) para dois 
+# filmes diferentes.
 
 	SELECT ?Atriz ?Ator ?Filme ?Duracao
 	WHERE {
@@ -128,10 +156,26 @@ VALUES (?M1 ?M2) {(149 149)}
 	}	
     ORDER BY ?Filme
 
-(8) Problemas devido a duplicação.
+# Consulta 7 - Mostra um exemplo menor, de apenas 1 filme.
+
+	SELECT ?Atriz ?Ator ?Filme ?Duracao
+	WHERE {
+        VALUES (?M1 ?M2) {(149 149)}
+        FILTER (?Duracao >= ?M1 && ?Duracao <= ?M2).
+        ?Filme :duracao ?Duracao.
+        ?atuacaoAtor :filme_da_atuacao ?Filme.
+        ?atuacaoAtriz :filme_da_atuacao ?Filme.
+        ?Ator rdf:type :Ator.
+        ?Ator :atua ?atuacaoAtor.
+        ?Atriz rdf:type :Atriz.
+        ?Atriz :atua ?atuacaoAtriz.
+	}	
+    ORDER BY ?Filme
+
+# Consulta 8.
 	
 	SELECT ?Diretor
-		WHERE {
+	WHERE {
 		SELECT ?Diretor (count(?Diretor) as ?count)
 		WHERE {
 			VALUES ?Xp {"Ewan"}.
@@ -147,9 +191,9 @@ VALUES (?M1 ?M2) {(149 149)}
 		GROUP BY ?Diretor
 		ORDER BY DESC (?count)
 		LIMIT 1
-		}
+	}
 
-(9) - OK
+# Consulta 9.
 
 	SELECT ?Filme ?Ano ?Personagem
 	WHERE {
@@ -162,7 +206,7 @@ VALUES (?M1 ?M2) {(149 149)}
     ORDER BY ?Ano
     LIMIT 1
 
-(10) - OK
+# Consulta 10.
 
 	SELECT ?Filme ?Duracao
 	WHERE {
