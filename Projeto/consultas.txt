@@ -164,7 +164,7 @@ VALUES (?M1 ?M2) {(149 149)}
 
 (10) - OK
 
-	SELECT DISTINCT ?Filme ?Duracao
+	SELECT ?Filme ?Duracao
 	WHERE {
 			VALUES ?diretor {:joel_coen}.
 			?diretor :dirige ?Filme.
