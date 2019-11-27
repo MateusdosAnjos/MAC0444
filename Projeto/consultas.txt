@@ -176,4 +176,15 @@ VALUES (?M1 ?M2) {(149 149)}
 	}	
     ORDER BY ?Ano
     LIMIT 1
+
+(10) - OK
+
+	SELECT DISTINCT ?Filme ?Duracao
+	WHERE {
+			VALUES ?diretor {:joel_coen}.
+			?diretor :dirige ?Filme.
+            ?Filme :duracao ?Duracao
+	}	
+    ORDER BY DESC (?Duracao)
+    LIMIT 1
 		
