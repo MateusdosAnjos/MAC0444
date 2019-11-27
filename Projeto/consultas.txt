@@ -163,4 +163,17 @@ VALUES (?M1 ?M2) {(149 149)}
 		ORDER BY DESC (?count)
 		LIMIT 1
 		}
+
+(9) - OK
+
+	SELECT DISTINCT ?Filme ?Ano ?Personagem
+	WHERE {
+			VALUES ?ator {:scarlett_johansson}.
+			?ator :atua ?atuacao.
+            ?atuacao :filme_da_atuacao ?Filme.
+            ?atuacao :personagem_da_atuacao ?Personagem.
+            ?Filme :ano_lancamento ?Ano.
+	}	
+    ORDER BY ?Ano
+    LIMIT 1
 		
